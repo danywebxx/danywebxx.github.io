@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Allargare il disco di Ubuntu creato con Creazione Rapida di Hyper-V"
+title:  "Allargare il disco di Ubuntu creato da Hyper-V"
 date:   2024-02-10 15:00:00 +0100
 categories: [blogging, tutorial]
 tags: [appunti, file-system, hyper-v, microsoft, linux] 
