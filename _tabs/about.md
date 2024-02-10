@@ -13,12 +13,12 @@ Ogni situazione un’avventura. Ogni problema una sfida.
 
 ## Di cosa mi occupo
 
-Based in Milan (come scrivono gli influencer), ho conosciuto l’informatica organizzando campionati virtuali del compianto <strong>Sensible Soccer</strong> ;-P o cercando di connettere il mio vecchio Pentium 75 alla neonata internet italiana quando già avere un modem 56k era una fortuna.
+Based in Milan (come scrivono gli influencer), ho conosciuto l’informatica organizzando campionati virtuali del compianto `Sensible Soccer` ;-P o cercando di connettere il mio vecchio Pentium 75 alla neonata internet italiana quando già avere un modem 56k era una fortuna.
 
 ![Certificazioni](/assets/2024-02-10/certifications.png)
 _alcune certificazioni professionali_
 
-Oggi sono un felice sistemista IT certificato <strong>Microsoft</strong>, <strong>Cisco</strong> ,<strong>Paloalto Networks</strong> ed <strong>ITIL</strong>, che si sente a proprio agio configurando ambienti virtuali su <strong>Cloud Azure</strong>, giocando con VLAN e switch o migliorando la sicurezza dei clienti con Next-Gen firewall e altre soluzioni. Resto una persona umile che ama sfacciatamente tutto ciò che é tecnologico ma non meravigliatevi se doveste trovarmi in un orto a coltivare zucchine e pomodori.
+Oggi sono un felice sistemista IT certificato `Microsoft`, `Cisco`,`aloalto Networks` ed `ITIL`, che si sente a proprio agio configurando ambienti virtuali su `Cloud Azure`, giocando con VLAN e switch o migliorando la sicurezza dei clienti con Next-Gen firewall e altre soluzioni. Resto una persona umile che ama sfacciatamente tutto ciò che é tecnologico ma non meravigliatevi se doveste trovarmi in un orto a coltivare zucchine e pomodori.
 
 Sono un felice possessore di prodotti Apple, HP, Google, Amazon e di un Ficus Benjamin che mi segue da quando ho 7 anni.
 

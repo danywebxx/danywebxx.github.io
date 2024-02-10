@@ -5,7 +5,7 @@ date:   2024-02-10 15:00:00 +0100
 categories: [blogging, tutorial]
 tags: [appunti, file-system, hyper-v, microsoft, linux] 
 ---
-Creare una macchiba virtuale utilizzato la funzione <strong>Creazione Rapida</strong> di Microsoft <strong>Hyper-V</strong> è molto semplice. In pochi minuti si riesce ad avere un computer Linux <strong>Ubuntu</strong> funzionante a disposizione per lavorare o sviluppare.
+Creare una macchiba virtuale utilizzato la funzione `Creazione Rapida` di Microsoft `Hyper-V` è molto semplice. In pochi minuti si riesce ad avere un computer Linux `Ubuntu` funzionante a disposizione per lavorare o sviluppare.
 
 ![Creazione Rapida di Hyper-V](/assets/2024-02-10/VMCreate_3lDrrOdvQh.png)
 _Creazione Rapida di Hyper-V_
@@ -44,4 +44,4 @@ sudo resize2fs /dev/sda1
 Ora Ubuntu ha spazio a disposizione per funzionare correttamente!
 
 ### Fonti: 
-Linguist.it <https://linguist.is/2020/08/12/expand-ubuntu-disk-after-hyper-v-quick-create/>
+[Linguist.it](https://linguist.is/2020/08/12/expand-ubuntu-disk-after-hyper-v-quick-create/)
