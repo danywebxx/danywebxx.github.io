@@ -15,3 +15,16 @@ Install and authorize the giscus app in GitHub blog’s repository
 Configure the app on https://giscus.app a. Enter my blog’s repository b. Enabled the pathname mapping c. Use the “Announcements” Discussion Category d. Enable Reactions for the Main Post
 Copying the values displayed in the script tag to the _config.yml
 Enable giscus comments
+```yaml
+comments:
+  active: "giscus"
+  giscus:
+    repo: "danywebxx/danywebxx.github.io" # <gh-username>/<repo>
+    repo_id: "ricavato da pagina Giscus"
+    category: "Announcements"
+    category_id: "ricavato da pagina Giscus"
+    mapping: "pathname" # optional, default to 'pathname'
+    input_position: "bottom" # optional, default to 'bottom'
+    lang: "it" # optional, default to the value of `site.lang`
+    reactions_enabled: "1" # optional, default to the value of `1`
+```
