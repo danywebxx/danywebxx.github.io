@@ -1,6 +1,6 @@
 ---
 # disclaimer
-icon: fas fa-info-circle
+icon: fas fa-exclamation-triangle
 order: 5
 ---
 
