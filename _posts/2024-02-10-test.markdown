@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Test Daniele!"
+title:  "Test di daniele"
 date:   2024-02-10 00:21:44 +0100
-categories: categoria1
-tags: tag1 tag2
+categories: [categoria_1, insetti]
+tags: firstpost animals
 ---
 # Solo un TEST
 questo è solo un test di scrittura con Jekyll
