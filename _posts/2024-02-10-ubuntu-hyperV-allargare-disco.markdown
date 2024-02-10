@@ -44,4 +44,4 @@ sudo resize2fs /dev/sda1
 Ora Ubuntu ha spazio a disposizione per funzionare correttamente!
 
 ### Fonti: 
-[Linguist.it](https://linguist.is/2020/08/12/expand-ubuntu-disk-after-hyper-v-quick-create/)
+[Linguist.is](https://linguist.is/2020/08/12/expand-ubuntu-disk-after-hyper-v-quick-create/)
