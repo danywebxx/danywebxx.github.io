@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-## about me
+# about me
 
-Questo è solo un test. Grazie dell'attenzione.
+questo è solo un test di scrittura con Jekyll prova prova.
 
