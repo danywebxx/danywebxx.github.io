@@ -24,7 +24,7 @@ La configuraizone è semplice. Ecco i passaggi:
   * Usare la categoria "Announcements"
   * Abilitare le reazioni per il post principale
   * Dallo snippet restituito si estrapolano i dati da inserire nel file `_config.yml` del blog
-- Abilitare i commenti `giscus` inserendo i dati nel file `_config.yml` di cui sotto trovare un esempio.
+- Abilitare i commenti `giscus` inserendo i dati nel file `_config.yml` di cui sotto posto un esempio:
 
 ```yaml
 comments:
