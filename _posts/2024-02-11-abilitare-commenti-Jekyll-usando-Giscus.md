@@ -5,7 +5,7 @@ date:   2024-02-11 16:00:00 +0100
 categories: [blogging, tutorial]
 tags: [appunti, github, jekyll] 
 ---
-Ieri stavo ultimando la configurazione del blog e mi sono accorto di aver dimenticato di attivare i `commenti`.
+Ieri stavo ultimando la configurazione del blog e mi sono accorto di aver dimenticato di abilitare i `commenti`.
 I commenti in un blog sono importanti perchè ti permettono di comunicare con i lettori, leggere i loro suggerimenti, le critiche ed eventuali correzioni da fare agli articoli.
 
 Tra le opzione rese disponibili da Jekyll ospitato su Github, quella più comoda è risultata [Giscus](https://giscus.app). L'attivazione ha richiesto meno di 30 minuti (da neofita) seguendo i consigli di [Martin](https://blog.martinp7r.com/posts/adding-giscus-comments-to-my-blog/) e [Seletz](https://seletz.github.io/posts/giscus-comments/).
