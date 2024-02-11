@@ -22,7 +22,7 @@ La configuraizone è semplice. Ecco i passaggi:
   * Inserire i parametri del repositori del blog di Github (username/repo).
   * Abilitare la mappatura Pagina ↔️ Discussione
   * Usare la categoria "Announcements"
-  * Abilitare le razioni per il post principale
+  * Abilitare le reazioni per il post principale
   * Dallo snippet restituito si estrapolano i dati da inserire nel file `_config.yml` del blog
 - Abilitare i commenti `giscus` inserendo i dati nel file `_config.yml` di cui sotto trovare un esempio.
 
