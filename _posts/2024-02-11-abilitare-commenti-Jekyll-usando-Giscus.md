@@ -39,4 +39,4 @@ comments:
     lang: "it" # optional, default to the value of `site.lang`
     reactions_enabled: "1" # optional, default to the value of `1`
 ```
-Se hai trovato inesattezze fammelo sapere lasciando un commento (così mi assicuro che funzionino).
+Se hai trovato inesattezze fammelo sapere lasciando un commento (così mi assicuro che i commenti funzionino correttamente ;-P).
