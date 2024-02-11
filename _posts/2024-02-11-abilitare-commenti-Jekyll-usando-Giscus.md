@@ -19,7 +19,7 @@ La configuraizone è semplice. Ecco i passaggi:
 
 - Installare ed autorizzare l'app `giscus` nel repository Github del blog
 - Configurare i parametri su <https://giscus.app>
-  * Entrare nel repository del blog.
+  * Inserire i parametri del repositori del blog di Github (username/repo).
   * Abilitare la mappatura Pagina ↔️ Discussione
   * Usare la categoria "Announcements"
   * Abilitare le razioni per il post principale
