@@ -6,7 +6,7 @@ categories: [senza-categoria]
 tags: [primopost,github,jekyll] 
 ---
 
-Eccomi qui dopo tanto tempo a scrivere un post sul blog che da troppo tempo giace abbandonato per mancanza di tempo del sottoscritto.
+Eccomi qui dopo tanto tempo a scrivere un post sul blog che giace abbandonato per mancanza di tempo del sottoscritto.
 
 Ci sono molte cose di cui vorrei parlarvi e che prometto di trovare di postare.
 
