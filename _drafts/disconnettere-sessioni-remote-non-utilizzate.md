@@ -12,7 +12,7 @@ Come può un malintenzionato dirottare una sessione remota e prenderne il contro
 La tecnica più comune per dirottare una sessione RDP utilizza l'utilità nativa di Microsoft tscon.exe. Utilizzando tscon con i giusti privilegi permette di prendere possesso di un'altra sessione (attiva o disconnessa) senza inserire password e, se si è fortunati, di effettuare privileged escalation lasciando pochissime tracce.
 L'anello debole della catena siamo sempre noi che lasciamo le sessioni amministrative aperte o disconnesse ma non terminate.
 
-[immagine](assets/2024-02-13/korznikov.png)
+![immagine](assets/2024-02-13/korznikov.png)
 
 
 
