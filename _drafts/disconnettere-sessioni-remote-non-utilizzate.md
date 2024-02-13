@@ -24,11 +24,13 @@ Mitigrare il problema non è particolarmente difficile applicando le best-practi
 - Applicare criteri di gruppo per disconnettere le sessioni inattive o disconnesse. Così anche l'amministratore più distratto può dormire sonni tranquilli.
   ![Group Policy Computer - Session Time Limits](/assets/2024-02-13/msrdc_remote-desktop.png){: width="450"}
   _Group Policy Computer - Session Time Limits_
+
 - Limitare l'esposizione dei servizi RDP su internet e nella rete. Se un servizio non è necessario, anche sui client, meglio disattivarlo.
 
-LA soluzione è fare in modo che un malintenzionato non riesce ad utilizzare un utente amministrativo su un qualsiasi computer presente nella rete (sia server che client). Avendo a disposizione utenti privilegiati, anche solo localmente, rende possibili molti attacchi informatici. 
+La soluzione a molti problemi è evitare che un malintenzionato riesca ad utilizzare un utente amministrativo su un qualsiasi computer presente nella rete (sia server che client). Avendo a disposizione utenti privilegiati, anche solo localmente, è possibile effettuare un gran numero di attacchi informatici. 
 
 ## Bibliografia
-https://www.csoonline.com/article/569621/rdp-hijacking-attacks-explained-and-how-to-mitigate-them.html
-https://doublepulsar.com/rdp-hijacking-how-to-hijack-rds-and-remoteapp-sessions-transparently-to-move-through-an-da2a1e73a5f6
-https://www.youtube.com/watch?v=bbTfN5geSKw
+Per approfondire la tecnica di questo particolare attacco alle sessioni RDP consiglio i post di:
+- [csoonline](https://www.csoonline.com/article/569621/rdp-hijacking-attacks-explained-and-how-to-mitigate-them.html)
+- [Doublepulsar](https://doublepulsar.com/rdp-hijacking-how-to-hijack-rds-and-remoteapp-sessions-transparently-to-move-through-an-da2a1e73a5f6)
+- [Alexander Korznikov](https://www.youtube.com/watch?v=bbTfN5geSKw)
