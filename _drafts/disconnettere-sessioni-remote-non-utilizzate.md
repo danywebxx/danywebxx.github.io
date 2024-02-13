@@ -9,11 +9,14 @@ Se utilizzi abitualmente i Remote Desktop Services (RDP) - anche conosciuti come
 
 ## Sono le cattive abitudini a causare i peggiori disastri.
 Come può un malintenzionato dirottare una sessione remota e prenderne il controllo? Se cercate su Google le parole RDP hijacking capirete che probabilmente è piu difficile da spiegare che farsi.
-La tecnica più comune per dirottare una sessione RDP utilizza l'utilità nativa di Microsoft tscon.exe. Utilizzando tscon con i giusti privilegi permette di prendere possesso di un'altra sessione (attiva o disconnessa) senza inserire password e, se si è fortunati, di effettuare privileged escalation lasciando pochissime tracce.
-L'anello debole della catena siamo sempre noi che lasciamo le sessioni amministrative aperte o disconnesse ma non terminate.
+La tecnica più comune per dirottare una sessione RDP utilizza l'utilità nativa di Microsoft tscon.exe. Utilizzando tscon con i giusti privilegi permette di prendere possesso di un'altra sessione (attiva o disconnessa) senza inserire password e, se si è fortunati, effettuare privileged escalation lasciando pochissime tracce.
+L'anello debole della catena siamo spesso noi amministratori che lasciamo le sessioni privilegiate aperte o disconnesse ma non terminate.
 
-![immagine](assets/2024-02-13/korznikov.png)
+![Dimostrazione di Alexander Korznikov](assets/2024-02-13/korznikov.png)
 
+## Mitigare il problema
+- Applicare criteri di gruppo
+- Limitare l'esposizione dei servizi RDP 
 
 
 ## Bibliografia
