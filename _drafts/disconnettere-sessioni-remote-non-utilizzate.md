@@ -16,13 +16,13 @@ sc create hijackedsession binpath= “cmd.exe /k tscon 1 /dest:rdp-tcp#2”
 ```
 L'anello debole della catena siamo spesso noi amministratori che lasciamo le sessioni privilegiate aperte, disconnesse e non terminate (comprese le console).
 
-![Dimostrazione di Alexander Korznikov](/assets/2024-02-13/korznikov.png)
+![Dimostrazione di Alexander Korznikov](/assets/2024-02-13/korznikov.png){: width="500"}
 _Dimostrazione di Alexander Korznikov_
 
 ## Mitigare il problema
 Mitigrare il problema non è particolarmente difficile sapplicando le best-practices standard:
 - Applicare criteri di gruppo per disconnettere le sessioni inattive o disconnesse. Così anche l'amministratore più distratto può dormire sonni tranquilli.
-  ![Group Policy Computer - Session Time Limits](/assets/2024-02-13/msrdc_remote-desktop.png)
+  ![Group Policy Computer - Session Time Limits](/assets/2024-02-13/msrdc_remote-desktop.png){: width="300"}
   _Group Policy Computer - Session Time Limits_
 - Limitare l'esposizione dei servizi RDP su internet e nella rete. Se un servizio non è necessario, anche sui client, meglio disattivarlo.
 
