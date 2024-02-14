@@ -5,7 +5,7 @@ date:   2024-02-13 16:00:00 +0100
 categories: [blogging, security]
 tags: [appunti, rdp, microsoft, hardening] 
 ---
-Chi utilizza abitualmente i `Remote Desktop Services` (RDP) - anche conosciuti come `terminal services` se sei nel mondo dell'IT già da qualche anno - non dovrebbe mai chiudere una sessione remota con la X. E' necessario comprendere che uscire da una sessione remota in questo modo potrebbe aiutare un malintenzionato connesso allo stesso server di dirottare la sessione disconnessa su se stesso ed effettuare attacchi di privileged escalation.
+Chi utilizza abitualmente i `Remote Desktop Services` (RDP) - anche conosciuti come `terminal services` se sei nel mondo dell'IT già da qualche anno - non dovrebbe mai chiudere una sessione remota con la X. E' necessario comprendere che uscire da una sessione remota in questo modo potrebbe aiutare un malintenzionato connesso allo stesso server nel dirottare la sessione disconnessa su se stesso ed effettuare attacchi di privileged escalation.
 
 ## Sono le cattive abitudini a causare i danni peggiori
 Come può un malintenzionato `dirottare una sessione RDP` e prenderne il controllo? Cercando su Google le parole `RDP hijacking` si capisce facilmente che è piu facile farlo che spiegarlo.
