@@ -1,0 +1,14 @@
+When configuring and applying an ACL, be aware of the guidelines summarized in this list:
+Create an ACL globally and then apply it.
+Ensure the last statement is an implicit deny any or deny ip any any.
+Remember that statement order is important because ACLs are processed top-down.
+As soon as a statement is matched the ACL is exited.
+Always filter from the most specific to the most generic. For example, deny a specific host and then permit all other hosts.
+Remember that only one ACL is allowed per interface, per protocol, per direction.
+Remember that new statements for an existing ACL are added to the bottom of the ACL by default.
+Remember that router-generated packets are not filtered by outbound ACLs.
+Place standard ACLs as close to the destination as possible.
+Place extended ACLs as close to the source as possible.
+L’ultima ma la più importante:
+non chiuderti MAI FUORI!!!
+
