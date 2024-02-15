@@ -1,15 +1,12 @@
 ---
 layout: post
-title:  "10 best practices per quando crei le regole per il tuo firewall"
+title:  "7 best practices quando configuri un firewall"
 date:   2024-02-13 16:00:00 +0100
 categories: [blogging, security]
 tags: [appunti, firewall, paloalto, OPNsense] 
 ---
-Quando configuri ed applichi le regole suk tuo firewall usa queste best practices:
+Quando configuri ed applichi le regole sul tuo firewall usa queste best practices:
 
-
-
-When configuring and applying an ACL, be aware of the guidelines summarized in this list:
 - Crea le policy generali e poi applicale
 - Metti sempre alla fine una regola che blocca tutto (deny any)
 - Ricordati cbe l'ordine delle policy è importante. Si parte dall'alto e poi si scende (top-down)
