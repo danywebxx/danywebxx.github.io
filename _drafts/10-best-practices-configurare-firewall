@@ -15,14 +15,7 @@ When configuring and applying an ACL, be aware of the guidelines summarized in t
 - Ricordati cbe l'ordine delle policy è importante. Si parte dall'alto e poi si scende (top-down)
 - La prima che fa match viene applicara e le altre ignorare.
 - Filtra sempre dalla piu specifica (in alto) alla piu generica (in basso). Ad esempio prima neghi il traffico al singolo host e poi lermetti tutto il resto.
--
-Always filter from the most specific to the most generic. For example, deny a specific host and then permit all other hosts.
-Remember that only one ACL is allowed per interface, per protocol, per direction.
-Remember that new statements for an existing ACL are added to the bottom of the ACL by default.
-Remember that router-generated packets are not filtered by outbound ACLs.
-Place standard ACLs as close to the destination as possible.
-Place extended ACLs as close to the source as possible.
+- Applica le regole il piu vicino possibile alla sorgente (cosi non affatichi altri apparati nel gestire traffico indesiderato)
 
-L’ultima ma la più importante:
-non chiuderti MAI FUORI!!!
-
+L'ultima ma la piu importante:
+- Assicurati di avere sempre una via di fuga! Non chiuderti fuori!
