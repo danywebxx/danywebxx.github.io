@@ -3,7 +3,7 @@ layout: post
 title:  "7 best practices quando configuri un firewall"
 date:   2024-02-13 16:00:00 +0100
 categories: [blogging, security]
-tags: [appunti, firewall, paloalto, OPNsense, Cisco] 
+tags: [appunti, firewall, Paloalto, OPNsense, Cisco] 
 ---
 Quando configuri ed applichi le regole sul tuo firewall usa queste best practices:
 
@@ -21,5 +21,3 @@ Quando configuri ed applichi le regole sul tuo firewall usa queste best practice
 ## La regola d'oro
 L'ultima ma la piu importante regola. Oltre questa non ce ne sono altre:
 - Non chiuderti fuori! Assicurati di avere sempre una via di fuga!
-
-aaa
