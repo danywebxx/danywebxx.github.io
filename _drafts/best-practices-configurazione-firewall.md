@@ -4,6 +4,8 @@ title:  "7 best practices quando configuri un firewall"
 date:   2024-02-13 16:00:00 +0100
 categories: [blogging, security]
 tags: [appunti, firewall, Paloalto, OPNsense, Cisco] 
+image:
+  path: /assets/IMG_6772.jpeg
 ---
 Quando configuri ed applichi le regole sul tuo firewall usa queste best practices:
 
