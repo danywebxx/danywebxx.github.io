@@ -9,10 +9,10 @@ description: Una serie di semplici regole da seguire quando si configura un fire
 image:
   path: /assets/IMG_6772.jpeg
 ---
-Nelle scorse settimane lavoravo ad un progetto con un firewall OPNsense su Azure per regolare il traffico tra vNet. Ho pensato a quanto fosse importante per un tecnico avere delle semplici regole di configurazione da seguire quando si configura il firewall.
-Sono 10 regole base che si possono applicare partendo dai dispositivi più semplici fino ai firewall di nuova generazione (NGFW) in grado di riconoscere le applicazioni in layer 7.
+Nelle scorse settimane lavoravo ad un progetto con un firewall OPNsense su Azure per regolare il traffico tra vNet. Ho pensato a quanto fosse importante per un tecnico avere delle semplici regole di configurazione da seguire quando si configura un firewall.
+Sono 10 semplici regole che si possono seguire partendo dai dispositivi più semplici fino ai firewall di nuova generazione (NGFW) in grado di riconoscere le applicazioni in layer 7.
 
-## 9 regole per gestire al meglio il firewall
+## 9 regole per gestire al meglio un firewall
 - Pensa in generale cosa devi fare, poi crea le policy
 - Metti sempre alla fine una regola che blocca tutto (deny any) e che dovrà essere monitorata. Si costruiranno sopra tutte le altre policy
 - Ricordati che l'ordine delle policy è importante. Nei firewall le policy si leggono in top-down partendo dall'alto
