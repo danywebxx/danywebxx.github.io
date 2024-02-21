@@ -33,9 +33,12 @@ FROM sys.master_files
 WHERE database_id = DB_ID(N'tempdb');
 GO
 ```
+
 Il risultato sarà simile a quello dell'immagine.
+
 ![Posizione del tempdb](/assets/2024-02-21/sql-temp-db.png)
 _Posizione di partenza del tempodb_
+
 ### Spostare il tempdb
 Spostare il tempdb eseguendo la seconda query (modificando il percorso dei file "tempdb.mdf" e "tempdb.ldf".
 ```sql
