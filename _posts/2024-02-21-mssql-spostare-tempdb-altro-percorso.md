@@ -34,12 +34,10 @@ WHERE database_id = DB_ID(N'tempdb');
 GO
 ```
 
-Il risultato sarà simile a quello dell'immagine.
+Il risultato sarà simile a quello dell'immagine
 
-![Posizione del tempdb](/assets/2024-02-21/sql-temp-db.png){: width="972" height="589" }
-_Posizione di partenza del tempodb_
-
-### Spostare il tempdb
+![Posizione del tempdb](/assets/2024-02-21/sql-temp-db.png)
+### Spostare il TempDB
 Spostare il tempdb eseguendo la seconda query (modificando il percorso dei file "tempdb.mdf" e "tempdb.ldf".
 ```sql
 USE master;
