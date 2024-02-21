@@ -54,3 +54,4 @@ GO
 
 ## Bibliografia
 - [Datamaze](https://www.datamaze.it/blogs/post/come-spostare-il-tempdb-su-una-nuova-unit%C3%A0-disco)
+- [Checklist: Best practices for SQL Server on Azure VMs](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist?view=azuresql)
