@@ -21,7 +21,7 @@ Purtroppo rispetto ai database tradizionali non è possibile spostarlo facendo l
 5. Eliminare i vecchi file tempdb.mdf e templog.ldf
 
 ### Verificare la posizione dei file del tempdb 
-Verificare la posizione dei file ".mdf" e ".ldf" con una query:
+Verificare la posizione dei file "tempdb.mdf" e "tempdb.ldf" con una query:
 ```sql
 USE master;
 GO
@@ -37,7 +37,7 @@ GO
 Il risultato sarà simile a quello dell'immagine
 
 ![Posizione del tempdb](/assets/2024-02-21/sql-temp-db.png)
-_Posizione di partenza del tempodb_
+_Posizione di partenza del TempoDB_
 ### Spostare il TempDB
 Spostare il tempdb eseguendo la seconda query (modificando il percorso dei file "tempdb.mdf" e "tempdb.ldf".
 ```sql
