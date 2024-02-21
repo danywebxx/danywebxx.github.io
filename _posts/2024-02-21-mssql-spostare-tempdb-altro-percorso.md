@@ -36,7 +36,7 @@ GO
 
 Il risultato sarà simile a quello dell'immagine.
 
-![Posizione del tempdb](/assets/2024-02-21/sql-temp-db.png)
+![Posizione del tempdb](/assets/2024-02-21/sql-temp-db.png){: width="972" height="589" }
 _Posizione di partenza del tempodb_
 
 ### Spostare il tempdb
