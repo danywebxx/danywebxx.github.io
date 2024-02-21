@@ -1,8 +1,8 @@
 ---
 title: MS-SQL - spostare il tempdb in altra cartella
 date: 2024-02-21
-categories: 
-tags: 
+categories: blogging, tutorial
+tags: appunti, microsoft, SQL
 description:
 ---
 
