@@ -6,7 +6,7 @@ tags:
 description:
 ---
 
-blablavla
+identificare la posizione del tempdb
 
 ```sql
 USE master;
@@ -20,9 +20,22 @@ WHERE database_id = DB_ID(N'tempdb');
 GO
 ```
 
-testo
+spostare il tempdb
 ```sql
-test
+USE master;
+GO
+
+ALTER DATABASE tempdb MODIFY FILE (
+	NAME = tempdev
+	,FILENAME = 'D:\MSSQL\DATA\tempdb.mdf'
+	);
+GO
+
+ALTER DATABASE tempdb MODIFY FILE (
+	NAME = templog
+	,FILENAME = 'D:\MSSQL\DATA\templog.ldf'
+	);
+GO
 ```
 
 
