@@ -6,7 +6,8 @@ tags: [cloud, microsoft, m365, audit]
 description: Nel portale security di M365 è presente il report firewall pche mostra mostra le connessioni in entrata, in uscita e alle app bloccate.
 ---
 Investigando sul portale `Security` di M365 per una problematica di un collega mi sono imbattutto nei `Firewall Reports` che non avevo mai notato prima. I report in questione permettono di visualizzare le connessioni in entrata, in uscita e alle app, bloccate dal firewall avanzato in MS Windows con Defender attivo.
-Peccato che nel mio caso il report fosse totalmente vuoto perchè non erano presenti dati pervenuti dai clients!
+
+Peccato che nel mio caso il report fosse totalmente vuoto e non visualizzasse dati interessanti!
 
 ![Firewall reports](/assets/2024-02-25/mdb-firewall-report.png)
 _Firewall report_
