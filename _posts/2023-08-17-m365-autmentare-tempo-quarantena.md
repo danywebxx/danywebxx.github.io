@@ -6,7 +6,7 @@ tags: [cloud, microsoft, m365 ]
 description: In M365 le policy di antispam preimpostate conservano i messaggi messi in quarantena per 15 giorni prima di elimiarli automaticamente. In questo articolo vediamo come modificare il periodo di conservazione.
 ---
 
-Nel cloud Microsoft 365 una serie di policy di sicurezza predefinite proteggono gli utenti dai messaggi di posta indesiderati e pericolosi spostanto quello che la threat intelligence classifica spam o phishing in quarantena. I messaggi che finiscono in quarantena sono poi eliminati automaticamente dopo 15 giorni fatta salva la possibilità di rilascio del destinatario che li identifica come falsi-positivi.
+Nel cloud Microsoft 365 una serie di `policy di sicurezza` predefinite proteggono gli utenti dai messaggi di posta indesiderati e pericolosi spostanto quello che la `threat intelligence` classifica spam o phishing in `quarantena`. I messaggi che finiscono in quarantena sono poi eliminati automaticamente dopo `15 giorni` fatta salva la possibilità di rilascio del destinatario che li identifica come falsi-positivi.
 
 ## Raccomandazione
 I maggiori esperti raccomandano di elevare il tempo di conservazione ad almeno 30 giorni cosi da non perdere eventualo messaggio finiti in quarantena per errore.
@@ -24,7 +24,7 @@ _Policy e Rules_
 ![Anti-spam policy](/assets/2023-08-17/image2.png)
 _Anti-spam policy_
 
-3- Selezionare la anti-spam inbound policy
+3- Selezionare l'anti-spam inbound policy
 ![Anti-spam inbound policy](/assets/2023-08-17/image3.png)
 _Anti-spam inbound policy_
 
