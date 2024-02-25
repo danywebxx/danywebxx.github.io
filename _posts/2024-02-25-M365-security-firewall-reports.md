@@ -53,7 +53,7 @@ auditpol /set /subcategory:"Filtering Platform Connection" /failure:enable
 Una volta abilitati gli audit, nell'event viewer sarà possibile visualizzare dati dettagliati come l'ID 5152 - connessione bloccata - che riporto nell'immagine.
 
 ![Evento nell'event viewer di Windows](/assets/2024-02-25/firewall-registro.png)
-_Evento 5152 nell'event viewer di Windows_
+_ID 5152 nell'event viewer di Windows_
 
 Saranno questi eventi che renderanno possibile la creazione dei firewall reports nel portale Security di M365. Il nostro compito sarà quello di effettuare controlli approfonditi sul traffico presente nella nostra infrastruttura e riconoscere attività sospette quali port-scan e altre attività di ricognozione.
 
