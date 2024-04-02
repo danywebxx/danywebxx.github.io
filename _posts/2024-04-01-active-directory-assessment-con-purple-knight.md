@@ -74,7 +74,7 @@ Scopo di questo assessment è Active Dictory di Microsoft. Selezionare la forest
 _Selezione di foresta e dominio AD_
 
 Tutti gli indicatori sono selezionati come impostazione predefinita ad eccezione della `Zerologon vulnerability`. 
-> L'assessment di `Zerologon vulnerability` in un ambiente produttivo potrebbe richiedere diverse ore di esecuzione. Il mio consiglio è di eseguire un primo assessment senza la vulnerabilità Zerologon e solo successivamente eseguirne uno dedicato appositamente a tale scopo.{: .prompt-info }
+> L'assessment di `Zerologon vulnerability` in un ambiente di produzione potrebbe richiedere diverse ore di esecuzione. Il mio consiglio è di eseguire un primo assessment senza la vulnerabilità Zerologon e solo successivamente eseguirne uno dedicato a tale scopo.{: .prompt-info }
 
 ![Rivedere gli indicatori inclusi nella scansione](/assets/2024-04-01/Immagine12.png)
 _Rivedere gli indicatori inclusi nella scansione_
