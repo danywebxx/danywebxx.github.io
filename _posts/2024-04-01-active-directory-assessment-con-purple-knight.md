@@ -73,7 +73,8 @@ Scopo di questo assessment è Active Dictory di Microsoft. Selezionare la forest
 ![Selezione di foresta e dominio AD](/assets/2024-04-01/Immagine11.png)
 _Selezione di foresta e dominio AD_
 
-Tutti gli indicatori sono selezionati come impostazione predefinita ad eccezione della `Zerologon vulnerability`. Quest'ultima in un ambiente produttivo potrebbe richiedere diverse ore di esecuzione. Il mio consiglio è di eseguire un primo assessment senza la vulnerabilità Zerologon e solo successivamente eseguirne uno dedicato appositamente a tale scopo.
+Tutti gli indicatori sono selezionati come impostazione predefinita ad eccezione della `Zerologon vulnerability`. 
+L'assessment di `Zerologon vulnerability` in un ambiente produttivo potrebbe richiedere diverse ore di esecuzione. Il mio consiglio è di eseguire un primo assessment senza la vulnerabilità Zerologon e solo successivamente eseguirne uno dedicato appositamente a tale scopo.{: .prompt-info }
 
 ![Rivedere gli indicatori inclusi nella scansione](/assets/2024-04-01/Immagine12.png)
 _Rivedere gli indicatori inclusi nella scansione_
@@ -98,7 +99,7 @@ Un esempio di uno dei tanti IoE trovati in esaminati in Active Directory. <stron
 _Dettaglio di un IoC_
 
 ## Conclusioni
-Purple Knight effettua l'assessment molto velocemente e spesso restituisce risultati (vulnerabilità) che non ci si aspettava di trovare. Questo genere di tool dovrebbe essere eseguito diverse volte nel corso dell'anno per convalidare la sicurezza dell'organizzazione ed è consugliato eseguire un nuovo assessment ogni qualvolta avvengano dei cambiamente all'ambiente che potrebbero aumentare la superficie di attacco di Active Directory.
+Purple Knight effettua l'assessment molto velocemente e restituisce risultati (vulnerabilità) che non ci si aspettava di avere. Questo genere di tool dovrebbe essere eseguito a cadenza regolare durante l'anno per convalidare la sicurezza dell'organizzazione. Ripetere il test ogni qualvolta avvengano dei cambiamente all'ambiente che potrebbero aumentare la superficie di attacco di Active Directory.
 
 ## Bibliografia
 - Ali Tajran [How to Create an Active Directory Security Assessment report](https://www.alitajran.com/active-directory-security-assessment/)
