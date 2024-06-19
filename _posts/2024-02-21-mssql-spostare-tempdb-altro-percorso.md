@@ -4,6 +4,8 @@ date: 2024-02-21
 categories: [blogging, tutorial]
 tags: [appunti, microsoft, SQL, database]
 description: In un'installazione MS SQL Server può divenire necessario spostare i database di sistema come il TempDB. 
+image:
+     path: /assets/2024-02-21/mssql-feature.png
 ---
 Ho purtroppo un rapporto di odio con la gestione di `database MS SQL`. Non è il mio mondo, mi piace poco e non ci metto abbastanza la testa.
 Fatta questa dovuta premessa, mi capita di doverne gestire e di conseguenza sbatterci la testa.
