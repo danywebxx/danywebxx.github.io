@@ -45,10 +45,12 @@ Non ci resta che eseguire l'eseguibile PurpleKnight.exe contenuto nella cartella
 _Eseguire PurpleKnight.exe_
 
 Schermata di avvio:
+
 ![Schermata di avvio](/assets/2024-04-01/Immagine5.png)
 _Schermata di avvio_
 
 Prima di proseguire è necessario accettare il License Agreement
+
 ![License Agreement](/assets/2024-04-01/Immagine6.png)
 _Schermata con il License Agreement_
 
@@ -70,6 +72,7 @@ Nella cartella script sono contenuti tutti quelli usate da PK nell’attività d
 _Cartella che contiene gli scripts utilizzati da PK_
 
 Scopo di questo assessment è Active Dictory di Microsoft. Selezionare la foresta e i domini interessati all’assessment:
+
 ![Selezione di foresta e dominio AD](/assets/2024-04-01/Immagine11.png)
 _Selezione di foresta e dominio AD_
 
