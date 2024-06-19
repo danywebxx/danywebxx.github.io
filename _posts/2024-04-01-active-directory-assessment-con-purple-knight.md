@@ -4,6 +4,8 @@ date: 2024-04-01
 categories: [blogging, security]
 tags: [cloud, microsoft, hardening, audit]
 description: Utilizzando Purple Knight è possibile effettuare un assessment di sicurezza di Active Directory con lo scopo di ridurre gli indicatori di espostizione (IeE) e gli indicatori di compromissione (IoC) 
+image:
+     path: /assets/2024-04-01/purple-feature.png
 ---
 
 Active Directory è lo strumento di autenticazione ed autorizzazione utilizzato dal 90% delle aziende in tutto il mondo. Essendo la sua popolarità così elevata aumenta esponenzialmente la probabilità che venga attaccata da agenti esterni per minarne la sicurezza. Ne consegue che ridurre al minimo la superficie di attacco limita la probabilità che venga colpita con successo da un attacco informatico. Per raggiungere questo obiettivo è necessario effettuare periodicamente un assessment del suo stato e rimediare ad eventuali indicatori di esposizione rilevati.
