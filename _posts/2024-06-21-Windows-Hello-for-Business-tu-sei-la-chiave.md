@@ -16,7 +16,7 @@ utilizzare password complesse (grattacapo per le aziende e gli uffici
 IT).
 
 ![The Ultimate Guide to Windows Hello for
-Business](/asset/2024-06-21/media/image1.jpeg){width="6.25in"
+Business](/assets/2024-06-21/media/image1.jpeg){width="6.25in"
 height="4.166666666666667in"}
 
 ## Autenticazione a più fattori - MFA - a portata di dito
