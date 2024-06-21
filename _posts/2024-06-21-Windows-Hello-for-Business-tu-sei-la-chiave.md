@@ -7,62 +7,53 @@ image:
      path: /assets/2024-06-21/media/image1.jpeg
 ---
 
-Windows Hello for Business è una soluzione di autenticazione sicura per
+`Windows Hello for Business` è una soluzione di autenticazione sicura per
 le aziende che utilizzano Windows 10 e Windows 11. Grazie a Windows
 Hello for Business gli utenti possono accedere ai propri dispositivi,
-alle applicazioni e ai servizi online utilizzando un PIN, un\'impronta
+alle applicazioni e ai servizi online utilizzando un PIN, un'impronta
 digitale o il riconoscimento facciale, eliminando la necessità di
 utilizzare password complesse (grattacapo per le aziende e gli uffici
 IT).
 
-![The Ultimate Guide to Windows Hello for
-Business](/assets/2024-06-21/media/image1.jpeg){width="6.25in"
-height="4.166666666666667in"}
-
 ## Autenticazione a più fattori - MFA - a portata di dito
 
 Windows Hello for Business è considerato sicuro come avere
-l\'autenticazione a più fattori (MFA) perché utilizza un approccio
-simile per verificare l\'identità dell\'utente. Entrambi richiedono due
+`l'autenticazione a più fattori (MFA)` tradizionale perché utilizza un approccio
+simile per verificare l'identità dell'utente. Entrambi richiedono due
 o più delle seguenti credenziali:
 
 -   qualcosa che conosci (come una password)
-
 -   qualcosa che hai (come un dispositivo di sicurezza o il tuo
     telefono)
-
--   qualcosa che sei (come un\'impronta digitale o il riconoscimento del
+-   qualcosa che sei (come un'impronta digitale o il riconoscimento del
     viso).
 
 Questo approccio rende molto più difficile per un attaccante accedere al
 tuo dispositivo o ai tuoi dati senza avere tutte le credenziali
 necessarie.
 
-Windows Hello for Business utilizza inoltre metodi di autenticazione
-biometrica e PIN che sono legati a un dispositivo specifico, aggiungendo
-un ulteriore livello di sicurezza. Inoltre, i dati biometrici e il PIN
-non vengono memorizzati sul server, ma rimangono locali al dispositivo,
-riducendo il rischio di furto di credenziali da remoto.
-
-\"Qualcosa che conosci\" si riferisce a una forma di conoscenza che solo
-l\'utente dovrebbe avere, come una password o un PIN. Anche se non
-digiti più una password tradizionale con Windows Hello for Business, il
-PIN che imposti funge da sostituto della password. È qualcosa che hai
-scelto e che conosci, e viene utilizzato insieme ai dati biometrici per
-verificare la tua identità. Questo PIN è unico per il tuo dispositivo e
+### a proposito di MFA
+Quando si sente dire "Qualcosa che conosci" si riferisce a una forma di conoscenza che solo
+l'utente dovrebbe avere, come una password o un PIN che sono memorizzati nella memoria e non scritti su post-it appicciati chissà dove.
+Anche se non digiti più una password tradizionale, il PIN che imposti funge da suo sostituto. È qualcosa che hai
+scelto e che conosci, e viene utilizzato assieme ai dati biometrici per
+verificare la tua identità. Il PIN è unico per il tuo dispositivo e
 non viene trasmesso o memorizzato al di fuori di esso, il che lo rende
-una forma sicura di \"qualcosa che conosci\".
+una forma sicura di "qualcosa che conosci".
 
-Il terzo fattore di autenticazione in Windows Hello for Business può
-essere qualcosa che hai, come un dispositivo di sicurezza o un telefono.
-Quando configuri Windows Hello for Business, associ il tuo dispositivo a
-un PIN o a dati biometrici, che sono qualcosa che conosci e qualcosa che
-sei, rispettivamente. Il dispositivo stesso diventa il terzo fattore,
-qualcosa che hai, perché l\'autenticazione richiede che il dispositivo
+Per chi non volesse utilizzare dati biometrici, il terzo fattore di autenticazione può
+essere qualcosa che hai, come un dispositivo di sicurezza o il dispositivo stesso che utilizzi perchè è
+qualcosa che hai. L'autenticazione richiede che il dispositivo
 sia presente e utilizzato per il processo di accesso. Questo approccio a
 tre fattori garantisce un livello di sicurezza molto più elevato
-rispetto ai metodi tradizionali di autenticazione a singolo fattore o a
-due fattori
+rispetto ai metodi tradizionali di autenticazione a singolo fattore.
+Se ci si pensa, anche il prelievo in un bancomat è un'autenticazione a più fattori che sfrutta "qaulcosa che hai", la tessera con un seriale unico, e "qualcosa che conosci", il PIN, per identificare il soggetto in modo univoco.
+
+### Dove vengono salvati i dati biometrici?
+Quando in Windows Hello for Business si utilizzano i dati biometrici come metodo di autenticazione, questi sono legati a un dispositivo specifico, aggiungendo
+un ulteriore livello di sicurezza. Ogni dispositivo di sicurezza crea il proprio database crittografato di informazioni. I dati biometrici e il PIN
+non vengono memorizzati su server (cloud o onprem), ma rimangono sul dispositivo in un database crittografato,
+riducendo il rischio di furto di credenziali da remoto.
 
 ## I Vantaggi
 
