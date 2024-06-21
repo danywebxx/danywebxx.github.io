@@ -25,6 +25,7 @@ Questo approccio rende molto più difficile per un attaccante accedere al tuo di
 
 ### A proposito di MFA
 Quando si sente dire "Qualcosa che conosci" si riferisce a una forma di conoscenza che solo l'utente dovrebbe avere, come una password o un PIN che sono memorizzati nella memoria e non scritti su post-it appiccicati chissà dove. Anche se non digiti più una password tradizionale, il PIN che imposti funge da suo sostituto. È qualcosa che hai scelto e che conosci, e viene utilizzato assieme ai dati biometrici per verificare la tua identità. Il PIN è unico per il tuo dispositivo e non viene trasmesso o memorizzato al di fuori di esso, il che lo rende una forma sicura di "qualcosa che conosci".
+
 Per chi non volesse utilizzare dati biometrici, il terzo fattore di autenticazione può essere qualcosa che hai, come un dispositivo di sicurezza o il dispositivo stesso che utilizzi per autenticarti perchè è "qualcosa che hai". L'autenticazione richiede che il dispositivo sia presente e utilizzato attivamente per il processo di accesso. Questo approccio a più fattori garantisce un livello di sicurezza molto più elevato rispetto ai metodi tradizionali di autenticazione a singolo fattore (username) e due fattori (username e password). Se ci si pensa, anche il prelievo in un bancomat è un'autenticazione a più fattori che sfrutta "qualcosa che hai", la tessera con un seriale unico, "qualcosa che conosci", il PIN e "qualcosa che sei", la persona che si reca al bancomat, per identificare il soggetto in modo univoco.
 
 ### Dove vengono salvati i dati biometrici?
