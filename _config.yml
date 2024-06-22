@@ -14,12 +14,12 @@ timezone: Europe/Rome
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Daniele Longhi # the main title
+title: Daniele Longhi | Blog # the main title
 
 tagline: Networking, Security & Post-it di tecnologia # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Un blog di tecnologia con focus su Cloud, Microsoft, Azure, Security e Networking.
+  Un blog di tecnologia in cui si parla di Microsoft, Cloud, Security e Network.
 
 
 # Fill in the protocol & hostname for your site.
