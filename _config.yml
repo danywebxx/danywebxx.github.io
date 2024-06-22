@@ -55,7 +55,7 @@ google_site_verification: # fill in to your verification string
 #  id: G-VPKE23LTX9 # fill in your Google Analytics ID
 analytics:
   google:
-    id: 'G-VPKE23LTX9' # fill in your Google Analytics ID
+    id: G-VPKE23LTX9 # fill in your Google Analytics ID
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
