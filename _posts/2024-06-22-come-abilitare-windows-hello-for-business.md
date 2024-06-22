@@ -82,7 +82,7 @@ _WHfB processo di Onboarding_
 Autenticazione MFA per convalida delle credenziali (ambiente cloud)
 
 ![WHfB processo di OnBoardin MFA](/assets/2024-06-22/image6.png){: width="600" }
-_Conferma dell'MFA _
+_Conferma dell'MFA_
 
 Impostazione del PIN di accesso
 
