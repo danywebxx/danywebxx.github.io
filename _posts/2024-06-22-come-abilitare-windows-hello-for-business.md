@@ -64,10 +64,10 @@ Group Policy (GPO) e modificare il parametro: **User Configuration** \>
 **Policies** \> **Administrative Templates** \> **Windows Component** \>
 **Windows Hello for Business** configurandolo su **Enabled**.
 
-![Group Policy Windows Hello for Business](/assets/2024-06-22/image3.png){: width="500" }
+![Group Policy Windows Hello for Business](/assets/2024-06-22/image3.png){: width="600" }
 _User Group Policy Windows Hello for Business_
 
-![Policy Detail](/assets/2024-06-22/image4.png){: width="500" }
+![Policy Detail](/assets/2024-06-22/image4.png){: width="600" }
 _Descrizione della policy_
 
 ### Esperienza utente
@@ -76,23 +76,23 @@ All'avvio successivo del computer, dopo che l'utente ha inserito le
 proprie credenziali, verrà avviato il processo di OnBoarding
 step-by-step di Windows Hello for Business.
 
-![WHfB processo di OnBoarding](/assets/2024-06-22/image5.png){: width="500" }
+![WHfB processo di OnBoarding](/assets/2024-06-22/image5.png){: width="600" }
 _WHfB processo di Onboarding_
 
 Autenticazione MFA per convalida delle credenziali (ambiente cloud)
 
-![WHfB processo di OnBoardin MFA](/assets/2024-06-22/image6.png){: width="500" }
+![WHfB processo di OnBoardin MFA](/assets/2024-06-22/image6.png){: width="600" }
 _Conferma dell'MFA _
 
 Impostazione del PIN di accesso
 
-![WHfB creazione del PIN](/assets/2024-06-22/image7.png){: width="500" }
+![WHfB creazione del PIN](/assets/2024-06-22/image7.png){: width="600" }
 _Creazione del PIN_
 
 Al successivo avvio del sistema l'utente potrà autenticarsi a Windows
 utilizzando il PIN in alternativa alla password di accesso.
 
-![Accesso tramite PIN](/assets/2024-06-22/image8.png){: width="500" }
+![Accesso tramite PIN](/assets/2024-06-22/image8.png){: width="600" }
 _Accesso tramite PIN_
 
 ## Bibliografia
