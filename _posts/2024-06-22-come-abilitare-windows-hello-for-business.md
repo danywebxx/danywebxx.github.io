@@ -13,7 +13,7 @@ image:
 riconoscimento facciale, l\'impronta digitale, un PIN o una Security
 Key. Questa guida vi mostrerà come abilitare Windows Hello for Business.
 
-![windows hello for business logo](/assets/2024-06-22/image1.jpeg)
+![windows hello for business logo](/assets/2024-06-22/image1.jpeg){: width="500" }
 
 ## Prerequisiti
 
@@ -47,7 +47,7 @@ Ho parlato in questo articolo di come sia [sicuro autenticarsi usando
 Windows Hello for
 Business]({% link _posts/2024-06-21-Windows-Hello-for-Business-tu-sei-la-chiave.md %}).
 
-![Windows Hello Container](/assets/2024-06-22/image2.png)
+![Windows Hello Container](/assets/2024-06-22/image2.png){: width="400" }
 _Windows Hello Container_
 
 ### Chi è l'IdP?
@@ -64,10 +64,10 @@ Group Policy (GPO) e modificare il parametro: **User Configuration** \>
 **Policies** \> **Administrative Templates** \> **Windows Component** \>
 **Windows Hello for Business** configurandolo su **Enabled**.
 
-![Group Policy Windows Hello for Business](/assets/2024-06-22/image3.png)
+![Group Policy Windows Hello for Business](/assets/2024-06-22/image3.png){: width="500" }
 _User Group Policy Windows Hello for Business_
 
-![Policy Detail](/assets/2024-06-22/image4.png)
+![Policy Detail](/assets/2024-06-22/image4.png){: width="500" }
 _Descrizione della policy_
 
 ### Esperienza utente
@@ -76,23 +76,23 @@ All'avvio successivo del computer, dopo che l'utente ha inserito le
 proprie credenziali, verrà avviato il processo di OnBoarding
 step-by-step di Windows Hello for Business.
 
-![WHfB processo di OnBoarding](/assets/2024-06-22/image5.png)
+![WHfB processo di OnBoarding](/assets/2024-06-22/image5.png){: width="500" }
 _WHfB processo di Onboarding_
 
 Autenticazione MFA per convalida delle credenziali (ambiente cloud)
 
-![WHfB processo di OnBoardin MFA](/assets/2024-06-22/image6.png)
+![WHfB processo di OnBoardin MFA](/assets/2024-06-22/image6.png){: width="500" }
 _Conferma dell'MFA _
 
 Impostazione del PIN di accesso
 
-![WHfB creazione del PIN](/assets/2024-06-22/image7.png)
+![WHfB creazione del PIN](/assets/2024-06-22/image7.png){: width="500" }
 _Creazione del PIN_
 
 Al successivo avvio del sistema l'utente potrà autenticarsi a Windows
 utilizzando il PIN in alternativa alla password di accesso.
 
-![Accesso tramite PIN](/assets/2024-06-22/image8.png)
+![Accesso tramite PIN](/assets/2024-06-22/image8.png){: width="500" }
 _Accesso tramite PIN_
 
 ## Bibliografia
