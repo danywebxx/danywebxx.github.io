@@ -8,12 +8,12 @@ image:
      path: /assets/2024-06-21/media/image1.jpeg
 ---
 
-`Windows Hello for Business` è una soluzione di autenticazione sicura per le aziende che utilizzano Windows 10 e Windows 11. Grazie a Windows Hello for Business gli utenti possono accedere ai propri dispositivi, alle applicazioni e ai servizi online utilizzando un PIN, un'impronta digitale o il riconoscimento facciale, eliminando la necessità di utilizzare password complesse (grattacapo per le aziende e gli uffici IT).
+**Windows Hello for Business** è una soluzione di autenticazione sicura per le aziende che utilizzano Windows 10 e Windows 11. Grazie a Windows Hello for Business gli utenti possono accedere ai propri dispositivi, alle applicazioni e ai servizi online utilizzando un PIN, un'impronta digitale o il riconoscimento facciale, eliminando la necessità di utilizzare password complesse (grattacapo per le aziende e gli uffici IT).
 
 ## Autenticazione a più fattori - MFA - a portata di dito
 
 Windows Hello for Business è considerato sicuro come avere
-`l'autenticazione a più fattori (MFA)` tradizionale perché utilizza un approccio simile per verificare l'identità dell'utente. Entrambi richiedono due o più delle seguenti credenziali:
+**l'autenticazione a più fattori (MFA)** tradizionale perché utilizza un approccio simile per verificare l'identità dell'utente. Entrambi richiedono due o più delle seguenti credenziali:
 
 -   qualcosa che conosci (come una password)
 -   qualcosa che hai (come un dispositivo di sicurezza o il tuo
@@ -62,6 +62,9 @@ alcuni prerequisiti:
 -   Il PIN è sempre disponibile mentre per il biometrico è necessario un
     hardware compatibile, come un lettore di impronte digitali o una
     fotocamera a infrarossi per il riconoscimento facciale.
+
+## Scopri come abilitare Windows Hello for Business
+Se sei interessato ad implementare Windows Hello for Business [leggi questo post in cui ti spiego come fare]({% link _posts/2024-06-22-come-abilitare-windows-hello-for-business.md %})
 
 ## Conclusione
 
