@@ -1,9 +1,11 @@
 ---
-title: Microsoft Entra ID: La Chiave per Dispositivi Cloud-Ready
+title: Dispositivi Microsoft Entra joined - guida step-by-step
 date: 2024-06-29
 categories: [blogging, tutorial]
-tags: [cloud, microsoft, M365, Entra] 
-description: Microsoft Entra ID: Autenticazione e gestione cloud semplificate. Integra dispositivi con Office 365 e Teams, scegliendo tra Microsoft Entra Registered, joined o Hybrid Joined.
+tags: [cloud, microsoft, m365, Entra] 
+description: Dispositivi Microsoft Entra joined - Autenticazione e gestione cloud semplificate. Integra dispositivi con Office 365 e Teams, scegliendo tra Microsoft Entra Registered, joined o Hybrid Joined.
+image:
+     path: /assets/2024-06-29/entraid.png
 ---
 Nell’era del **cloud**, l’efficienza passa attraverso la gestione ottimale dei dispositivi. **Microsoft Entra ID** si pone come uno dei mattoni fondamentali per garantire l’autenticazione e l’autorizzazione di utenti e dispositivi nell’universo dei servizi cloud Microsoft, tra questi  Office 365, SharePoint e Teams.
 
@@ -24,39 +26,39 @@ L’integrazione di un dispositivo con Microsoft Entra ID si distingue per la su
 
 Vai nelle **Impostazioni** > **Account**
 
-IMMAGINE
+![Immagine1](/assets/2024-06-29/Immagine1.png)
 
 Connetti con l’azienda il tuo dispositivo.
 
-IMMAGINE
+![Immagine2](/assets/2024-06-29/Immagine2.png)
 
 Nella finestra che si apre seleziona **Aggiungere questo dispositivo a Microsoft Entra ID**
 
-IMMAGINE
+![Immagine3](/assets/2024-06-29/Immagine3.png)
 
 Inserisci le credenziali Microsoft che l’organizzazione ti ha fornito e completa il processo di autenticazione. Sicuramente ti verrà richiesta un’autenticazione aggiuntiva **MFA** per questo passaggio.
 
-IMMAGIGIJE
+![Immagine4](/assets/2024-06-29/Immagine4.png)
 
 Verifica che i dati inseriti siano corretti
 
-IMMAGINE
+![Immagine5](/assets/2024-06-29/Immagine5.png)
 
 Il processo ora si completa automaticamente.
 
-IMMAGINE
+![Immagine6](/assets/2024-06-29/Immagine6.png)
 
-Configurazione completa. Il dispositivo è ora parte della tua organizzazione.
+Configurazione completa! Il dispositivo è ora parte della tua organizzazione.
 
-IMMAGINE
+![Immagine7](/assets/2024-06-29/Immagine7.png)
 
 Non ti resta che usare le credenziali Microsoft Entra ID autenticarti nel dispositivo appena registrato
 
-IMMAGINE
+![Immagine8](/assets/2024-06-29/Immagine8.png)
 
 Per i **sysadmin** è possibile verificare nel portale **Microsoft Entra Admin center** che la registrazione del dispositivo sia avvenuta correttamente.
 
-IMMAGINE
+![Immagine9](/assets/2024-06-29/Immagine9.png)
 
 ## Bibliografia
 - [Microsoft Entra registerd devices](https://learn.microsoft.com/en-us/entra/identity/devices/concept-device-registration)
