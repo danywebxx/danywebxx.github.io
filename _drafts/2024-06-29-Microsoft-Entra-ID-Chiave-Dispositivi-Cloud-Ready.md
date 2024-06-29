@@ -1,11 +1,11 @@
 ---
-title: Come abilitare Windows Hello for Business
-date: 2024-04-22
+title: Microsoft Entra ID: La Chiave per Dispositivi Cloud-Ready
+date: 2024-06-29
 categories: [blogging, tutorial]
-tags: [cloud, microsoft, WindowsHello, WHfB] 
-description: Scopri come si abilita facilmente Windows Hello for Windows e la user experience...
+tags: [cloud, microsoft, M365, Entra] 
+description:
 image:
-     path: /assets/2024-06-22/finger.png
+     path: 
 ---
 
 Nell’era del **cloud**, l’efficienza passa attraverso la gestione ottimale dei dispositivi. **Microsoft Entra ID** si pone come uno dei mattoni fondamentali per garantire l’autenticazione e l’autorizzazione di utenti e dispositivi nell’universo dei servizi cloud Microsoft, tra questi  Office 365, SharePoint e Teams.
