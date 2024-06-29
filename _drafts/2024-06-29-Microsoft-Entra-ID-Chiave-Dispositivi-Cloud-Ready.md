@@ -60,9 +60,9 @@ Per i **sysadmin** è possibile verificare nel portale **Microsoft Entra Admin c
 IMMAGINE
 
 ## Bibliografia
-	•	Microsoft Entra registerd devices
-	•	Microsoft Entra joined devices
-	•	Microsoft Entra hybrid joined devices
+- [Microsoft Entra registerd devices](https://learn.microsoft.com/en-us/entra/identity/devices/concept-device-registration)
+- [Microsoft Entra joined devices](https://learn.microsoft.com/en-us/entra/identity/devices/concept-directory-join)
+- [Microsoft Entra hybrid joined devices](https://learn.microsoft.com/en-us/entra/identity/devices/concept-hybrid-join)
 
  
  
