@@ -2,7 +2,7 @@
 title: MS-SQL - spostare il database TempDB in altra cartella
 date: 2024-02-21
 categories: [blogging, tutorial]
-tags: [appunti, microsoft, SQL, database]
+tags: [appunti, microsoft, sql, database]
 description: In un'installazione MS SQL Server può divenire necessario spostare i database di sistema come il TempDB. 
 image:
      path: /assets/2024-02-21/mssql-feature.png
