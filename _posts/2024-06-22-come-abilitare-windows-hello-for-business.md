@@ -2,7 +2,7 @@
 title: Come abilitare Windows Hello for Business
 date: 2024-04-22
 categories: [blogging, tutorial]
-tags: [cloud, microsoft, Windows Hello, WHfB] 
+tags: [cloud, microsoft, windows hello, whfb] 
 description: Scopri come si abilita facilmente Windows Hello for Windows e la user experience...
 image:
      path: /assets/2024-06-22/finger.png
