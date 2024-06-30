@@ -2,7 +2,7 @@
 title: Come ricercare l’origine di un account bloccato in Active Directory
 date: 2021-02-25
 categories: [blogging, tutorial]
-tags: [microsoft, Active Directory, password] 
+tags: [microsoft, active directory, password] 
 description: Scopri come ricercare facilmente l'origine di un account bloccato in Active Directory ...
 ---
 
