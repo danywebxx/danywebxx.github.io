@@ -2,7 +2,7 @@
 title: Windows Hello for Business - Tu sei la chiave
 date: 2024-04-21
 categories: [blogging, security]
-tags: [cloud, microsoft, mfa, WindowsHello, WHfB] 
+tags: [cloud, microsoft, mfa, Windows Hello, WHfB] 
 description: Scopri cos'è, come funziona e quali vantaggi offre questa tecnologia di autenticazione per Windows 10 e 11...
 image:
      path: /assets/2024-06-21/media/image1.jpeg
