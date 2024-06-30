@@ -45,7 +45,7 @@ l\'identità e lo autentica.
 
 Ho parlato in questo articolo di come sia [sicuro autenticarsi usando
 Windows Hello for
-Business]({% link _posts/2024-06-21-Windows-Hello-for-Business-tu-sei-la-chiave.md %}).
+Business]({% link _posts/2024-06-21-windows-hello-for-business-tu-sei-la-chiave.md %}).
 
 ![Windows Hello Container](/assets/2024-06-22/image2.png){: width="400" }
 _Windows Hello Container_
