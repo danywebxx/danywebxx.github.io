@@ -97,6 +97,5 @@ _Accesso tramite PIN_
 
 ## Bibliografia
 
--   Microsoft - [Come funziona Windows Hello for
-    Business](https://learn.microsoft.com/it-it/windows/security/identity-protection/hello-for-business/how-it-works)
+-   Microsoft - [Come funziona Windows Hello for Business](https://learn.microsoft.com/it-it/windows/security/identity-protection/hello-for-business/how-it-works)
 -   ICTPower - [Utilizzare Windows Hello for Business](https://www.ictpower.it/sistemi-operativi/utilizzare-windows-hello-for-business-per-laccesso-ad-active-directory-ed-azure-ad.htm)
