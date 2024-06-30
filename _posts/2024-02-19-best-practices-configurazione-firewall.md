@@ -3,7 +3,7 @@ layout: post
 title:  "10 regole da seguire quando si configura un firewall"
 date:   2024-02-13 16:00:00 +0100
 categories: [blogging, security]
-tags: [appunti, firewall, Paloalto, OPNsense, Cisco] 
+tags: [appunti, firewall, paloalto, opnsense, cisco] 
 description: Una serie di semplici regole di best practices da seguire quando si configura un firewall per evitare di commettere errori.
 image:
      path: /assets/2024-02-19/firewall.jpeg
