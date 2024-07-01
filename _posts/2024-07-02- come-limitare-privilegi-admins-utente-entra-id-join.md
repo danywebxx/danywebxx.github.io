@@ -1,6 +1,6 @@
 ---
 title: Come limitare i privilegi all'utente che effettua Entra ID join
-date: 2024-07-01
+date: 2024-07-02
 categories: [blogging, tutorial]
 tags: [cloud, microsoft, m365, entraid, modern workplace]
 description: Limitare i privilegi di administrators e rendere standard user chi collega il dispositivo ad Entra ID
