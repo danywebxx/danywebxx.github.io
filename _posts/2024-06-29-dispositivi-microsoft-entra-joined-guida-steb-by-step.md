@@ -38,7 +38,7 @@ Nella finestra che si apre seleziona **Aggiungere questo dispositivo a Microsoft
 
 Inserisci le credenziali Microsoft che l’organizzazione ti ha fornito e completa il processo di autenticazione. Sicuramente ti verrà richiesta un’autenticazione aggiuntiva **MFA** per questo passaggio.
 
-![Immagine4](/assets/2024-06-29/Immagine4.png)
+![Immagine4](/assets/2024-06-29/Immagine4.png){: width="500" }
 
 Verifica che i dati inseriti siano corretti
 
