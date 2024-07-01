@@ -46,7 +46,7 @@ Verifica che i dati inseriti siano corretti
 
 Il processo ora si completa automaticamente.
 
-![Immagine6](/assets/2024-06-29/Immagine6.png)
+![Immagine6](/assets/2024-06-29/Immagine6.png){: width="500" }
 
 Configurazione completa! Il dispositivo è ora parte della tua organizzazione.
 
