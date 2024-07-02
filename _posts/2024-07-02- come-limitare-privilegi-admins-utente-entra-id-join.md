@@ -14,4 +14,4 @@ Per assegnare i privilegi minimi bisogna usare un'opzione che si trova nel porta
 
 ![standard user](/assets/2024-07-01/immagine1.png)
 
-Potrai aumentare i privilegi dell'utente successivamente utilizzando Intune o eseguendo alcune operazione manuali. Te lo spiegherò in un prossimo articolo. Stay tuned!
+Sarà possibile aumentare i privilegi dell'utente, se strettamente necessario, in una fase successiva  utilizzando Intune o eseguendo alcune operazione manuali. Lo spiegherò in un prossimo articolo. Stay tuned!
