@@ -10,7 +10,7 @@ Quando si effettua il **join** di un dispositivo a **Microsoft Entra ID**, l'ute
 ## Rispettare il principio del least privilege
 Per rispettare il principio del **least privilege (PoLP)** è sufficiente limitare i permessi assegnati all'utente che effettua il join del dispositivo ad Entra ID.
 
-Per dare i minimi privilegi bisogna usare un'opzione che si trova nel portale **Entra ID** > **Device** > **Device settings** nella sezione **Local administrator settings** che assegna i priviledi di **standard user** a chi effettua il join. Quesra opzione è in preview!
+Per assegnare i privilegi minimi bisogna usare un'opzione che si trova nel portale **Entra ID** > **Device** > **Device settings** nella sezione **Local administrator settings** che assegna i priviledi di **standard user** a chi effettua il join. Quesra opzione è in preview!
 
 ![standard user](/assets/2024-07-01/immagine1.png)
 
