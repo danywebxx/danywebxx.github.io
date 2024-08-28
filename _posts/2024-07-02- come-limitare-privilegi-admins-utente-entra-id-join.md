@@ -1,9 +1,9 @@
 ---
-title: Come limitare i privilegi all'utente che effettua Entra ID join
+title: Come impedire che un utente che effettui Microsoft Entra ID joid diventi administrator locale
 date: 2024-07-02
 categories: [blogging, tutorial]
 tags: [cloud, microsoft, m365, entraid, modern workplace]
-description: Limitare i privilegi di administrators e rendere standard user chi collega il dispositivo ad Entra ID
+description: Evitare che l'utente che effettua il join del disposivo a Microsoft Entra ID diventi amministraotre locale me rimanga utente con privilegi standard
 ---
 Quando si effettua il **join** di un dispositivo a **Microsoft Entra ID**, l'utente usato per il join viene aggiunto automaticamente al gruppo dei local **administrators**. Questa configurazione risulta contraria a tutte le best-practices di security comportando notevoli rischi perché l'uso di utenze con privilegi elevati permette di modificare impostazioni, accedere a dati di altri utenti o installare applicazioni non autorizzate.
 
