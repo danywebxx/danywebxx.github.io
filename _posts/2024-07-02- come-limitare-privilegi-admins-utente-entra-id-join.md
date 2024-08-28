@@ -1,5 +1,5 @@
 ---
-title: Come impedire che un utente che effettui Microsoft Entra ID joid diventi administrator locale
+title: Come impedire che un utente che effettua Microsoft Entra ID joid diventi administrator locale
 date: 2024-07-02
 categories: [blogging, tutorial]
 tags: [cloud, microsoft, m365, entraid, modern workplace]
