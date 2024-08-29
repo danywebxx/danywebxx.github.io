@@ -17,7 +17,7 @@ Le **enrollment restricionts** sono policy che si possono configurare in Intune 
 - Sistema Operativo
 - Versione
 - Produttore 
-- Ownership (Aziendale | Personale )
+- Ownership (Aziendale - Personale )
 
 Le policy sono poi applicate a gruppi di utenti o dispositivi con la logica della priorità più alta.
 
@@ -42,7 +42,7 @@ Selezionando **Personally owned device** con l'opzione **Block** toglierai la po
 
 Puoi anche agire creando una policy di default, inizialmente totalmente persmissiva, cliccando su **All Users** e negare la possibilità di effettuare enroll di dispositivi personali a tutti gli utenti. Eventuali eccezioni possono essere create con la logica del paragrafo precenderntee.
 
-![Configurazione il default](/assets/2024-08-29/image_06.png){: width="500" }
+![Configurazione il default](/assets/2024-08-29/image_06.png)
 
 ## Cosa succede quando un utente prova ad effetture enroll di un personal device in Intune?
 
@@ -54,7 +54,7 @@ Per verificare che le enrollment restricion sono applicato correttamente ti base
 
 **Device** > **Monitor** > **Enrollment failures**
 
-![Controllo dei log](/assets/2024-08-29/image_07.png){: width="500" }
+![Controllo dei log](/assets/2024-08-29/image_07.png){: width="600" }
 
 ## Bibliografia
 - [Block Users Personal Devices to Join Entra ID using Intune](https://www.anoopcnair.com/block-users-personal-devices-join-entra-intune/)
