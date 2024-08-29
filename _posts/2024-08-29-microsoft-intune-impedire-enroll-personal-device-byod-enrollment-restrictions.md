@@ -25,7 +25,7 @@ Le policy sono poi applicate a gruppi di utenti o dispositivi con la logica dell
 
 ## Come bloccare i dispositivi personali
 
-All'interno del portale di Intune puoi bloccare la possibilità che personal device e BYOD possano effettuare l'enroll. Gestire i personal device è importante perchè un dispositvo mal gestito potrebbe compromettere la sicurezza dell'organizzazione.  
+All'interno del portale di Intune puoi bloccare la possibilità che personal device e BYOD possano effettuare l'enroll. Gestire i personal device è importante perchè un dispositvo mal configurato e poco potretto potrebbe compromettere la sicurezza dell'organizzazione.  
 Puoi configurare le policy di gestione all'interno del [Portale di Gestione Endpoint](https://endpoint.microsoft.com/) nella sezione: **Device** > **Enrollment** > **Device platform restriction**
 
 ![Device Platform Restriction](/assets/2024-08-29/image_01.png)
