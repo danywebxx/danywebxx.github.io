@@ -26,11 +26,11 @@ Le policy sono poi applicate a gruppi di utenti o dispositivi con la logica dell
 All'interno del portale di Intune puoi bloccare la possibilità che dispositivi personali possano  effettuare l'enroll.  
 Puoi configurare le policy di gestione nella sezione: **Device** > **Enrollment** > **Device platform restriction**
 
-![Device Platform Restriction](/assets/2024-08-29/image_01.png)
+![Device Platform Restriction](/assets/2024-08-29/image_01.png){: width="500" }
 
 Tramite Create restriction puoi creare delle policy ad-hoc per sistema operativo e assegnarla a gruppi  specifici.
 
-![Enrollment Restrictions](/assets/2024-08-29/image_02.png)
+![Enrollment Restrictions](/assets/2024-08-29/image_02.png){: width="500" }
 
 ![Creazione Policy](/assets/2024-08-29/image_03.png)
 
@@ -40,7 +40,7 @@ Tramite Create restriction puoi creare delle policy ad-hoc per sistema operativo
 
 Oppure agire di default cliccando **All Users** e negare la possibilità di effettuare enroll di dispositivi personali a tutti gli utenti. Eventuali eccezioni possono essere create con la logica del paragrafo precendere.
 
-![Configurazione il default](/assets/2024-08-29/image_06.png)
+![Configurazione il default](/assets/2024-08-29/image_06.png){: width="500" }
 
 ## Cosa succede quando un utente prova ad effetture enroll di un dispositivo personal in Intune?
 
@@ -52,4 +52,4 @@ Per verificare che la restrizione di registrazione funzioni, puoi controllare lo
 
 Device > Monitor > Enrollment failures 
 
-![Controllo dei log](/assets/2024-08-29/image_07.png)
+![Controllo dei log](/assets/2024-08-29/image_07.png){: width="500" }
