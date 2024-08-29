@@ -19,7 +19,7 @@ Le **enrollment restricionts** sono policy che si possono configurare in Intune 
 - Sistema Operativo
 - Versione
 - Produttore 
-- Ownership (Aziendale - Personale )
+- Ownership
 
 Le policy sono poi applicate a gruppi di utenti o dispositivi con la logica della priorità più alta.
 
