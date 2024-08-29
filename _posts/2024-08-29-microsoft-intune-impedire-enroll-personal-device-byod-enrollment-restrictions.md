@@ -28,11 +28,11 @@ Le policy sono poi applicate a gruppi di utenti o dispositivi con la logica dell
 All'interno del portale di Intune puoi bloccare la possibilità che personal device e BYOD possano effettuare l'enroll. Gestire i personal device è importante perchè un dispositvo mal gestito potrebbe compromettere la sicurezza dell'organizzazione.  
 Puoi configurare le policy di gestione all'interno del [Portale di Gestione Endpoint](https://endpoint.microsoft.com/) nella sezione: **Device** > **Enrollment** > **Device platform restriction**
 
-![Device Platform Restriction](/assets/2024-08-29/image_01.png){: width="500" }
+![Device Platform Restriction](/assets/2024-08-29/image_01.png)
 
 Tramite l'opzione **Create restriction** nel tab del sistema operativo corretto, puoi creare delle policy ad-hoc per ed assegnarla a gruppi specifici di utenti o device.
 
-![Enrollment Restrictions](/assets/2024-08-29/image_02.png){: width="500" }
+![Enrollment Restrictions](/assets/2024-08-29/image_02.png)
 
 ![Creazione Policy](/assets/2024-08-29/image_03.png)
 
@@ -56,7 +56,7 @@ Per verificare che le enrollment restricion sono applicato correttamente ti base
 
 **Device** > **Monitor** > **Enrollment failures**
 
-![Controllo dei log](/assets/2024-08-29/image_07.png){: width="600" }
+![Controllo dei log](/assets/2024-08-29/image_07.png)
 
 ## Bibliografia
 - [Block Users Personal Devices to Join Entra ID using Intune](https://www.anoopcnair.com/block-users-personal-devices-join-entra-intune/)
