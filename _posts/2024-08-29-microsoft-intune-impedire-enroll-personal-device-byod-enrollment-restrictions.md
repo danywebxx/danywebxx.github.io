@@ -3,7 +3,7 @@ title: Microsoft Intune - impedire enroll di personal device e BYOD con le enrol
 date: 2024-08-29
 categories: [blogging, tutorial]
 tags: [cloud, microsoft, m365, entraid, intune]
-description: In questo articolo verrà illustrato come impedire che dispositivi personali e BYOD possano effettuare l'enroll in Microsoft Intune configurando correttamente le policy di enrollment restrictions.
+description: Come impedire che dispositivi personali e BYOD possano effettuare l'enroll in Microsoft Intune configurando correttamente le policy di enrollment restrictions.
 image:
      path: /assets/2024-08-29/microsoft-intune.png
 ---
