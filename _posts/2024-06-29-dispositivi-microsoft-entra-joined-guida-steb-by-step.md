@@ -24,23 +24,23 @@ Questo articolo vuole essere la guida per comprendere le differenze tra i vari m
 ## L’Integrazione semplice con Microsoft Entra joined
 L’integrazione di un dispositivo con Microsoft Entra ID si distingue per la sua semplicità. Non è richiesta alcuna competenza tecnica avanzata, visto che il processo è completamente guidato, assicurando un’esperienza utente fluida. Per i dispositivi dotati di Windows 11 Professional o versioni superiori, l’integrazione è ancora più semplice perché fin dalla fase di avvio OOBE (Out-of-Box Experience), l’utente è accompagnato passo dopo passo nella registrazione, rendendo l’intero procedimento semplice.
 
-Vai nelle **Impostazioni** > **Account**
+Spostwtevi nelle **Impostazioni** > **Account**
 
 ![Immagine1](/assets/2024-06-29/Immagine1.png)
 
-Connetti con l’azienda il tuo dispositivo.
+Connettete con l’azienda il dispositivo.
 
 ![Immagine2](/assets/2024-06-29/Immagine2.png)
 
-Nella finestra che si apre seleziona **Aggiungere questo dispositivo a Microsoft Entra ID**
+Nella finestra che si apre selezionate **Aggiungere questo dispositivo a Microsoft Entra ID**
 
 ![Immagine3](/assets/2024-06-29/Immagine3.png)
 
-Inserisci le credenziali Microsoft che l’organizzazione ti ha fornito e completa il processo di autenticazione. Sicuramente ti verrà richiesta un’autenticazione aggiuntiva **MFA** per questo passaggio.
+Inserite le credenziali Microsoft che l’organizzazione ha fornito e completate il processo di autenticazione. Sicuramente vi verrà richiesta un’autenticazione aggiuntiva **MFA** per questo passaggio.
 
 ![Immagine4](/assets/2024-06-29/Immagine4.png){: width="500" }
 
-Verifica che i dati inseriti siano corretti
+Verificatr che i dati inseriti siano corretti
 
 ![Immagine5](/assets/2024-06-29/Immagine5.png)
 
@@ -48,11 +48,11 @@ Il processo ora si completa automaticamente.
 
 ![Immagine6](/assets/2024-06-29/Immagine6.png){: width="500" }
 
-Configurazione completa! Il dispositivo è ora parte della tua organizzazione.
+Configurazione completa! Il dispositivo è ora parte dell'organizzazione.
 
 ![Immagine7](/assets/2024-06-29/Immagine7.png)
 
-Non ti resta che usare le credenziali Microsoft Entra ID autenticarti nel dispositivo appena registrato
+Non vi resta che usare le credenziali Microsoft Entra ID per autenticarvi nel dispositivo appena registrato
 
 ![Immagine8](/assets/2024-06-29/Immagine8.png)
 
