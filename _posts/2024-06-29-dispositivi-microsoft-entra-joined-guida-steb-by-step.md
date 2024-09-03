@@ -24,7 +24,7 @@ Questo articolo vuole essere la guida per comprendere le differenze tra i vari m
 ## L’Integrazione semplice con Microsoft Entra joined
 L’integrazione di un dispositivo con Microsoft Entra ID si distingue per la sua semplicità. Non è richiesta alcuna competenza tecnica avanzata, visto che il processo è completamente guidato, assicurando un’esperienza utente fluida. Per i dispositivi dotati di Windows 11 Professional o versioni superiori, l’integrazione è ancora più semplice perché fin dalla fase di avvio OOBE (Out-of-Box Experience), l’utente è accompagnato passo dopo passo nella registrazione, rendendo l’intero procedimento semplice.
 
-Spostwtevi nelle **Impostazioni** > **Account**
+Andate nelle **Impostazioni** > **Account**
 
 ![Immagine1](/assets/2024-06-29/Immagine1.png)
 
