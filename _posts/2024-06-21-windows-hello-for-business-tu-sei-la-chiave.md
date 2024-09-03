@@ -64,7 +64,7 @@ alcuni prerequisiti:
     fotocamera a infrarossi per il riconoscimento facciale.
 
 ## Scopri come abilitare Windows Hello for Business
-Se siete interessati ad implementare Windows Hello for Business [leggite questo post in cui spiego come fare]({% link _posts/2024-06-22-come-abilitare-windows-hello-for-business.md %})
+Se siete interessati ad implementare Windows Hello for Business [leggete questo post in cui spiego come fare]({% link _posts/2024-06-22-come-abilitare-windows-hello-for-business.md %})
 
 ## Conclusione
 
