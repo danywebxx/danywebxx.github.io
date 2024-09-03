@@ -25,24 +25,24 @@ Le policy sono poi applicate a gruppi di utenti o dispositivi con la logica dell
 
 ## Come bloccare i dispositivi personali
 
-All'interno del portale di Intune puoi bloccare la possibilità che personal device e BYOD possano effettuare l'enroll. Gestire i personal device è importante perchè un dispositvo mal configurato e poco potretto potrebbe compromettere la sicurezza dell'organizzazione.  
-Puoi configurare le policy di gestione all'interno del [Portale di Gestione Endpoint](https://endpoint.microsoft.com/) nella sezione: **Device** > **Enrollment** > **Device platform restriction**
+All'interno del portale di Intune potete bloccare la possibilità che personal device e BYOD possano effettuare l'enroll. Gestire i personal device è importante perchè un dispositvo mal configurato e poco potretto potrebbe compromettere la sicurezza dell'organizzazione.  
+Potete configurare le policy di gestione all'interno del [Portale di Gestione Endpoint](https://endpoint.microsoft.com/) nella sezione: **Device** > **Enrollment** > **Device platform restriction**
 
 ![Device Platform Restriction](/assets/2024-08-29/image_01.png)
 
-Tramite l'opzione **Create restriction** nel tab del sistema operativo corretto, puoi creare delle policy ad-hoc per ed assegnarla a gruppi specifici di utenti o device.
+Tramite l'opzione **Create restriction** nel tab del sistema operativo corretto, potete creare delle policy ad-hoc per ed assegnarla a gruppi specifici di utenti o device.
 
 ![Enrollment Restrictions](/assets/2024-08-29/image_02.png)
 
 ![Creazione Policy](/assets/2024-08-29/image_03.png)
 
-Selezionando **Personally owned device** con l'opzione **Block** toglierai la possibilità che certi utenti possano effetture l'enroll di dispositivi Windows personali.
+Selezionando **Personally owned device** con l'opzione **Block** toglierete la possibilità che alcuni utenti possano effetture l'enroll di dispositivi Windows personali.
 
 ![blocco dei dispositivi personali](/assets/2024-08-29/image_04.png)
 
 ![Assegnazione](/assets/2024-08-29/image_05.png)
 
-Puoi anche agire creando una policy di default, inizialmente totalmente persmissiva, cliccando su **All Users** e negare la possibilità di effettuare enroll di dispositivi personali a tutti gli utenti. Eventuali eccezioni possono essere create con la logica del paragrafo precenderntee.
+Potete anche agire creando una policy di default, inizialmente totalmente persmissiva, cliccando su **All Users** e negare la possibilità di effettuare enroll di dispositivi personali a tutti gli utenti. Eventuali eccezioni possono essere create con la logica del paragrafo precenderntee.
 
 ![Configurazione il default](/assets/2024-08-29/image_06.png)
 
@@ -52,7 +52,7 @@ Quando un utente prova a registrare un dispositivo personale in Intune visualizz
 
 ## Come verificare che le enrollment restricions funzionano?
 
-Per verificare che le enrollment restricion sono applicato correttamente ti basetà controllare i log di registrazione dei dispositivi nel portale di Intune:
+Per verificare che le enrollment restricion sono applicato correttamente vi basetà controllare i log di registrazione dei dispositivi nel portale di Intune:
 
 **Device** > **Monitor** > **Enrollment failures**
 
