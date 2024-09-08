@@ -44,8 +44,8 @@ Tutte le colonne sono separate da spazio e facilmente “tabellabili” per una 
 
 ## Bibliografia
 
-* [https://prophecyinternational.atlassian.net/wiki/spaces/Snare/pages/897417517/How+to+Collect+DNS+Logs](https://prophecyinternational.atlassian.net/wiki/spaces/Snare/pages/897417517/How+to+Collect+DNS+Logs)  
-* [https://trustedsec.com/blog/tracing-dns-queries-on-your-windows-dns-server](https://trustedsec.com/blog/tracing-dns-queries-on-your-windows-dns-server)  
-* [https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/introduction-to-network-trace-analysis-4-dns-it-s-always-dns/ba-p/4005803](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/introduction-to-network-trace-analysis-4-dns-it-s-always-dns/ba-p/4005803)  
-* [https://learn.microsoft.com/en-us/archive/blogs/teamdhcp/network-forensics-with-windows-dns-analytical-logging](https://learn.microsoft.com/en-us/archive/blogs/teamdhcp/network-forensics-with-windows-dns-analytical-logging)  
-* https://learn.microsoft.com/it-it/archive/blogs/secadv/parsing-dns-server-log-to-track-active-clients
+* [prophecyinternational](https://prophecyinternational.atlassian.net/wiki/spaces/Snare/pages/897417517/How+to+Collect+DNS+Logs)  
+* [trustedsec](https://trustedsec.com/blog/tracing-dns-queries-on-your-windows-dns-server)  
+* [Microsoft Techcommunity](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/introduction-to-network-trace-analysis-4-dns-it-s-always-dns/ba-p/4005803)  
+* [Microsoft Learn - Network Forensic](https://learn.microsoft.com/en-us/archive/blogs/teamdhcp/network-forensics-with-windows-dns-analytical-logging)  
+* [Microsoft Learn - Parsing DNS server log](https://learn.microsoft.com/it-it/archive/blogs/secadv/parsing-dns-server-log-to-track-active-clients)
