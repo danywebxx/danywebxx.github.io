@@ -24,9 +24,9 @@ Per abilitare il debug logging andate in:
 
 Tasto destro del mouse sul server dove volete abilitare il logging DNS e quindi **Properties**. 
 
-![](/assets/2024-09-08/image1.png)  
+![Tab Debug Logging con opzioni](/assets/2024-09-08/image2.png)  
  Spostatevi nel tab **Debug Logging** e selezionate le opzioni di cui volete tenere traccia.  
-![](/assets/2024-09-08/image2.png)  
+![Windows DNS Server](/assets/2024-09-08/image1.png)  
 Ci sono alcune considerazioni da fare sulle opzioni abilitabili nel debug logging:
 
 - **Transport protocol:** il servizio DNS potrebbe funzionare sia con protocollo UDP (il default) che TCP. Meglio che li selezionate entrambi.  
@@ -39,7 +39,7 @@ Il risultato sarà un file di testo leggibile in cui saranno contenute le query 
 ## Anatomia del Log file
 
 Le prime 29 righe contengono la descrizione delle colonne che si trovano nelle righe sottostanti; le righe contengono tutte le transazioni tra il client che effettua la richiesta DNS e il server che risponde.  
-![](/assets/2024-09-08/image3.png)  
+![Log file](/assets/2024-09-08/image3.png)  
 Tutte le colonne sono separate da spazio e facilmente “tabellabili” per una più facile analisi. Potete usare tool quali Excel o Log Parser scaricabile da [questo link](https://www.microsoft.com/en-us/download/confirmation.aspx?id=24659).
 
 ## Bibliografia
