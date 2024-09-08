@@ -11,12 +11,10 @@ image:
 Il servizio **DNS** permette da decenni di convertire facilmente nomi di dominio in indirizzi IP e viceversa; lo troviamo alla base di molte infrastrutture tecnologiche ed è uno dei mattoni funzionali per le organizzazioni che utilizzano Microsoft Active Directory.
 
 ## L’importanza dei log
-
 La raccolta degli audit log è fondamentale per monitorare lo stato di salute dei sistemi informativi dell’organizzazione; raccogliere log delle richieste DNS risulta importante in molti programmi di cybersecurity perché queste possono contenere dati utili alle indagini forensi.  
 In questo articolo voglio illustrare  come si può abilitare il registro delle richieste DNS in un sistema operativo Microsoft Windows Server che ricopre questa funzionalità. 
 
 ## Abilitare il debug logging
-
 Ci sono diversi modi per tenere traccia delle query DNS, quello più semplice consiste nell’abilitare il **debug logging** del servizio DNS.  
 Per abilitare il debug logging andate in:
 
@@ -37,13 +35,11 @@ Ci sono alcune considerazioni da fare sulle opzioni abilitabili nel debug loggin
 Il risultato sarà un file di testo leggibile in cui saranno contenute le query DNS e il client che le ha richieste. 
 
 ## Anatomia del Log file
-
 Le prime 29 righe contengono la descrizione delle colonne che si trovano nelle righe sottostanti; le righe contengono tutte le transazioni tra il client che effettua la richiesta DNS e il server che risponde.  
 ![Log file](/assets/2024-09-08/image3.png)  
 Tutte le colonne sono separate da spazio e facilmente “tabellabili” per una più facile analisi. Potete usare tool quali Excel o Log Parser scaricabile da [questo link](https://www.microsoft.com/en-us/download/confirmation.aspx?id=24659).
 
 ## Bibliografia
-
 * [prophecyinternational](https://prophecyinternational.atlassian.net/wiki/spaces/Snare/pages/897417517/How+to+Collect+DNS+Logs)  
 * [trustedsec](https://trustedsec.com/blog/tracing-dns-queries-on-your-windows-dns-server)  
 * [Microsoft Techcommunity](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/introduction-to-network-trace-analysis-4-dns-it-s-always-dns/ba-p/4005803)  
