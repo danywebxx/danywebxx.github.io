@@ -30,6 +30,7 @@ Creazione dello **storage account di replica** (per semplicità ho usato la stes
 Creazione del **contenitore blob destinazione**!
 ![](/assets/2024-09-11/image6.png)
 
+### Definire le regole di replica
 Una volta creati gli storage account con relativi contenitore è il momento di attivare le regole di replica all’interno dello storage account sorgente.  
 Create le regole di replica nella sezione **Data management** \>  **Object replication** \> **Create replication rules**  
 ![](/assets/2024-09-11/image2.png)
