@@ -3,14 +3,14 @@ title: MS Forms - Come creare quiz senza visualizzare le risposte corrette
 date: 2024-09-23
 categories: [blogging, tutorial]
 tags: [microsoft, office, forms]
-description: Microsoft Forms è uno strumento semplice ed intuitivo per la gestione di moduli e quiz ma ha delle limitazioni nela visualizzazione dei risultati dei test. 
+description: Microsoft Forms è uno strumento semplice ed intuitivo per la gestione di moduli e quiz ma ha delle limitazioni nela visualizzazione dei risultati. 
 image:
      path: /assets/2024-09-23/image7.png
 ---
-Vuoi creare un **quiz di fine corso** ad un gruppo di utenti e stai pensando di utilizzare **Microsoft Forms**? Vorresti restituire il risultato del quiz ma senza plubblicare le soluzioni per evitare che possano essere copiate? Scoprirai che non è così semplice!  
-Forms è uno strumento semplice ed intuitivo per la gestione di moduli e quiz ma ha delle limitazioni oggettive che ne precludono alcuni scenari di utilizzo; sembra impossibile ma al momento della stesura di questo articolo non è presente la possibilità di restituire il risultato di quiz senza visualizzare le risposte corrette.
+Vuoi creare un **quiz di fine corso** ad un gruppo di studenti e stai pensando di utilizzare **Microsoft Forms**? Vorresti restituire il risultato del quiz senza pubblicare le soluzioni evitando che possano essere copiate? Scoprirai che non è così semplice!  
+Forms è uno strumento semplice ed intuitivo per la gestione di moduli e quiz ma ha delle limitazioni oggettive che ne precludono alcuni scenari di utilizzo; sembra impossibile ma, al momento della stesura di questo articolo, non è possibile restituire il risultato di quiz senza visualizzare le risposte corrette.
 
-Sembro impazzito ma è così! Puoi far sapere il punteggio di un quiz ma questo visualizzerà anche le risposte corrette (che potranno a questo punto essere copiate); oppure puoi tenerle nascoste ma non potrai visualizzare immediatamente i punteggi. Dovrai attendere che l'ultimo invii il test e poi pubblicare i punteggi!
+Sembro impazzito ma è così! Puoi far sapere il punteggio di un quiz ma questo visualizzerà anche le risposte corrette (che potranno a questo punto essere copiate); oppure puoi tenerle nascoste ma dovrai attendere che l'ultimo invii il test e poi pubblicare i risultati!
 
 Altra lacuna, non sembra possibile indicare uno score per il passaggio del quiz.  
 
