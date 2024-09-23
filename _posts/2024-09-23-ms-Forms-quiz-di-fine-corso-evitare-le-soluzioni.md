@@ -15,9 +15,9 @@ Sembro impazzito ma è così! Puoi far sapere il punteggio di un quiz ma questo 
 
 Altra lacuna, non sembra possibile indicare uno score per il passaggio del quiz.  
 
-## Come evitare di pubblicare le risposte corrette?
+## Come evitare che vengano pubblicate le risposte corrette?
 
-Purtroppo l'unica risposta alla domanda è "posticipare la visualizzazione dei risultati e delle risposte". 
+Purtroppo l'unica risposta a questa donanda è "posticipare la visualizzazione dei risultati e delle risposte". 
 
 Dopo aver redatto il quiz con le domande opportune, spostati in **Impostazioni** (i tre puntini in alto a sinistra):  
 ![](/assets/2024-09-23/image1.png)
