@@ -27,8 +27,7 @@ Dopo aver redatto il quiz con le domande opportune, spostati in **Impostazioni**
 **Disattiva** la spunta su **Mostra risultati automaticamente**  
 ![](/assets/2024-09-23/image3.png)  
 
-Ora quando l’utente effettuerà l’invio del questionario non riceverà nessuna risposta ne punteggio.  
-Dovrai pubblicare i punteggi in un secondo momento agnedo nella sezione **Risposte**:
+Ora quando l’utente effettuerà l’invio del questionario non riceverà nessuna risposta ne punteggio ma dovrai pubblicare i punteggi in un secondo momento agendo nella sezione **Risposte**:
 ![](/assets/2024-09-23/image4.png) 
 
 Ora **Pubblica punteggi**  
