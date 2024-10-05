@@ -3,7 +3,7 @@ title: Retention policy e Archivio In-Place non funzionano in Exchange Online
 date: 2024-09-23
 categories: [blogging, tutorial]
 tags: [microsoft, m365, exchange]
-description:  Se la retention policy che dovrebbe spostare i messaggi di posta elettronica nell'archivio In-Place di Exchange Online non funziona,  in questo articolo ti racconto come risolvere il problema.
+description:  In questo articolo ti racconto come risolvere il problema di Exchange Online che impedisce alla retention policy, applicata ad una casella di posta elettronica, di spostare i messaggi nell'archivio In-Place.
 image:
      path: /assets/2024-10-05/image2.png
 ---
