@@ -26,7 +26,7 @@ Connect-ExchangeOnline
 Ora controlla i parametri della casella e-mail dell’utente:  
 
 ```powershell
-Get-Mailbox -Identity username|fl \*hold\*  
+Get-Mailbox -Identity username | fl *hold*  
 ```
 
 ![RetentionHoldEnabled](/assets/2024-10-05/image1.png)
