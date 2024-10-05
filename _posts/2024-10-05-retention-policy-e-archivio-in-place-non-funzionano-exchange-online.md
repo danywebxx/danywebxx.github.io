@@ -9,7 +9,7 @@ image:
 ---
 
 Gli archivi di posta elettroncia degli utenti in Exchange Online crescono ed è un dato di fatto; 50 o 100 GB di spazio di archiviazione possono sembrare tanti ma c’è sempre chi ha la capacità di raggiungere e superare i propri limiti.  
-Concedere altro spazio è semplice: si abilita l’**Archivio Online (in-place archive)** di Exchange e si applica una **policy di retention** per spostare automaticamente i messaggi più vecchi di XXX giorni nell’archivio. Il lavoro per il sysadmin è finito\!   
+Concedere altro spazio è semplice: si abilita l’**Archivio Online (in-place archive)** di Exchange e si applica una **policy di retention** per spostare automaticamente i messaggi più vecchi di XXX giorni nell’archivio ed il lavoro per il sysadmin è finito\!   
 Qui il diavolo ci mette lo zampino\! Dopo poco tempo l’utente torna con la posta bloccata perché ha raggiunto i limiti di utilizzo e il sysadmin passa dalla paura alla disperazione perchè la retention policy non sta funzionando.
 
 In rete sul tema si trova poco e le informazioni sono frammentate ma cun una domanda si risolve facilmente il problema: sono stati importati PST sulla casella del malcapitato con il servizio di importazione in Exchange Online?  
