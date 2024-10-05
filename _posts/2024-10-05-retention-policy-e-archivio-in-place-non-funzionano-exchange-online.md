@@ -26,7 +26,7 @@ Connect-ExchangeOnline
 Ora controlla i parametri della casella e-mail dell’utente:  
 
 ```powershell
-Get-Mailbox \-Identity username|fl \*hold\*  
+Get-Mailbox -Identity username|fl \*hold\*  
 ```
 
 ![RetentionHoldEnabled](/assets/2024-10-05/image1.png)
@@ -34,13 +34,13 @@ Get-Mailbox \-Identity username|fl \*hold\*
 Se la **RetentionHoldEnabled** è True allora la policy di retention non potrà spostare i messaggi in archivio e la dovrai disattivare:
 
 ```powershell
-Set-Mailbox "user@domain.com" \-RetentionHoldEnabled $false
+Set-Mailbox "user@domain.com" -RetentionHoldEnabled $false
 ```
 
 Ora che hai disattivato la Retention Hold puoi velocizzare lo spostamento della posta in archivio forzando l’agente di archiviazione:
 
 ```powershell
-Start-ManagedFolderAssistant \-identity "user@domain.com"
+Start-ManagedFolderAssistant -identity "user@domain.com"
 ```
 
 ## Bibliografia
