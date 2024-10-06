@@ -2,7 +2,7 @@
 title: Dispositivi Microsoft Entra joined - guida step-by-step
 date: 2024-06-29
 categories: [blogging, tutorial]
-tags: [cloud, microsoft, m365, entraid, modern workplace]
+tags: [cloud, microsoft, m365, entra, modern workplace]
 description: Dispositivi Microsoft Entra joined - Autenticazione e gestione cloud semplificate. Integra dispositivi con Office 365 e Teams, scegliendo tra Microsoft Entra Registered, joined o Hybrid Joined.
 image:
      path: /assets/2024-06-29/entraid.png
