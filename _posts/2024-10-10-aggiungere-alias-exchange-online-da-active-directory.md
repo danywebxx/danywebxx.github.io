@@ -12,6 +12,7 @@ Se si usa **Microsoft 365** in modalità ibrida sincronizzando gli utenti da **A
 Qualche giorno fa stavo lavorando in un’organizzazione con AD locale e account di posta **Exchange Online cloud only** e aggiungendo un alias di posta elettronica sul portale Admin M365 ottengo un bel messaggio di errore.
 
 ![Errore in Exchange Online](/assets/2024-10-10/image2.png)
+
 Mi ricordo dell’insegnamento; dovevo creare l’alias on-premise.
 
 ## Come creare alias Exchange Online da Active Directory
