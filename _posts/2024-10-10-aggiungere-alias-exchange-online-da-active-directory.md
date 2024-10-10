@@ -11,7 +11,7 @@ Se si usa **Microsoft 365** in modalità ibrida sincronizzando gli utenti da **A
 
 Qualche giorno fa stavo lavorando in un’organizzazione con AD locale e account di posta **Exchange Online cloud only** e aggiungendo un alias di posta elettronica sul portale Admin M365 ottengo un bel messaggio di errore.
 
-![Errore in Exchange Online](/assets/2024-10-10/image2.png)
+![Errore in Exchange Online](/assets/2024-10-10/image2.png){: width="500" }
 
 Mi ricordo dell’insegnamento; dovevo creare l’alias on-premise.
 
@@ -19,14 +19,14 @@ Mi ricordo dell’insegnamento; dovevo creare l’alias on-premise.
 Apri **Active Directory Users and Computers** (ADUC) abilitando la visualizzazione avanzata dal menu **view**.  
 All’interno dell’utente spostati sul tab **Attribute Editor** e trova **proxyAddresses** tra gli i valori presenti.  
 
-![proxyAddresses in ADUC](/assets/2024-10-10/image3.png)
+![proxyAddresses in ADUC](/assets/2024-10-10/image3.png){: width="600" }
 
 Ora aggiungi l’alias facendo attenzione a come lo scrivi:
 
-- utilizza il formato **SMTP:[indirizzo-principale@daominio.xx](mailto:indirozzo-principale@daominio.xx)** per l’indirizzo principale (SMTP scritto in maiuscolo)  
+- utilizza il formato **SMTP:[indirizzo-principale@dominio.xx](mailto:indirozzo-principale@daominio.xx)** per l’indirizzo principale (SMTP scritto in maiuscolo)  
 - utilizza il formato **smtp:[alias@dominio.xx](mailto:alias@dominio.xx)** per l’alias (smtp scritto in minuscolo)
 
-![Aggiunta dell'alias](/assets/2024-10-10/image1.png)
+![Aggiunta dell'alias](/assets/2024-10-10/image1.png){: width="400" }
 
 Attendi che l’utenza venga sincronizzata da Entra Connect con M365 e il tuo alias sarà attivo.
 
