@@ -3,7 +3,7 @@ title: Aggiungere un Alias su Exchange Online da Active Directory in Ambiente Ib
 date: 2024-10-10
 categories: [blogging, tutorial]
 tags: [microsoft, m365, exchange]
-description:  In un ambiente ibrido con Microsoft 365 e Active Directory, gestire alias di posta può risultare complesso. Questo articolo spiega come aggiungere un alias a un account Exchange Online sincronizzato da AD, evitando errori comuni.
+description:  In un ambiente ibrido con Microsoft 365 e Active Directory, gestire alias di posta può risultare complesso. Questo articolo spiega come aggiungere un alias a un account Exchange Online sincronizzato da AD.
 image:
      path: /assets/2024-10-10/image4.png
 ---
@@ -26,7 +26,7 @@ Ora aggiungi l’alias facendo attenzione a come lo scrivi:
 - utilizza il formato **SMTP:[indirizzo-principale@dominio.xx](mailto:indirozzo-principale@daominio.xx)** per l’indirizzo principale (SMTP scritto in maiuscolo)  
 - utilizza il formato **smtp:[alias@dominio.xx](mailto:alias@dominio.xx)** per l’alias (smtp scritto in minuscolo)
 
-![Aggiunta dell'alias](/assets/2024-10-10/image1.png){: width="400" }
+![Aggiunta dell'alias](/assets/2024-10-10/image1.png){: width="300" }
 
 Attendi che l’utenza venga sincronizzata da Entra Connect con M365 e il tuo alias sarà attivo.
 
