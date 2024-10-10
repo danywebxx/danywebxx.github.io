@@ -8,8 +8,7 @@ image:
      path: /assets/2024-10-10/image4.png
 ---
 Se si usa **Microsoft 365** in modalità ibrida sincronizzando gli utenti da **Active Directory (AD)** utilizzando **Microsoft Entra Connect**, una delle prime cose da imparare è che “quello che nasce on-premise va gestito on-premise”.
-
-Qualche giorno fa stavo lavorando in un’organizzazione con AD locale e account di posta **Exchange Online cloud only** e aggiungendo un alias di posta elettronica sul portale Admin M365 ottengo un bel messaggio di errore.
+Qualche giorno fa stavo appunto lavorando in un’organizzazione con AD locale e account di posta **Exchange Online cloud only** quando aggiungendo un alias di posta elettronica sul portale Admin M365 ottengo un bel messaggio di errore.
 
 ![Errore in Exchange Online](/assets/2024-10-10/image2.png){: width="500" }
 
