@@ -27,7 +27,7 @@ Ora aggiungi l’alias facendo attenzione a come lo scrivi:
 
 ![Aggiunta dell'alias](/assets/2024-10-10/image1.png){: width="300" }
 
-Attendi che l’utenza venga sincronizzata da Entra Connect con M365 e il tuo alias sarà attivo.
+Attendi che l’utenza aggiornata venga sincronizzata dall'on-prem in M365 e il tuo alias sarà attivo.
 
 ## Bibliografia
 [Netwrix](https://blog.netwrix.com/2017/02/02/using-ad-to-add-an-alias-to-an-office-three-six-five-email-account/)
