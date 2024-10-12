@@ -20,7 +20,7 @@ Utilizzando due chiavi di registro in una semplice GPO è possibile governare il
 
 Per eseguire in modo centralizzato il rollback e tornare alla versione stabile di Outlook usa la chiave “**UseNewOutlook**”
 
-```registry
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Preferences] 
@@ -34,7 +34,7 @@ Windows Registry Editor Version 5.00
 
 Se vuoi rimuovere la possibilità di passare nuovamente al nuovo Outlook e nascondere lo switch che permette questo cambiamento, puoi modificare la chiave di registro “**HideNewOutlookToggle**”:
 
-```registry
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
