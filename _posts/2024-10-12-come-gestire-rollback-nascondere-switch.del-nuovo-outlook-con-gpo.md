@@ -1,5 +1,5 @@
 ---
-title: Come Gestire il Rollback e Nascondere lo Switch del Nuovo Outlook con le Group Policy
+title: Come gestire il rollback e nascondere lo switch del Nuovo Outlook con le Group Policy
 date: 2024-10-12
 categories: [blogging, tutorial]
 tags: [microsoft, outlook]
