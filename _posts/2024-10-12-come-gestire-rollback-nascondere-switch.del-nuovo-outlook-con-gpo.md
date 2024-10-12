@@ -46,9 +46,9 @@ Windows Registry Editor Version 5.00
 
 Ora non ti resta che inserire le due chiavi in un GPO e distribuirla ai tuoi utenti.
 
-![](/assets/2024-10-12/image1.png)
+![](/assets/2024-10-12/image1.png){: width="600" }
 
-![](/assets/2024-10-12/image3.png)
+![](/assets/2024-10-12/image3.png){: width="600" }
 
 ## Bibliografia
 
