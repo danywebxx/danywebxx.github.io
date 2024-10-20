@@ -67,9 +67,7 @@ Sfruttando l’abbinamento Flow Logs e Log Analytics è possibile visualizzare e
 
 ## Analisi dei Dati con Log Analytics
 
-Dopo che i dati sono stati raccolti, puoi utilizzare il **Kusto Query Language (KQL)** per analizzare i log. Un esempio di query per visualizzare il traffico consentito potrebbe essere:  
-kql  
-Copia codice  
+Dopo che i dati sono stati raccolti, puoi utilizzare il **Kusto Query Language (KQL)** per analizzare i log. Un esempio di query per visualizzare il traffico consentito potrebbe essere: 
 
 ```sql
 NTANetAnalytics
