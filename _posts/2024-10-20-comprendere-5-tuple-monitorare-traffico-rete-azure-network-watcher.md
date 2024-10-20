@@ -30,31 +30,39 @@ Per raccogliere i dati sui 5-tuple del traffico di rete in Azure, dobbiamo prima
 ### Passaggi per abilitare Virtual network flow logs sulla VNet
 
 Per abilitare i **Virtual network flow logs** sulla **VNet** entra nella **VNet** desiderata e clicca **Virtual network flow log**.
+
 ![](/assets/2024-10-20/image3.png)
 
 Crea un nuovo Flow Log.
+
 ![](/assets/2024-10-20/image7.png)
 
 Come tipologia seleziona **Virtual Network** (i flow log per gli Network Security Group NSG saranno presto deprecati). 
+
 ![](/assets/2024-10-20/image4.png)
 
 La procedura a questo punto ti chiederà di creare uno storage account per il salvataggio dei log:  
+
 ![](/assets/2024-10-20/image2.png)
 
 Imposta una Retention per i dati sufficiente a future analisi. Nel mio caso 7 giorni sono sufficienti.  
+
 ![](/assets/2024-10-20/image6.png)
 
 Nella sezione **Analytics** ho deciso di analizzare i dati sfruttando **Log Analytics**. Questa parte è facoltativa ma avere un account Log Analytics permette di una visualizzazione avanzata dei dati raccolti.  
+
 ![](/assets/2024-10-20/image5.png)
 
 Rivedete i dati e create il flow log. A questo punto, i log di flusso VNet inizieranno a raccogliere i dati di traffico contenenti i 5-tuple di ogni connessione e verranno archiviati nell'account di archiviazione scelto.
 
 Se sfogliate lo storage-account creato nella prima parte delle guifa vedrete dei dati archiviati per **mac-address** e per giorno in formato **json**.
+
 ![](/assets/2024-10-20/image8.png)
 
 ## Visualizzazione dei dati con Network Watcher
 
 Sfruttando l’abbinamento Flow Logs e Log Analytics è possibile visualizzare ed analizzare i dati raccolti. Apri Network Watcher e seleziona Traffic Analytics; qui hai l’imbarazzo della scelta tra le opzioni disponibili.  
+
 ![](/assets/2024-10-20/image1.png)
 
 ## Analisi dei Dati con Log Analytics
