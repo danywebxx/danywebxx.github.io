@@ -71,7 +71,7 @@ Dopo che i dati sono stati raccolti, puoi utilizzare il **Kusto Query Language (
 kql  
 Copia codice  
 
-```Kusto
+```kusto
 NTANetAnalytics
 | where SrcIp == "10.199.0.4" 
 | where DestPort == "53"
