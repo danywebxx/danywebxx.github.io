@@ -17,7 +17,7 @@ Questa differenziazione rende PKCS più semplice da implementare ed evita l'espo
 
 ## Scenario di implementazione
 
-![][image1]
+![](/assets/2024-10-25/image16.png)
 
 1. Il dispositivo contatta intune   
 2. Intune inoltra la richiesta ad **Intune Certificate Connector (ICC)**  
