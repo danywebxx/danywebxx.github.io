@@ -1,5 +1,5 @@
 ---
-title: Gestire i certificati on-premise con Intune - La via semplice
+title: Utilizzare Intune per la distribuzione di certificati on-premise - La via PKCS
 date: 2024-10-26
 categories: [blogging, tutorial]
 tags: [m365, intune]
@@ -8,14 +8,21 @@ image:
      path: 
 ---
 
-Con **Microsoft Intune** è possibile installare sui dispositivi gestiti dall’organizzazione i certificati digitali utilizzati nei processi di autenticazione. Intune permette due scenari di implementazione differenti:
+La verifica delle identità aziendali basata su certificati digitali è considerata sicura e semplice da utilizzare in molte organizzazioni; una **Certificate Authority (CA)** valida le identità digitali e garantisce la catena di fiducia. Con **Microsoft Intune** è possibile distribuire i certificati digitali gestiti dalla (CA) on-premises integrata in Active Directory anche su dispositivi remoti non connessi alla rete aziendale. 
 
-- **PKCS**: richiede l'**Intune Certificate Connector** (proxy) installato on-premises che gestisce la richiesta dei certificati alla **Certification Authority (CA)**. Non è necessario che i dispositivi abbiano visibilità diretta sulla rete interna. La chiave privata è generata e protetta sul dispositivo, senza essere esportabile.  
-- **SCEP/NDES**: necessità del **Network Device Enrollment Service (NDES)** e di '**Intune Certificate Connector** per distribuire i certificati con visibilità diretta tra i dispositivi e il server NDES. Ideale per scenari di distribuzione di massa, ma meno sicuro rispetto a PKCS, poiché richiede una connessione diretta alla CA.
+Per la gestione dei certificati Intune utilizza un connettore **Intune Certificate Connector (ICC)** installato su Windows Server nella rete interna e permette diversi scenari di utilizzo:
 
-Questa differenziazione rende PKCS più semplice da implementare ed evita l'esposizione pubblica del server NDES. In questo articolo prenderemo in considerazione la distribuzione dei certificati PKCS.
+- **PKCS**: l'ICC installato on-premises gestisce la richiesta dei certificati alla CA e non è necessario che i dispositivi abbiano visibilità diretta con quest'ultima. La chiave privata è generata e protetta sul dispositivo, senza essere esportabile.  
+- **SCEP/NDES**: necessità di**Network Device Enrollment Service (NDES)** e di ICC per distribuire i certificati con visibilità diretta tra i dispositivi e il server NDES. Ideale per scenari di distribuzione di massa, ma meno sicuro rispetto a PKCS, poiché richiede una connessione diretta alla CA.
 
-## Scenario di implementazione
+PKCS risulta più semplice da implementare:
+- non espone servizi all'esterno e riduce la superficie di attacco
+- non necessita di servizi aggiuntivi da installare sui server
+
+Per questi motivi prenderemo in considerazione questo scenario di utilizzo.
+
+## PKCS
+La richiesta di la distribuzione dei certificati avviene in pochi e semplici passaggi:
 
 ![](/assets/2024-10-26/image16.png)
 
@@ -30,7 +37,8 @@ Questa differenziazione rende PKCS più semplice da implementare ed evita l'espo
 ### Creazione Account di servizio
 
 ICC necessita di un **account di servizio** che verrà usato per la generazione dei certificati e l’invio alla CA per la firma.   
-Purtroppo ICC non supporta i managed service account ed è quindi necessaria la creazione di un’utenza dedicata *non privilegiata* con password complessa. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service)** sul server su cui è installato ICC.   
+Purtroppo ICC non supporta i *managed service account* ed è quindi necessaria la creazione di un’utenza dedicata *non privilegiata* ma con password complessa. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service**) sul server su cui è installato ICC.
+
 ![](/assets/2024-10-26/image21.png)
 
 ![](/assets/2024-10-26/image25.png)
