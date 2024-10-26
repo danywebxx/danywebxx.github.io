@@ -169,7 +169,7 @@ Le variabili corrette che potrai usare nella creazione dei certificati le puoi t
 ![](/assets/2024-10-26/image10.png)
 
 ## Bibliografia
-- [](https://learn.microsoft.com/it-it/mem/intune/protect/certificates-scep-configure?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#set-up-ndes)  
+
 - [Installazione NDES](https://learn.microsoft.com/it-it/mem/intune/protect/certificates-scep-configure?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#set-up-ndes)  
 - [Creazione account di servizio NDES](https://learn.microsoft.com/it-it/windows-server/identity/ad-cs/create-domain-user-account-ndes-service-account)  
 - [Installare connettore intune](https://learn.microsoft.com/it-it/mem/intune/protect/certificate-connector-install)  
