@@ -31,94 +31,89 @@ Questa differenziazione rende PKCS più semplice da implementare ed evita l'espo
 
 ICC necessita di un **account di servizio** che verrà usato per la generazione dei certificati e l’invio alla CA per la firma.   
 Purtroppo ICC non supporta i managed service account ed è quindi necessaria la creazione di un’utenza dedicata *non privilegiata* con password complessa. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service)** sul server su cui è installato ICC.   
-![][image2]  
-![][image3]
+![](/assets/2024-10-26/image21.png)
+
+![](/assets/2024-10-26/image25.png)
 
 ### Installazione agent ICC
 
-Da **portale di Intune** spostati in **Tenant Admin** \> **Connectors and tokens** \> **Certificate connectors**  
+Da **portale di Intune** spostati in **Tenant Admin** > **Connectors and tokens** > **Certificate connectors**  
 Premi **add** per scaricare il connettore che dovrai installare sul server che funge da proxy.  
-   
-![Immagine che contiene testo, schermata, software, Icona del computerDescrizione generata automaticamente][image4]  
-![Immagine che contiene testo, schermata, CarattereDescrizione generata automaticamente][image5]  
+
+![](/assets/2024-10-26/image11.png)
+
+![](/assets/2024-10-26/image27.png)
+
 Con privilegi amministrativi installa ora ICC
 
-![Immagine che contiene testo, elettronica, schermata, CarattereDescrizione generata automaticamente][image6]
+![](/assets/2024-10-26/image29.png)
 
 Al termine dell’installazione, premendo **Configura ora** comincerà la configurazione del proxy.  
-![][image7]
+
+![](/assets/2024-10-26/image17.png)
 
 La feature importante che dovrai essere certo di aver selezionato tra quelle proposte è **PKCS** 
 
-   
-   
-![][image8]
+![](/assets/2024-10-26/image24.png)
 
 Inserisci ora i dati dell’utenza di servizio creata in precedenza.  
-   
-![][image9]
+
+![](/assets/2024-10-26/image15.png)
 
 Assicurati che tutti i requisiti siano soddisfatti.  
-   
-   
-![Immagine che contiene testo, schermata, software, computerDescrizione generata automaticamente][image10]
+
+![](/assets/2024-10-26/image9.png)
 
 Inserisci ora l’utenza necessaria alla registrazione del connettore al portale di Intune  
-   
-![Immagine che contiene testo, schermata, software, schermoDescrizione generata automaticamente][image11]
 
-   
-   
-![][image12]
+![](/assets/2024-10-26/image5.png)
+
+![](/assets/2024-10-26/image19.png)
 
 Se tutto sarà andato nel modo corretto troverai il connettore registrato nel portale.
 
-   
-![][image13]
+![](/assets/2024-10-26/image18.png)
 
 ## Creazione dei template per i certificati
 
 La parte complicata e più delicata di tutto il percorso è la creazione dei template dei certificati. Questi dovranno riportare le informazioni che sono necessarie alla tua organizzazione.  
- 
 
 ### Modello Utente
 
 All’interno della CA, parti duplicando il modello di template **User**
+  
+![](/assets/2024-10-26/image14.png)
 
-   
-![Immagine che contiene testo, schermata, numero, softwareDescrizione generata automaticamente][image14]  
-   
 Importante che il nome che darai al template non riporti spazi. Ho letto in diverse guide che l’utilizzo di spazi nei nomi dei template causa problemi.  
-![][image15]
+![](/assets/2024-10-26/image6.png)
 
 Nella sezione **Subject Name** seleziona **Supply in the request**. Sarà Intune stessa a fornire i dati necessari alla compilazione del certificato.  
-![Immagine che contiene testo, elettronica, schermata, schermoDescrizione generata automaticamente][image16]
+![](/assets/2024-10-26/image20.png)
 
-**IMPORTANTE:** rendi la chiave privata esportabile. Questa sarà esportabile solo per ICC e non per il dispositivo o l’utente che riceverà il certificato finale.  
-   
-![Immagine che contiene testo, schermata, Carattere, numeroDescrizione generata automaticamente][image17]
+**IMPORTANTE:** rendi la chiave privata esportabile. Questa sarà esportabile solo per ICC e non per il dispositivo o l’utente che riceverà il certificato finale.{: .prompt-danger }
+
+![](/assets/2024-10-26/image31.png)
 
 Assegna all’account di servizio i giusti permessi sul template. Bastano quelli di **Read** ed **Enroll**  
-   
-![Immagine che contiene testo, schermata, schermo, numeroDescrizione generata automaticamente][image18]  
- 
+
+![](/assets/2024-10-26/image7.png)
 
 ### Certificato Computer
 
 Vale la stessa procedura del paragrafo precedente. Unica differenza dovrai clonare il template **computer**  
-   
-![Immagine che contiene testo, schermata, numero, softwareDescrizione generata automaticamente][image19]  
-   
-![][image20]  
-   
-![Immagine che contiene testo, schermata, Carattere, numeroDescrizione generata automaticamente][image21]  
-   
-![Immagine che contiene testo, schermata, schermo, softwareDescrizione generata automaticamente][image22]  
-   
-![Immagine che contiene testo, elettronica, schermata, schermoDescrizione generata automaticamente][image16]
+
+![](/assets/2024-10-26/image1.png)
+
+![](/assets/2024-10-26/image2.png)
+
+![](/assets/2024-10-26/image26.png)
+
+![](/assets/2024-10-26/image22.png)
+ 
+![](/assets/2024-10-26/image20.png)
 
 Rendi attivi ora i template creati in precedenza.  
-![Immagine che contiene testo, schermata, Carattere, softwareDescrizione generata automaticamente][image23]
+![](/assets/2024-10-26/image12.png)
 
 ## Creazione delle policy in Intune
 
@@ -127,17 +122,19 @@ Rendi attivi ora i template creati in precedenza.
 La prima policy da creare è la distribuzione della **Trusted Root** e fare in modo che i client la considerino affidagile.  
 Per prima cosa esporta il certificato root dalla CA: 
 
-``` prompt
+```prompt
 certutil -ca.cert ca_name.cer
 ```
 
- Salva il certificato esportato e usalo per la creazione della prima policy.  
-![Immagine che contiene testo, schermata, software, Pagina WebDescrizione generata automaticamente][image24]  
- Importa la Trusted Root e seleziona come archivio di destinazione **“Computer certificate store \- Root”**  
-   
-![Immagine che contiene testo, software, Carattere, Pagina WebDescrizione generata automaticamente][image25]  
-Assegna poi la policy ad utenti o dispositivi.  
- 
+Salva il certificato esportato e usalo per la creazione della prima policy.  
+
+![](/assets/2024-10-26/image30.png)
+
+Importa la Trusted Root e seleziona come archivio di destinazione **“Computer certificate store \- Root”**  
+
+![](/assets/2024-10-26/image3.png)  
+
+Assegna poi la policy ad utenti o dispositivi.
 
 ### PKCS certificate
 
@@ -145,43 +142,38 @@ Distribuzione ora i tuoi certificati ad utenti e dispositivi.
 
 Sempre nella CA con il comando   
 
-``` prompt
-certutil -config -- ping
+```prompt
+certutil -config --ping
 ```
 
 esporta i dati che ti serviranno nella creazione della policy 
-
 - FQDN  
 - Nome della CA
 
-   
-![Immagine che contiene testo, schermata, CarattereDescrizione generata automaticamente][image26]
+![](/assets/2024-10-26/image28.png)
 
 Le variabili corrette che potrai usare nella creazione dei certificati le puoi trovare qui: [https://learn.microsoft.com/en-us/mem/intune/protect/certificates-profile-scep](https://learn.microsoft.com/en-us/mem/intune/protect/certificates-profile-scep) 
 
 ### Richiesta certificato computer
 
-   
-   
-![Immagine che contiene testo, schermata, Carattere, numeroDescrizione generata automaticamente][image27]  
-   
-![Immagine che contiene testo, schermata, Carattere, numeroDescrizione generata automaticamente][image28]  
-   
-![Immagine che contiene testo, schermata, numero, CarattereDescrizione generata automaticamente][image29]  
-   
-![Immagine che contiene testo, Carattere, numero, schermataDescrizione generata automaticamente][image30]  
- 
+![](/assets/2024-10-26/image8.png)
+
+![](/assets/2024-10-26/image23.png)
+
+![](/assets/2024-10-26/image4.png)
+
+![](/assets/2024-10-26/image13.png)
 
 ### Richiesta certificato utente
-   
-![Immagine che contiene testo, schermata, numero, CarattereDescrizione generata automaticamente][image31]
+  
+![](/assets/2024-10-26/image10.png)
 
 ## Bibliografia
-    • https://learn.microsoft.com/it-it/mem/intune/protect/certificates-scep-configure?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#set-up-ndes
-    • Installazione NDES - https://learn.microsoft.com/it-it/mem/intune/protect/certificates-scep-configure?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#set-up-ndes
-    • Creazione account di servizio NDES - https://learn.microsoft.com/it-it/windows-server/identity/ad-cs/create-domain-user-account-ndes-service-account
-    • Installare connettore intune https://learn.microsoft.com/it-it/mem/intune/protect/certificate-connector-install
-    • Hardening per account dedicato ad Intune: https://directaccess.richardhicks.com/2023/01/30/intune-certificate-connector-service-account-and-pkcs/
-    • Creazione del trusted root certificate profile https://learn.microsoft.com/en-us/mem/intune/protect/certificates-trusted-root
-    • Esportare il certificato root https://learn.microsoft.com/it-it/troubleshoot/windows-server/certificates-and-public-key-infrastructure-pki/export-root-certification-authority-certificate
-    • Lista delle variabili https://learn.microsoft.com/en-us/mem/intune/protect/certificates-profile-scep
+- [](https://learn.microsoft.com/it-it/mem/intune/protect/certificates-scep-configure?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#set-up-ndes)  
+- [Installazione NDES](https://learn.microsoft.com/it-it/mem/intune/protect/certificates-scep-configure?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#set-up-ndes)  
+- [Creazione account di servizio NDES](https://learn.microsoft.com/it-it/windows-server/identity/ad-cs/create-domain-user-account-ndes-service-account)  
+- [Installare connettore intune](https://learn.microsoft.com/it-it/mem/intune/protect/certificate-connector-install)  
+- [Hardening per account dedicato ad Intune](https://directaccess.richardhicks.com/2023/01/30/intune-certificate-connector-service-account-and-pkcs/)  
+- [Creazione del trusted root certificate profile](https://learn.microsoft.com/en-us/mem/intune/protect/certificates-trusted-root)  
+- [Esportare il certificato root](https://learn.microsoft.com/it-it/troubleshoot/windows-server/certificates-and-public-key-infrastructure-pki/export-root-certification-authority-certificate)  
+- [Lista delle variabili](https://learn.microsoft.com/en-us/mem/intune/protect/certificates-profile-scep)
