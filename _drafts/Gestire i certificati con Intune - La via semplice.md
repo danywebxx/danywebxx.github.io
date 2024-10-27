@@ -8,7 +8,7 @@ image:
      path: 
 ---
 
-La verifica delle identità aziendali per l'accesso VPN o Wi-Fi basata su certificati digitali è considerata sicura da utilizzare con una **Certificate Authority (CA)** che le valida e garantisce la catena di fiducia. Grazie a  **Microsoft Intune** è possibile distribuire i certificati digitali gestiti dalla (CA) on-premises integrata in Active Directory anche su dispositivi remoti non connessi alla rete aziendale. 
+La verifica delle identità aziendali per l'accesso VPN o Wi-Fi basata su certificati digitali è considerata sicura da utilizzare con una **Certificate Authority (CA)** che garantisce la catena di fiducia. Grazie a **Microsoft Intune** è possibile distribuire i certificati digitali gestiti dalla (CA) on-premises, integrata in Active Directory, anche su dispositivi remoti non connessi alla rete aziendale. 
 
 Intune per la gestione di questi certificati utilizza un connettore **Intune Certificate Connector (ICC)** installato su Windows Server nella rete interna e permette diversi scenari di utilizzo:
 
@@ -36,23 +36,25 @@ La richiesta e la distribuzione dei certificati avviene in pochi e semplici pass
 
 ### Creazione Account di servizio
 
-ICC necessita per funzionare di un **account di servizio** che verrà usato per la generazione dei certificati e l’invio alla CA per la firma.   
-Purtroppo ad oggi ICC non supporta i *managed service account* ed è quindi necessaria la creazione di un’utenza dedicata *non privilegiata* ma con password complessa. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service**) sul server su cui è installato ICC.
+ICC ha bisogno per funzionare di un **account di servizio**. Questo account verrà usato da ICC per la generazione della richiesta di certificati e l’invio alla CA.   
+Purtroppo ad oggi ICC non supporta i *managed service account* ed è quindi necessario che crei un’utenza dedicata *non privilegiata* ma con *password complessa*. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service**) sul server su cui installerai ICC.
 
 ![](/assets/2024-10-26/image21.png)
 
+Semplici permessi da **Domain Users**
+
 ![](/assets/2024-10-26/image25.png)
 
-### Installazione agent ICC
+### Installazione agente ICC
 
-Da **portale di Intune** spostati in **Tenant Admin** > **Connectors and tokens** > **Certificate connectors**  
+Dal **Portale di Intune** spostati in **Tenant Admin** > **Connectors and tokens** > **Certificate connectors**  
 Premi **add** per scaricare il setup di ICC che dovrai installare sul server.  
 
 ![](/assets/2024-10-26/image11.png)
 
 ![](/assets/2024-10-26/image27.png)
 
-Con privilegi amministrativi installa ICC
+Installa ICC con privilegi amministrativi
 
 ![](/assets/2024-10-26/image29.png)
 
