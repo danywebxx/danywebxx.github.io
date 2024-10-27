@@ -41,20 +41,20 @@ Purtroppo ad oggi ICC non supporta i *managed service account* ed è quindi nece
 
 ![](/assets/2024-10-26/image21.png)
 
-Semplici permessi da **Domain Users**
+Assegnagli semplici permessi da **Domain Users**
 
 ![](/assets/2024-10-26/image25.png)
 
 ### Installazione agente ICC
 
 Dal **Portale di Intune** spostati in **Tenant Admin** > **Connectors and tokens** > **Certificate connectors**  
-Premi **add** per scaricare il setup di ICC che dovrai installare sul server.  
+e premi **add** per scaricare il setup di ICC che dovrai installare.  
 
 ![](/assets/2024-10-26/image11.png)
 
 ![](/assets/2024-10-26/image27.png)
 
-Installa ICC con privilegi amministrativi
+Esegui l'installazione di ICC con privilegi amministrativi
 
 ![](/assets/2024-10-26/image29.png)
 
@@ -66,7 +66,7 @@ Seleziona tra le opzioni disponibili **PKCS**
 
 ![](/assets/2024-10-26/image24.png)
 
-Inserisci ora i dati dell’utenza di servizio che ti ho menzionato precedentemente e che ti invito a creare se non lo avessi ancora fatto.  
+Inserisci i dati dell’utenza di servizio di cui abbiamo parlato prima. 
 
 ![](/assets/2024-10-26/image15.png)
 
@@ -74,43 +74,45 @@ Assicurati che tutti i requisiti siano soddisfatti.
 
 ![](/assets/2024-10-26/image9.png)
 
-Inserisci l’utenza M365 necessaria alla registrazione del connettore nel portale di Intune  
+Utilizza un'utenza M365 necessaria alla registrazione del connettore nel portale di Intune    Questa dovrà avere i giusti privilegi: usa un *Global Admin* o un *Intune administrator*.
 
 ![](/assets/2024-10-26/image5.png)
 
 ![](/assets/2024-10-26/image19.png)
 
-Se tutto sarà andato nel modo corretto troverai il connettore registrato nel portale.
+Assicurati di visualizzare il connettore ICC registrato nel portale.
 
 ![](/assets/2024-10-26/image18.png)
 
 ## Creazione dei template per i certificati
 
-La parte complicata e più delicata di tutto il percorso è la creazione dei template dei certificati. Questi dovranno riportare le informazioni che sono necessarie alla tua organizzazione.  
+La parte complicata e più delicata di tutto il percorso è la creazione dei template dei certificati. Questi dovranno riportare le informazioni che sono necessarie per validare le utenze alla tua organizzazione.  
 
 ### Modello Utente
 
-All’interno della CA, parti duplicando il modello di template **User**
+All’interno della CA, inizia duplicando il modello di template **User**
   
 ![](/assets/2024-10-26/image14.png)
 
-Importante che il nome che darai al template non riporti spazi. Ho letto in diverse guide che l’utilizzo di spazi nei nomi dei template causa problemi.  
+Assicurati di non inserire spazi nel nome che darai al template. Ho letto in diverse guide che l’utilizzo di spazi nei nomi dei template causa problemi.
+
 ![](/assets/2024-10-26/image6.png)
 
-Nella sezione **Subject Name** seleziona **Supply in the request**. Sarà Intune stessa a fornire i dati necessari alla compilazione del certificato.  
+Nella sezione **Subject Name** seleziona **Supply in the request**. Sarà Intune stessa a fornire i dati necessari alla compilazione del certificato prendendoli da una serie di variabili.
+
 ![](/assets/2024-10-26/image20.png)
 
 **IMPORTANTE:** rendi la chiave privata esportabile. Questa sarà esportabile solo per ICC e non per il dispositivo o l’utente che riceverà il certificato finale.{: .prompt-danger }
 
 ![](/assets/2024-10-26/image31.png)
 
-Assegna all’account di servizio i giusti permessi sul template. Bastano quelli di **Read** ed **Enroll**  
+Assegna all’account di servizio utilizzato durante l'installazione di ICC i giusti permessi sul template. Bastano quelli di **Read** ed **Enroll**  
 
 ![](/assets/2024-10-26/image7.png)
 
 ### Certificato Computer
 
-Vale la stessa procedura del paragrafo precedente. Unica differenza dovrai clonare il template **computer**  
+Vale la stessa procedura del paragrafo precedente con l'unica differenza che dovrai duplicare il template **computer**  
 
 ![](/assets/2024-10-26/image1.png)
 
@@ -122,7 +124,8 @@ Vale la stessa procedura del paragrafo precedente. Unica differenza dovrai clona
  
 ![](/assets/2024-10-26/image20.png)
 
-Rendi attivi ora i template creati in precedenza.  
+Rendi disponibili sulla CA i template appena creati.
+
 ![](/assets/2024-10-26/image12.png)
 
 ## Creazione delle policy in Intune
