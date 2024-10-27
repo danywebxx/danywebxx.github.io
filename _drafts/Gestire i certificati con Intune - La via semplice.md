@@ -8,9 +8,9 @@ image:
      path: 
 ---
 
-La verifica delle identità aziendali basata su certificati digitali è considerata sicura e semplice da utilizzare in molte organizzazioni; una **Certificate Authority (CA)** valida le identità digitali e garantisce la catena di fiducia. Con **Microsoft Intune** è possibile distribuire i certificati digitali gestiti dalla (CA) on-premises integrata in Active Directory anche su dispositivi remoti non connessi alla rete aziendale. 
+La verifica delle identità aziendali per l'accesso VPN o Wi-Fi basata su certificati digitali è considerata sicura da utilizzare con una **Certificate Authority (CA)** che le valida e garantisce la catena di fiducia. Grazie a  **Microsoft Intune** è possibile distribuire i certificati digitali gestiti dalla (CA) on-premises integrata in Active Directory anche su dispositivi remoti non connessi alla rete aziendale. 
 
-Per la gestione dei certificati Intune utilizza un connettore **Intune Certificate Connector (ICC)** installato su Windows Server nella rete interna e permette diversi scenari di utilizzo:
+Intune per la gestione di questi certificati utilizza un connettore **Intune Certificate Connector (ICC)** installato su Windows Server nella rete interna e permette diversi scenari di utilizzo:
 
 - **PKCS**: l'ICC installato on-premises gestisce la richiesta dei certificati alla CA e non è necessario che i dispositivi abbiano visibilità diretta con quest'ultima. La chiave privata è generata e protetta sul dispositivo, senza essere esportabile.  
 - **SCEP/NDES**: necessità di**Network Device Enrollment Service (NDES)** e di ICC per distribuire i certificati con visibilità diretta tra i dispositivi e il server NDES. Ideale per scenari di distribuzione di massa, ma meno sicuro rispetto a PKCS, poiché richiede una connessione diretta alla CA.
@@ -19,10 +19,10 @@ PKCS risulta più semplice da implementare:
 - non espone servizi all'esterno e riduce la superficie di attacco
 - non necessita di servizi aggiuntivi da installare sui server
 
-Per questi motivi prenderemo in considerazione questo scenario di utilizzo.
+Per questi motivi in questo laboratorio utilizzerò questo scenario di utilizzo.
 
 ## PKCS
-La richiesta di la distribuzione dei certificati avviene in pochi e semplici passaggi:
+La richiesta e la distribuzione dei certificati avviene in pochi e semplici passaggi:
 
 ![](/assets/2024-10-26/image16.png)
 
@@ -36,8 +36,8 @@ La richiesta di la distribuzione dei certificati avviene in pochi e semplici pas
 
 ### Creazione Account di servizio
 
-ICC necessita di un **account di servizio** che verrà usato per la generazione dei certificati e l’invio alla CA per la firma.   
-Purtroppo ICC non supporta i *managed service account* ed è quindi necessaria la creazione di un’utenza dedicata *non privilegiata* ma con password complessa. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service**) sul server su cui è installato ICC.
+ICC necessita per funzionare di un **account di servizio** che verrà usato per la generazione dei certificati e l’invio alla CA per la firma.   
+Purtroppo ad oggi ICC non supporta i *managed service account* ed è quindi necessaria la creazione di un’utenza dedicata *non privilegiata* ma con password complessa. Questa utenza dovrà avere la possibilità di autenticarsi come servizio (**logon as a service**) sul server su cui è installato ICC.
 
 ![](/assets/2024-10-26/image21.png)
 
@@ -46,25 +46,25 @@ Purtroppo ICC non supporta i *managed service account* ed è quindi necessaria l
 ### Installazione agent ICC
 
 Da **portale di Intune** spostati in **Tenant Admin** > **Connectors and tokens** > **Certificate connectors**  
-Premi **add** per scaricare il connettore che dovrai installare sul server che funge da proxy.  
+Premi **add** per scaricare il setup di ICC che dovrai installare sul server.  
 
 ![](/assets/2024-10-26/image11.png)
 
 ![](/assets/2024-10-26/image27.png)
 
-Con privilegi amministrativi installa ora ICC
+Con privilegi amministrativi installa ICC
 
 ![](/assets/2024-10-26/image29.png)
 
-Al termine dell’installazione, premendo **Configura ora** comincerà la configurazione del proxy.  
+Al termine dell’installazione, premi **Configura ora** per iniziare la configurazione id ICC.  
 
 ![](/assets/2024-10-26/image17.png)
 
-La feature importante che dovrai essere certo di aver selezionato tra quelle proposte è **PKCS** 
+Seleziona tra le opzioni disponibili **PKCS** 
 
 ![](/assets/2024-10-26/image24.png)
 
-Inserisci ora i dati dell’utenza di servizio creata in precedenza.  
+Inserisci ora i dati dell’utenza di servizio che ti ho menzionato precedentemente e che ti invito a creare se non lo avessi ancora fatto.  
 
 ![](/assets/2024-10-26/image15.png)
 
@@ -72,7 +72,7 @@ Assicurati che tutti i requisiti siano soddisfatti.
 
 ![](/assets/2024-10-26/image9.png)
 
-Inserisci ora l’utenza necessaria alla registrazione del connettore al portale di Intune  
+Inserisci l’utenza M365 necessaria alla registrazione del connettore nel portale di Intune  
 
 ![](/assets/2024-10-26/image5.png)
 
