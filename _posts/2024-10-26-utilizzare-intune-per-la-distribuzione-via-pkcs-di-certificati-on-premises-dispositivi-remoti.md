@@ -5,7 +5,7 @@ categories: [blogging, tutorial]
 tags: [m365, intune]
 description: L'articolo esplora come distribuire certificati digitali gestiti da una Certification Authority (CA) on-premises per l'autenticazione VPN o Wi-Fi, anche su dispositivi remoti, grazie a Microsoft Intune.
 image:
-     path: /assets/2024-10-26/image00.png)
+     path: /assets/2024-10-26/image00.png
 ---
 
 La verifica delle identità aziendali per l'accesso VPN o Wi-Fi basata su certificati digitali è considerata sicura da utilizzare con una **Certificate Authority (CA)** che garantisce la catena di fiducia. Grazie a **Microsoft Intune** è possibile distribuire i certificati digitali gestiti dalla (CA) on-premises, integrata in Active Directory, anche su dispositivi remoti non connessi alla rete aziendale. 
