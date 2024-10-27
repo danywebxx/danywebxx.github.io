@@ -177,7 +177,7 @@ Crea una profilo per dispositivi **Windows 10 and later** > **Templates** > **PK
 ![](/assets/2024-10-26/image23.png)
 
 Configura i valori che ritieni corretti per la tua organizzazione per la durata e tempo il periodo di rinnovo; nello spazio **Certification authority** inserisci il nome FQDN della CA e in **Certification authority name** il nome dato alla CA stessa. Entrambi i parametri li hai visualizzati e copiati precedentemente con il comando cli.
-E' importante che per **Certificate template name** inserisci lo stesso nome che hai dato ai template creati precedentemente. Seletiona come tipo di certificato **Device**.
+E' importante che per **Certificate template name** inserisci lo stesso nome che hai dato ai template creati precedentemente. Seleziona come tipo di certificato **Device**.
 
 ![](/assets/2024-10-26/image4.png)
 
