@@ -74,7 +74,7 @@ Assicurati che tutti i requisiti siano soddisfatti.
 
 ![](/assets/2024-10-26/image9.png)
 
-Utilizza un'utenza M365 necessaria alla registrazione del connettore nel portale di Intune    Questa dovrà avere i giusti privilegi: usa un *Global Admin* o un *Intune administrator*.
+Autenticati sul portale M365 utilizzando un utente con i privilegi adatti alla registrazione del connettore nel portale di Intune. Usa un *Global Admin* o un *Intune administrator*.
 
 ![](/assets/2024-10-26/image5.png)
 
