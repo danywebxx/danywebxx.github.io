@@ -103,7 +103,7 @@ Nella sezione **Subject Name** seleziona **Supply in the request**. Sarà Intune
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
->**IMPORTANTE:** rendi la chiave privata esportabile. Se hai dubbi sulla sicurezza sappi che lo sarà soloper ICC e non per il dispositivo o l’utente che riceverà il certificato finale.
+>**IMPORTANTE:** rendi la chiave privata esportabile. Se hai dubbi sulla sicurezza sappi che lo sarà solo per ICC e non per il dispositivo o l’utente che riceverà il certificato finale.
 {: .prompt-danger }
 <!-- markdownlint-restore -->
 
