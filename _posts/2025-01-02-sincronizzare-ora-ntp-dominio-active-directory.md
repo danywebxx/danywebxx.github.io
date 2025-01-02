@@ -1,5 +1,5 @@
 ---
-title: Step-by-Step - Sincronizzare correttamente l'ora in un dominio Active Directory
+title: Come sincronizzare correttamente l'ora in Active Directory utilizzando il PDC Emulator
 date: 2025-01-02
 categories: [blogging, tutorial]
 tags: [microsoft, ntp]
