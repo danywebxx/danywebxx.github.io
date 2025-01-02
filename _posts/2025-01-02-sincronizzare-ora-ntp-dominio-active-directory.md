@@ -3,9 +3,6 @@ title: prova
 date: 2025-01-02
 categories: [blogging, tutorial]
 tags: [microsoft]
-description: 
-image:
-     path: 
 ---
 
 Quando l'orologio fa tictac, la rete aziendale (network) non può restare indietro sopratutto quando alle 18:00 vuoi uscire dall'ufficio per tornare a casa a rilassarti. La sincronizzazione accurata dell'ora all'interno di un dominio **Active Directory** (AD) è fondamentale per garantire la coerenza tra i sistemi, facilitare la risoluzione dei problemi e mantenere alto il livello di sicurezza. 
