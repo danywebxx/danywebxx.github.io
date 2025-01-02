@@ -1,5 +1,5 @@
 ---
-title: Step by Step - Sincronizzare correttamente l'ora in un dominio Active Directory
+title: Step by Step - Sincronizzare correttamente ora in un dominio Active Directory
 date: 2025-01-02
 categories: [blogging, tutorial]
 tags: [microsoft, ntp]
