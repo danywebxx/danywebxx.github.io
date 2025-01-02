@@ -96,4 +96,8 @@ _Sincronizzazione dell'ora in Hyper-V_
 
 ## Conclusioni
 
-Grazie a questa configurazione garantirai che il PDC emulator sincronizzi la sua ora con con fonti esterne affidabili; tutti gli altri dispositivi nel dominio seguiranno la gerarchia interna per la sincronizzazione dell'ora. Controlla periodicamente che l'ora della tua network sia allineata con i provider NTP pubblici. 
+Grazie a questa configurazione garantirai che il PDC emulator sincronizzi la sua ora con con fonti esterne affidabili; tutti gli altri dispositivi nel dominio seguiranno la gerarchia interna per la sincronizzazione dell'ora. Controlla periodicamente che l'ora della tua network sia allineata con i provider NTP pubblici.
+
+## Bibliografia
+
+- [Supporto DELL](https://www.dell.com/support/kbdoc/it-it/000215683/come-configurare-il-servizio-ora-di-windows-sull-emulatore-pdc-nella-policy-di-gruppo)
