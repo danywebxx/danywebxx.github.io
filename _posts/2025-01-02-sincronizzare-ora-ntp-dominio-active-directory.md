@@ -1,11 +1,11 @@
 ---
-title: Step by Step - Sincronizzare correttamente ora in un dominio Active Directory
-date: 2025-01-02
+title: Utilizzare Intune per la distribuzione via PKCS di certificati on-premises su dispositivi remoti
+date: 2024-10-26
 categories: [blogging, tutorial]
-tags: [microsoft, ntp]
-description: L'articolo esplora l'importanza della sincronizzazione accurata dell'ora in una rete aziendale e guida il lettore nella configurazione del servizio NTP sull'emulatore Primary Domain Controller (PDC emulator) in un dominio Active Directory.
+tags: [m365, intune]
+description: L'articolo esplora come distribuire certificati digitali gestiti da una Certification Authority (CA) on-premises per l'autenticazione VPN o Wi-Fi, anche su dispositivi remoti, grazie a Microsoft Intune.
 image:
-    path: /assets/2025-01-02/image8.png
+     path: /assets/2024-10-26/image00.png
 ---
 
 Quando l'orologio fa tictac, la rete aziendale (network) non può restare indietro sopratutto quando alle 18:00 vuoi uscire dall'ufficio per tornare a casa a rilassarti. La sincronizzazione accurata dell'ora all'interno di un dominio **Active Directory** (AD) è fondamentale per garantire la coerenza tra i sistemi, facilitare la risoluzione dei problemi e mantenere alto il livello di sicurezza. 
