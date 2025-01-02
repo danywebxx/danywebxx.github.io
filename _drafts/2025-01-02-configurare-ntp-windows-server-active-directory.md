@@ -10,51 +10,45 @@ image:
 Quando l'orologio fa tictac, la rete aziendale (network) non può restare indietro sopratutto quando arrivano le 18:00 e vuoi uscire dall'ufficio per tornare a casa a rilassarti. La sincronizzazione accurata dell'ora all'interno della network è fondamentale per garantire la coerenza tra i sistemi, facilitare la risoluzione dei problemi e mantenere alto il livello di sicurezza. 
 In un dominio basato su Microsoft Active Directory, il controller di dominio che detiene il ruolo di emulatore Primary Domain Controller (PDC emulator) serve come riferimento autorevole per l'ora per i client del dominio. È quindi essenziale configurare correttamente il servizio Network Time Protocol (NTP) su questo server per sincronizzarsi con un'origine esterna affidabile.
 
-**Configurare NTP server su PDC emulator:**
+## Configurare NTP server su PDC emulator:
 
-1. ***Creare un Filtro WMI per Identificare l'Emulatore PDC:***
+### Creare un Filtro WMI per Identificare l'Emulatore PDC:
 
-- Aprire "Group Policy Management" su un controller di dominio.
-- Nel riquadro sinistro, fare clic con il tasto destro su "WMI Filters" e selezionare "New...".
-- Assegnare un nome al filtro, ad esempio "PDC Role".
-- Fare clic su "Aggiungi" e assicurarsi che "root\CIMv2" sia specificato come Namespace.
-- Nel campo "Query", inserire:
+- Apri "Group Policy Management" su un controller di dominio.
+- Nel riquadro sinistro, premi con il tasto destro su "WMI Filters" e selezionare "New...".
+- Assegna un nome al filtro, ad esempio "PDC Role".
+- Fai clic su "Aggiungi" e assicurarti che "root\CIMv2" sia specificato come Namespace.
+- Nel campo "Query", inserisci:
 
 ```sql
 SELECT * FROM Win32_ComputerSystem WHERE DomainRole = 5
 ```
 	 
-- Fare clic su "OK" e poi su "Salva" per creare il filtro.
+- Premi su "OK" e poi su "Salva" per creare il filtro.
 
 ![Creazione filtro WMI](/assets/2025-01-02/image01.png) 
 
-2. ***Creare una GPO per la configurazione NTP**
+### Creare una GPO per la configurazione NTP:
 
-- In "Group Policy Management", fare clic con il tasto destro su "Group Policy Object" e selezionare "New".
-- Assegnare un nome al GPO, ad esempio "NTP Settings - Domain Controller PDC".
-- Fare clic con il tasto destro sul nuovo GPO e selezionare "Edit...".
-- spostarsi alle policies:
+- In "Group Policy Management", fai clic con il tasto destro su "Group Policy Object" e seleziona "New".
+- Assegna un nome alla GPO, ad esempio "NTP Settings - Domain Controller PDC".
+- Fai clic con il tasto destro sulla nuova GPO e seleziona "Edit...".
+- Spostati alle policies:
 
 ```
 Computer Configuration > Policies > Administrative Templates > System > Windows Time Service > Time Providers
 ```
-
-- Modificare le Policy: *Configure Windows NTP Client* ed *Enable Windows NTP Server* con i parametri che trovate nell'immagine sottostante o sostituenmdoli con il server NTP che preferite:
+- Modifica le voci: **Configure Windows NTP Client** ed **Enable Windows NTP Server** con i parametri che trovi nell'immagine sottostante o sostituendoli con il server NTP che preferisci:
 
 ![Policy NTP Server](/assets/2025-01-02/image02.png) 
 
-- Assegnate come ultimo il filtro WMI creato al punto (1) alla GPO.
+- Assegna il filtro WMI creato al punto precedente alla GPO.
 
 ![Applicazione filtro WMI](/assets/2025-01-02/image03.png) 
 
+- Seleziona l'unità organizzativa (OU) che contiene i domain controller e collega la policy appena creata.
 
-3. ***Collegare il GPO all'Unità Organizzativa (OU) Appropriata:***
-
-- In "Gestione Criteri di Gruppo", fare clic con il tasto destro sull'OU che contiene i controller di dominio e selezionare "Collega un GPO esistente".
-- Selezionare il GPO creato in precedenza e fare clic su "OK".
-- Associare il filtro WMI creato al GPO per garantire che le impostazioni si applichino solo all'emulatore PDC.
-
-4. ***Forzare l'Aggiornamento dei Criteri di Gruppo:***
+### Forzare l'Aggiornamento dei Criteri di Gruppo:
 
 - Aprire un prompt dei comandi con privilegi elevati sull'emulatore PDC e digitare:
 
@@ -69,7 +63,7 @@ net stop w32time
 net start w32time
 ```
 
-5. ***Verificare la Configurazione:***
+### Verificare la Configurazione:
 
 - Per controllare lo stato del servizio Ora di Windows, eseguire:
 
