@@ -12,7 +12,7 @@ Quando l'orologio fa tictac, la rete aziendale (network) non può restare indiet
  
 In un dominio AD, il controller di dominio che detiene il ruolo di emulatore Primary Domain Controller (**PDC emulator**) viene utilizzato come come riferimento autorevole per l'ora dai client del dominio; è quindi essenziale configurare correttamente il servizio Network Time Protocol (**NTP**) su questo server affinchè possa  sincronizzarsi con un'origine esterna affidabile.
 
-## Configurare NTP server su PDC emulator:
+## Configurare NTP server su PDC emulator
 
 ### Creare un Filtro WMI per Identificare l'Emulatore PDC:
 
@@ -87,7 +87,7 @@ w32tm /query /peers
 ```
 ![Applicazione filtro WMI](/assets/2025-01-02/image06.png)
 
-## Gestione di Virtual Machines:
+## Gestione di Virtual Machines
 
 Se sei abituato a lavorare con **Virtual Machines** (VM) e hai configurato la GPO di questo articolo potresti riscontrare problemi di aggiormaneto se lasci che la macchina guest sincronizzi l'ora con l'host. Evita questo conflitto e disattiva la sincronizzazione dell'ora sull'hyper-visor.
 
