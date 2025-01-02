@@ -5,8 +5,9 @@ categories: [blogging, tutorial]
 tags: [microsoft, ntp]
 description: L'articolo esplora l'importanza della sincronizzazione accurata dell'ora in una rete aziendale e guida il lettore nella configurazione del servizio NTP sull'emulatore Primary Domain Controller (PDC emulator) in un dominio Active Directory.
 image:
-     path: /assets/2025-01-02/image7.png
+    path: /assets/2025-01-02/image7.png
 ---
+
 Quando l'orologio fa tictac, la rete aziendale (network) non può restare indietro sopratutto quando alle 18:00 vuoi uscire dall'ufficio per tornare a casa a rilassarti. La sincronizzazione accurata dell'ora all'interno di un dominio **Active Directory** (AD) è fondamentale per garantire la coerenza tra i sistemi, facilitare la risoluzione dei problemi e mantenere alto il livello di sicurezza. 
 In un dominio AD, il controller di dominio che detiene il ruolo di emulatore Primary Domain Controller (**PDC emulator**) serve come riferimento autorevole per l'ora per i client del dominio; è quindi essenziale configurare correttamente il servizio Network Time Protocol (**NTP**) su questo server affinchè possa  sincronizzarsi con un'origine esterna affidabile.
 
@@ -38,6 +39,7 @@ SELECT * FROM Win32_ComputerSystem WHERE DomainRole = 5
 ```
 Computer Configuration > Policies > Administrative Templates > System > Windows Time Service > Time Providers
 ```
+
 - Modifica le voci: **Configure Windows NTP Client** ed **Enable Windows NTP Server** con i parametri che trovi nell'immagine sottostante o sostituendoli con il server NTP che preferisci:
 
 ![Policy NTP Server](/assets/2025-01-02/image02.png) 
