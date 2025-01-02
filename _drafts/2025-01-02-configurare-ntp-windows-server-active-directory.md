@@ -50,7 +50,7 @@ Computer Configuration > Policies > Administrative Templates > System > Windows 
 
 ### Forzare l'Aggiornamento dei Criteri di Gruppo:
 
-- Aprire un prompt dei comandi con privilegi elevati sull'emulatore PDC e digitare:
+- Apri un prompt dei comandi con privilegi elevati sul PDC emulator e digita:
 
 ```
 gpupdate /force
@@ -65,16 +65,32 @@ net start w32time
 
 ### Verificare la Configurazione:
 
-- Per controllare lo stato del servizio Ora di Windows, eseguire:
+- Per controllare lo stato del **Servizio Ora di Windows** (su qualsiasi client), esegui da prompt dei comandi:
 
 ```
 w32tm /query /status
 ```
+
+![PDC status](/assets/2025-01-02/image05.png)
+_Verifica dello stato su PDC_
+
+![Client status](/assets/2025-01-02/image04.png) 
+_Verifica dello stato su client_
 
 - Per verificare i peer configurati:
 
 ```
 w32tm /query /peers
 ```
+![Applicazione filtro WMI](/assets/2025-01-02/image06.png)
 
-Questa configurazione garantisce che l'emulatore PDC sincronizzi l'ora con fonti esterne affidabili, mentre gli altri dispositivi nel dominio seguiranno la gerarchia interna per la sincronizzazione dell'ora. È importante monitorare periodicamente la sincronizzazione dell'ora per assicurarsi che tutti i sistemi mantengano l'accuratezza temporale necessaria.
+## Gestione di Virtual Machines:
+
+Se sei abituato a lavorare con **Virtual Machines** (VM) e hai configurato la GPO di questo articolo, evita di sincronizzare l'ora delle VM con l'hyper-visor che le ospita. 
+
+![Applicazione filtro WMI](/assets/2025-01-02/image07.png)
+_Sincronizzazione dell'ora in Hyper-V_ 
+
+## Conclusioni
+
+Grazie a questa configurazione garantirai che il PDC emulator sincronizzi la sua ora con con fonti esterne affidabili; tutti gli altri dispositivi nel dominio seguiranno la gerarchia interna per la sincronizzazione dell'ora. Controlla periodicamente che l'ora della tua network sia allineata con i provider NTP pubblici. 
