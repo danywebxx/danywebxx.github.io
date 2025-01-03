@@ -52,7 +52,7 @@ Se volete ripristinare agli utenti che hanno effettuato lo switch la precedente 
 - Valore "0" vecchia versione
 - Valore "1" nuova versione
 
-## Altre possibilità
+## Altre possibilità di gestione
 Puoi gestire il passaggio al nuovo Outlook anche in altri modi:
 - Group Policy (scaricando la versione aggiornata dei template ADMX)
 - Cloud Policy
