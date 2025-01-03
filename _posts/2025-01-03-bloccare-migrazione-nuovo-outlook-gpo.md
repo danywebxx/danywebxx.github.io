@@ -15,7 +15,7 @@ Partendo da Gennaio 2025 gli utenti con le seguenti versioni di Microsoft 365 sa
 - Microsoft 365 Business Premium - 6 Gennaio 2025
 - Microsoft 365 Enterprise - 1 Aprile 2026
 
-Ecco una guida passo-passo per configurare una GPO che disabilita il paggaggio alla nuova versione di Outlook:
+Avevo accennato in un precedente post come [disabilitare il pulsante di switch al nuovo Outlook]({% link _posts/2024-10-12-come-gestire-rollback-nascondere-switch.del-nuovo-outlook-con-gpo.md %}). Ecco una guida più completa e passo-passo per configurare una GPO che disabilita il paggaggio alla nuova versione di Outlook:
 
 ## Passaggi per configurare la GPO
 Come accennato nell'introduzione dovrai creare un GPO che andrà a creare/modificare delle chiavi di registro sui computer dell'organizzazione. 
