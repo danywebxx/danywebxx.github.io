@@ -1,5 +1,5 @@
 ---
-title: Come sincronizzare correttamente l'ora in Active Directory utilizzando il PDC Emulator
+title: Come sincronizzare correttamente l'ora in Active Directory utilizzando un NTP server
 date: 2025-01-02
 categories: [blogging, tutorial]
 tags: [microsoft, ntp]
