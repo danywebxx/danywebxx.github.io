@@ -18,21 +18,20 @@ Partendo da Gennaio 2025 gli utenti con le seguenti versioni di Microsoft 365 sa
 Ecco una guida passo-passo per configurare una GPO che disabilita il paggaggio alla nuova versione di Outlook:
 
 ## Passaggi per configurare la GPO
-
 Come accennato nell'introduzione dovrai creare un GPO che andrà a creare/modificare delle chiavi di registro sui computer dell'organizzazione. 
 
-![Creazione filtro WMI](/assets/2025-01-03/image01.png) 
+![Riepilogo della GPO](/assets/2025-01-03/image01.png) 
 
 Le chiavi di registro che dovrai creare - sono facolative e personalizzabili - le riporto sotto. In bibliografia andrò ad inserire tutti gli articoli di riferimento utilizzati perchè la gestione di questa tipologia di aggiormanento è abbastanza complessa: 
 
-### Disabilitare la migrazione di Outlook
+### Disabilitare la migrazione al nuovo Outlook
 Per disabilitare la migrazione al nuovo Outlook dovrai impostare questa chiave a "0":
 
 ```
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\preferences]
 "NewOutlookMigrationUserSetting"=dword:00000000
 ```
-![Creazione filtro WMI](/assets/2025-01-03/image02.png) 
+![Disabilare migrazione di Outlook](/assets/2025-01-03/image02.png) 
 
 ### Nascondere il pulsante di switch
 Se preferisci nascondere il pulsante che permette agli utenti di effettuare nuovamente lo switch alla nuova versione di Outlook:
@@ -45,7 +44,7 @@ Se preferisci nascondere il pulsante che permette agli utenti di effettuare nuov
 - Valore "0" visualizza il pulsante 
 
 ### Ripristinare il vecchio Outlook
-Se ripristinare agli utenti che hanno effettuato lo switch la vecchia versione di Outlook:
+Se volete ripristinare agli utenti che hanno effettuato lo switch la precedente versione di Outlook:
 ```
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\preferences]
 "UseNewOutlook"=dword:00000000
