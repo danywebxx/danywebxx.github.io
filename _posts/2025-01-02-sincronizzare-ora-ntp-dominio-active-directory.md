@@ -8,7 +8,7 @@ image:
      path: /assets/2025-01-02/image08.png
 ---
 
-Quando l'orologio fa tictac, la rete aziendale (network) non può restare indietro sopratutto quando alle 18:00 vuoi uscire dall'ufficio per tornare a casa a rilassarti. La sincronizzazione accurata dell'ora all'interno di un dominio **Active Directory** (AD) è fondamentale per garantire la coerenza tra i sistemi, facilitare la risoluzione dei problemi e mantenere alto il livello di sicurezza.
+Quando l'orologio fa tictac e si avvicina l'ora per uscire dall'ufficio ti spetti che l'orologio del computer riporti l'ora esatta! La sincronizzazione accurata dell'ora all'interno di un dominio **Active Directory** (AD) è fondamentale per garantire la coerenza tra i sistemi, facilitare la risoluzione dei problemi e mantenere alto il livello di sicurezza.
  
 In un dominio AD, il controller di dominio che detiene il ruolo di emulatore Primary Domain Controller (**PDC emulator**) viene utilizzato come come riferimento autorevole per l'ora dai client del dominio; è quindi essenziale configurare correttamente il servizio Network Time Protocol (**NTP**) su questo server affinchè possa  sincronizzarsi con un'origine esterna affidabile.
 
