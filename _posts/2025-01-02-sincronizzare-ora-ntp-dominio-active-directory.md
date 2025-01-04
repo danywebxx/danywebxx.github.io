@@ -74,10 +74,10 @@ net start w32time
 w32tm /query /status
 ```
 
-![PDC status](/assets/2025-01-02/image05.png){: width="700"}
+![PDC status](/assets/2025-01-02/image05.png){: width="650"}
 _Verifica dello stato su PDC_
 
-![Client status](/assets/2025-01-02/image04.png){: width="700"} 
+![Client status](/assets/2025-01-02/image04.png){: width="650"} 
 _Verifica dello stato su client_
 
 - Per verificare i peer configurati:
@@ -85,13 +85,13 @@ _Verifica dello stato su client_
 ```
 w32tm /query /peers
 ```
-![Applicazione filtro WMI](/assets/2025-01-02/image06.png)
+![Controllo Peers](/assets/2025-01-02/image06.png){: width="650"}
 
 ## Gestione di Virtual Machines
 
 Se sei abituato a lavorare con **Virtual Machines** (VM) e hai configurato la GPO di questo articolo potresti riscontrare problemi di aggiormaneto se lasci che la macchina guest sincronizzi l'ora con l'host. Evita questo conflitto e disattiva la sincronizzazione dell'ora sull'hyper-visor.
 
-![Applicazione filtro WMI](/assets/2025-01-02/image07.png)
+![Sincronizzazione ora su VM Hyper-v](/assets/2025-01-02/image07.png){: width="650"}
 _Sincronizzazione dell'ora in Hyper-V_ 
 
 ## Conclusioni
