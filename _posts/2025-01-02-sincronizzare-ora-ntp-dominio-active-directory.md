@@ -74,10 +74,10 @@ net start w32time
 w32tm /query /status
 ```
 
-![PDC status](/assets/2025-01-02/image05.png)
+![PDC status](/assets/2025-01-02/image05.png){: width="700"}
 _Verifica dello stato su PDC_
 
-![Client status](/assets/2025-01-02/image04.png) 
+![Client status](/assets/2025-01-02/image04.png){: width="700"} 
 _Verifica dello stato su client_
 
 - Per verificare i peer configurati:
