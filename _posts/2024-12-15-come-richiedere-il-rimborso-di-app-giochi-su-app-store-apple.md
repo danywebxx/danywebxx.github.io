@@ -4,14 +4,14 @@ date: 2024-12-15
 categories: [digressioni]
 tags: [apple]
 description:
-image:
-     path: /assets/2024-12-15/image01.jpeg
 ---
 
 Può succedere. A tutti noi è capitato, almeno una volta, sfogliando la ricchissima offerta **di app giochi e servizi in abbonamento presenti sullo store ufficiale Apple (App Store)** di procedere con un incauto acquisto. Un tocco / click di troppo e ci si ritrova la somma prevista decurtata dalla carta di credito. 
 
 Ma nulla è perduto anzi.[I nostri amici romani esperti in assistenza computer](https://www.tecnicovincente.it){:target="_blank"} ti spiegheranno passo passo come procedere.
 La **Apple** riguardo i rimborsi è molto precisa e attenta e non ci vorrà che qualche minuto per richiedere – e ottenere – il rimborso pressoché immediato (o massimo entro 48 ore) della spesa effettuata per errore.
+
+![Richiesta di rimborso Apple](/assets/2024-12-15/image01.jpeg) 
 
 **Da sapere**: riguardo la procedura di rimborso, non importa doversi ricordare da quale dispositivo hai effettuato l’acquistato dell’app. Potrai richiederlo su qualsiasi dispositivo Apple in tuo possesso essendo i download e gli acquisti tutti legati da un **unico account, il tuo Apple ID**.
 
