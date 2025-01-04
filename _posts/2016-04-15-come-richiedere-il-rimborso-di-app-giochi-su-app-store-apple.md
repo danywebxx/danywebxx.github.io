@@ -3,7 +3,7 @@ title: Come richiedere il rimborso di app e giochi su App Store Apple
 date: 2016-04-15
 categories: [digressioni]
 tags: [apple]
-author: 'Tecnico Vincente'
+author: Tecnico Vincente
 ---
 
 Può succedere. A tutti noi è capitato, almeno una volta, sfogliando la ricchissima offerta **di app giochi e servizi in abbonamento presenti sullo store ufficiale Apple (App Store)** di procedere con un incauto acquisto. Un tocco / click di troppo e ci si ritrova la somma prevista decurtata dalla carta di credito. 
