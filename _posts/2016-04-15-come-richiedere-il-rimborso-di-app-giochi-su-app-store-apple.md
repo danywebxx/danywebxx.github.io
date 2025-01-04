@@ -11,7 +11,7 @@ Può succedere. A tutti noi è capitato, almeno una volta, sfogliando la ricchis
 Ma nulla è perduto anzi.[I nostri amici romani esperti in assistenza computer](https://www.tecnicovincente.it){:target="_blank"} ti spiegheranno passo passo come procedere.
 La **Apple** riguardo i rimborsi è molto precisa e attenta e non ci vorrà che qualche minuto per richiedere – e ottenere – il rimborso pressoché immediato (o massimo entro 48 ore) della spesa effettuata per errore.
 
-![Richiesta di rimborso Apple](/assets/2024-12-15/image01.jpeg) 
+![Richiesta di rimborso Apple](/assets/2024-12-15/image01.jpeg){: width="650"}
 
 **Da sapere**: riguardo la procedura di rimborso, non importa doversi ricordare da quale dispositivo hai effettuato l’acquistato dell’app. Potrai richiederlo su qualsiasi dispositivo Apple in tuo possesso essendo i download e gli acquisti tutti legati da un **unico account, il tuo Apple ID**.
 
