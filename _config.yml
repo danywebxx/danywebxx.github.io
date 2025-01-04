@@ -226,3 +226,12 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+authors:
+  cotes:
+   name: Daniele Longhi
+#  twitter: 
+   url: https://github.com/danywebxx/
+  tecnicovincente:
+   name: Tecnico Vincente
+   url: https://www.tecnicovincente.it
