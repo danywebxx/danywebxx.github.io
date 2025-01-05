@@ -1,7 +1,7 @@
 ---
 title: Come richiedere il rimborso di app e giochi su App Store Apple
 date: 2016-04-15
-categories: [digressioni]
+categories: [digressioni, guest]
 tags: [apple]
 author: tecnicovincente
 ---
