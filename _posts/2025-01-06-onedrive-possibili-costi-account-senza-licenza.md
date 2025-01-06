@@ -36,3 +36,4 @@ Questa nuova politica Microsoft richiede maggiore attenzione nella gestione degl
 
 ## Bibliografia
 - [Microsoft Learn](https://learn.microsoft.com/en-us/sharepoint/unlicensed-onedrive-accounts)
+- [Admindroid](https://blog.admindroid.com/microsoft-auto-archives-unlicensed-onedrive-accounts/?utm_source=chatgpt.com)
