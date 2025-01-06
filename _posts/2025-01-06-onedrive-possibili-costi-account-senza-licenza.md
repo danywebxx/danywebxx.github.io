@@ -1,5 +1,5 @@
 ---
-title: Onedrive - possibili costi di archivazione per utenti senza licenza
+title: Onedrive - possibili costi di archivazione per account senza licenza
 date: 2025-01-06
 categories: [blogging, tutorial]
 tags: [microsoft, onedrive, m365]
