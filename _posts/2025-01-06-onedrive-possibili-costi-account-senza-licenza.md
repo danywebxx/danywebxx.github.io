@@ -1,7 +1,7 @@
 ---
 title: Onedrive - possibili costi di archivazione per account senza licenza
 date: 2025-01-06
-categories: [blogging, tutorial]
+categories: [blogging]
 tags: [microsoft, onedrive, m365]
 description: Dal 27 gennaio 2025 Microsoft cambierà le politiche di gestione per gli account Onedrive senza licenza. In questo articolo verranno illustrati costi e modalità di applicazione.
 
@@ -32,7 +32,7 @@ Cosa manca? Per conservare i dati archiviati su Microsoft 365 e pagare le relati
 
 ## Cosa Significa per Te
 
-Questa nuova politica Microsoft richiede maggiore attenzione nella gestione degli account OneDrive non licenziati, con potenziali costi extra da sostenere. Ti consiglio di monitorare preventivamente gli account senza licenza e decidere come gestirli al meglio.
+Questa nuova politica Microsoft richiede maggiore attenzione nella gestione degli account OneDrive senza licenza introducendo potenziali costi extra da sostenere. Ti consiglio di monitorare preventivamente eventuali account che rientrano in questa casistica per decidere come gestirli al meglio.
 
 ## Bibliografia
 - [Microsoft Learn](https://learn.microsoft.com/en-us/sharepoint/unlicensed-onedrive-accounts)
