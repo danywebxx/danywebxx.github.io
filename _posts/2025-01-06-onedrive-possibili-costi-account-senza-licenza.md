@@ -9,20 +9,20 @@ description: Dal 27 gennaio 2025 Microsoft cambierà le politiche di gestione pe
 
 Microsoft ha deciso che dal 27 gennaio 2025 modificherà le sue politiche di archiviazione per gli account **OneDrive senza licenza**. Ad un account OneDrive che rimane senza licenza per più di 93 giorni, con una politica di conservazione attiva, verrano applicati dei costi aggiuntivi dovuti alle nuove politiche.
 
-## Archiviazione Automatica degli Account OneDrive Non Licenziati
+## Archiviazione Automatica degli Account OneDrive senza licenza
 
 Dal 27 gennaio 2025, a tutti gli account OneDrive che restano senza licenza verranno applicate queste politiche:
 
 - Account senza licenza **con retention policy, legal hold e similari**: verranno automaticamente archiviati dopo 93 giorni dalla rimozione della licenza. Mentre gli amministratori potranno ancora visualizzare gli account, nessunoavrà accesso ai dati finché non verranno intraprese azioni specifiche di ripristino.
 - Account senza licenza **senza retention policy o legal hold**: verranno spostati nel cestino dopo 93 giorni dalla rimozione della licenza.
 
-## Identificare gli Account OneDrive Non Licenziati
+## Identificare gli Account OneDrive senza licenza
 
 Per evitare costi imprevisti, è fondamentale identificare e gestire gli account OneDrive non licenziati prima del 27 gennaio 2025. Tramite il **centro di amministrazione di SharePoint** > **Report** > **Onedrive Accounts** puoi avere un elenco di tutti gli account non licenziati, lo spazio di archiviazione utilizzato e le ragioni per cui sono senza licenza.
 
 ![Centro di amministrazione di SharePoint](/assets/2025-01-06/image01.png){: width="650"}
 
-## Costi per l'Accesso agli Account OneDrive Non Licenziati
+## Costi per l'Accesso agli Account OneDrive senza licenza
 
 Se scegli di mantenere archiviati gli account OneDrive non licenziati dovrai sostenere questi costi:
 - Archiviazione: 0,05 $/GB/mese per conservare i contenuti.
