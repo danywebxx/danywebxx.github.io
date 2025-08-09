@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Disattivare Seamless SSO in Microsoft Entra Connect: Quando e perché farlo"
+title: "Disattivare Seamless SSO in Microsoft Entra Connect: Quando e Perché farlo"
 date: 2025-08-09
 categories: [blogging, tutorial]
 tags: [cloud, microsoft, m365, hybrid, active directory]
 description: Scopri perché disattivare il Seamless Single Sign-On in Microsoft Entra Connect può migliorare la sicurezza e quando è sicuro farlo, con guida passo-passo alla disattivazione.
+image:
+     path: /assets/2025-08-09/post-image.jpg
 ---
 
 # Disattivare Seamless SSO in Microsoft Entra Connect: Quando e perché farlo
