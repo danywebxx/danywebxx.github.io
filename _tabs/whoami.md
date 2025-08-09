@@ -3,8 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-![chi sono](/assets/chi_sono.png)
-_Daniele e Karen_
 ## Professionista Curioso
 
 La curiosità e la voglia di sperimentare sono il motore della mia vita.
