@@ -23,3 +23,21 @@ Oggi sono un felice sistemista IT certificato `Microsoft`, `Cisco`,`aloalto Netw
 Sono un felice possessore di prodotti Apple, HP, Google, Amazon e di un Ficus Benjamin che mi segue da quando ho 7 anni.
 
 Per collaborazioni contattarmi!
+
+## PGP Public Key
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaHUJfxYJKwYBBAHaRw8BAQdAvL3Bb+p5sZUftMHXQSpT80dCY8Sm+OgpgIHf
+qEr0+720I0RhbmllbGUgTG9uZ2hpIDxkYW5pZWxlQGRhbnl3ZWIuaXQ+iJMEExYK
+ADsCGwMFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AWIQQvF4L41VfE1ovpkUfk
+ELWwurJKUQUCaHUPSQAKCRDkELWwurJKUVNXAQC69WuokIOeKPHlSqLuzXXzQXK8
+3TgIi1o1V8mufkEhAgEApdcLBmz7+TCAX6MgUopMBBG68cg4Z49sXmVI50etegO4
+OARodQl/EgorBgEEAZdVAQUBAQdA4bjAyDO43nqeRsDHOcCnJ+65m1y3rnxz4WS5
+0wDU2yYDAQgHiHgEGBYKACACGwwWIQQvF4L41VfE1ovpkUfkELWwurJKUQUCaHUP
+SQAKCRDkELWwurJKUZhIAP9fq8eGhzOgCBrlx7ePkp+OF5+lQL1GNFr24ucRJmCw
+fAEAuy8eo7EcQaa4xtfodp3CYp58oTkIXLtmg/s2Vo3OagM=
+=zct1
+-----END PGP PUBLIC KEY BLOCK-----
+```
