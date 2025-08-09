@@ -138,3 +138,4 @@ Inoltre, in Active Directory controlla che l’oggetto computer `AZUREADSSOACC` 
 ## Bibliografia
 - [OurCloudNetwork](https://ourcloudnetwork.com/why-you-should-disable-seamless-sso-in-microsoft-entra-connect/)
 - [Microsoft](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/tshoot-connect-sso)
+- [SecureWorks - Undetected Azure Active Directory Brute-Force Attacks](https://www.secureworks.com/research/undetected-azure-active-directory-brute-force-attacks)
