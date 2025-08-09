@@ -64,7 +64,7 @@ Per abilitare l'audit:
 ### Verificare la presenza di eventi nei log
 Passati almeno 15 giorni dall'abilitazione dei log è il momento di verificare chi sono i nostri sfacciati utenti che utilizzano ancora la funzionalità di Seamless SSO.
 
-La ricerca nei **security log** dell'evento con ID 4769 legato a AzureAdSSOAcc$ può risultare tediosa; un buon filtro può semplificare la ricerca:
+La ricerca nei **security events** di quello con ID 4769 legato a AZUREADSSOACC$ può risultare tediosa; un buon filtro può semplificare la ricerca:
 
 ```
 <QueryList>
