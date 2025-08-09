@@ -9,8 +9,6 @@ image:
      path: /assets/2025-08-09/post-image.jpg
 ---
 
-# Disattivare Seamless SSO in Microsoft Entra Connect: Quando e perché farlo
-
 Il **Seamless Single Sign-On** (Seamless SSO) di **Microsoft Entra Connect** permette gli utenti di accedere automaticamente alle applicazioni cloud-based quando sono connessi alla rete aziendale **Active Directory**, senza dover continuamente reinserire le proprie credenziali.  
 È una comodità per gli utenti ibridi, ma non sempre una buona idea dal punto di vista della sicurezza e della gestione.
 
