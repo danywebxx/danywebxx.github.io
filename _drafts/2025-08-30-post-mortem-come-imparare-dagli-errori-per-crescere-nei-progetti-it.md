@@ -5,6 +5,8 @@ date: 2025-08-29
 categories: [blogging, note personali]
 tags: [riflessioni, opinioni, editoriale]
 description: Il post-mortem e l’After Action Report aiutano i team a imparare dagli errori, migliorare i processi e crescere in ogni progetto IT.
+image:
+     path: /assets/2025-08-30/image.png
 ---
 
 Se lavori in ambito IT, in progetti complessi o anche semplicemente hai degli obiettivi da raggiungere, avrai sicuramente sentito parlare di **post-mortem**. È una pratica tanto semplice quanto potente, ma spesso sottovalutata.
