@@ -16,6 +16,7 @@ Se lavori in ambito IT, in progetti complessi o anche semplicemente hai degli ob
 Il termine può sembrare un po’ cupo (letteralmente significa “dopo la morte”), ma nel nostro contesto non c’è nulla di funereo. Un post-mortem è un’analisi che si fa dopo la conclusione di un progetto, un evento o un incidente per capire cosa ha funzionato, cosa no e cosa possiamo migliorare la prossima volta.
 
 Non è quindi un processo di “*caccia alle streghe*”, ma un momento strutturato per **imparare dagli errori** e **consolidare le buone pratiche**.
+
 ## Perché è importante
 
 Fare un post-mortem porta diversi benefici:
@@ -32,11 +33,13 @@ Non serve un processo complicato. Ecco alcuni passi pratici:
 3. **Analizza cosa è andato bene e cosa no**: punti di forza e punti di debolezza.
 4. **Individua azioni concrete**: non solo “abbiamo avuto problemi di comunicazione”, ma “per il prossimo progetto useremo uno strumento unico di tracking”.
 5. **Documenta e condividi**: il valore sta nel lasciare una traccia per il futuro.
-## Errori comuni da evitare
+
+### Errori comuni da evitare
 
 - Il post-mortem non é un tribunale; è un momento per scambiare idee e riflessioni utili.
 - Limitarsi a elencare i problemi senza definire azioni di miglioramento.
 - Non coinvolgere tutte le parti interessate.
+
 ## Post-mortem e After Action Report: due facce della stessa medaglia
 
 Spesso si sente parlare anche di **After Action Report (AAR)**. Il concetto è molto vicino al post-mortem, ma con alcune differenze di approccio:
@@ -54,6 +57,7 @@ Integrare entrambi è la soluzione ideale:
 
 - Post-mortem meeting → spazio di confronto e brainstorming.
 - After Action Report → documento che cristallizza quanto emerso, utile come memoria storica per l’organizzazione.
+
 ## Check-list veloce per un post-mortem/AAR efficace
 
 - Dati raccolti (metriche, incidenti, feedback).
@@ -62,10 +66,12 @@ Integrare entrambi è la soluzione ideale:
 - Gap tra atteso e ottenuto analizzati.
 - Azioni correttive definite e assegnate.
 - Documento finale (AAR) condiviso con tutti.
+
 ## Conclusione
 
 Il post-mortem non è un “di più”, ma una parte integrante di ogni progetto che voglia crescere. È un investimento di tempo che si ripaga con meno errori, più efficienza e una cultura di squadra più solida.
 
 Che tu lo chiami post-mortem o After Action Report, l’obiettivo è lo stesso: imparare dal passato per fare meglio in futuro.
+
 ## Bibliografia
 - [Niente può fermarti - David Goggins](https://amzn.eu/d/7rOGCgN)
