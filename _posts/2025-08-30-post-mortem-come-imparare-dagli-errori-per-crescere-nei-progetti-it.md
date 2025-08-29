@@ -2,7 +2,7 @@
 layout: post
 title: "Post-mortem. Come imparare dagli errori per crescere nei progetti IT"
 date: 2025-08-29
-categories: [blogging, note personali]
+categories: [digressioni, note personali]
 tags: [riflessioni, opinioni, editoriale]
 description: Il post-mortem e l’After Action Report aiutano i team a imparare dagli errori, migliorare i processi e crescere in ogni progetto IT.
 image:
