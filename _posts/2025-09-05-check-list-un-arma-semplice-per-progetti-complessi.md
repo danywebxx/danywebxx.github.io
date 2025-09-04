@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Check-list. Una semplice arma per progetti complessi"
+title: "Check-list. Un'arma semplice per progetti complessi"
 date: 2025-09-05
 categories: [digressioni, note personali]
 tags: [riflessioni, editoriale]
@@ -50,7 +50,5 @@ Basta una dimenticanza in uno di questi punti per ritrovarsi con downtime, vulne
 Più il progetto è complesso, più una check-list è necessaria.  È come una rete di sicurezza per trapezisti: non serve quando fai prove a terra, ma diventa indispensabile quando lavori a 10 metri di altezza. 
 
 **Conclusione**: Una check-list non sostituisce il talento, l’esperienza o la capacità di problem solving ma li potenzia, evitando che il “fattore umano” diventi il tallone d’Achille del progetto.
-
-Un altro aspetto interessante è che le check-list non servono solo prima e durante un progetto, ma anche dopo, quando qualcosa è andato storto. In questi casi, strumenti come il *post-mortem* aiutano a capire cosa è successo e come migliorare i processi futuri. Se vuoi approfondire, ho scritto un articolo dedicato proprio a questo tema pochi giorni fa: [Post-mortem. Come imparare dagli errori per crescere nei progetti IT]({% link _posts/2025-08-30-post-mortem-come-imparare-dagli-errori-per-crescere-nei-progetti-it.md}).
 
 La prossima volta che stai per fare un deploy critico o avviare un nuovo sprint… chiediti: *Ho la mia check-list pronta?*
