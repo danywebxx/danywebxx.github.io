@@ -13,7 +13,7 @@ Le check-list non sono solo liste di cose da fare: nel mondo IT diventano strume
 Eppure, uno degli strumenti più potenti e sottovalutati per portare a termine con successo un progetto complesso è… la check-list.
 
 Sì, proprio quell’elenco di punti da spuntare che sembra roba da “fare la spesa”.  
-E no, non è una banalità: lo dimostra **Atul Gawande**, chirurgo e autore di [**The Checklist Manifesto**](https://amzn.to/4mGthxz), un libro che mostra come checklist ben fatte abbiano salvato vite in sala operatoria, ridotto errori e aumentato l’efficienza in contesti ad altissima complessità.
+E no, non è una banalità: lo dimostra **Atul Gawande**, chirurgo e autore di [**The Checklist Manifesto**](https://amzn.to/4mGthxz){:target="_blank"}, un libro che mostra come checklist ben fatte abbiano salvato vite in sala operatoria, ridotto errori e aumentato l’efficienza in contesti ad altissima complessità.
 
 ## Perché una check-list funziona anche nell’IT
 
