@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Check-list: un’arma semplice per progetti complessi"
+title: "Check-list. Una semplice arma per progetti complessi"
 date: 2025-09-05
 categories: [digressioni, note personali]
 tags: [riflessioni, editoriale]
