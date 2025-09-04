@@ -73,7 +73,7 @@ Il post-mortem non è un “di più”, ma una parte integrante di ogni progetto
 
 Che tu lo chiami post-mortem o After Action Report, l’obiettivo è lo stesso: imparare dal passato per fare meglio in futuro.
 
-Per limitare i possibili errori nelle procedure complesse dai una veloce lettura a questo articolo: [Check-list: un’arma semplice per progetti complessi]({% link  _posts/2025-09-05-check-list-un-arma-semplice-per-progetti-complessi.md %}).
+Per limitare i possibili errori nelle procedure complesse dai una veloce lettura a questo articolo: [Check-list: un’arma semplice per progetti complessi]({% link  _posts/2025-09-05-check-list-un-arma-semplice-per-progetti-complessi.md %}){:target="_blank"}.
 
 ## Bibliografia
 - [Niente può fermarti - David Goggins](https://amzn.eu/d/7rOGCgN){:target="_blank"}
