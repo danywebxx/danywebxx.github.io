@@ -5,8 +5,7 @@ date: 2025-09-05
 categories: [digressioni, note personali]
 tags: [riflessioni, editoriale]
 description: Le check-list non sono solo liste di cose da fare ma nel mondo IT diventano strumenti potenti per ridurre errori, migliorare i processi e gestire la complessità dei progetti.
-image:
-     path: /assets/2025-09-05/image1.png
+
 ---
 
 Le check-list non sono solo liste di cose da fare: nel mondo IT diventano strumenti potenti per ridurre errori, migliorare i processi e gestire la complessità dei progetti.uando pensiamo a innovazione tecnologica, ci vengono in mente strumenti sofisticati, algoritmi intelligenti e architetture cloud avveniristiche.  
