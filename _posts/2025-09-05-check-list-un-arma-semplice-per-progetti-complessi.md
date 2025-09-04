@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Check-list. Un'arma semplice per progetti complessi"
+title: "Post-mortem. Come imparare dagli errori per crescere nei progetti IT"
 date: 2025-09-05
 categories: [digressioni, note personali]
-tags: [riflessioni, editoriale]
-description: Le check-list non sono solo liste di cose da fare. Nel mondo IT diventano strumenti potenti per ridurre errori, migliorare i processi e gestire la complessità dei progetti.
+tags: [riflessioni, opinioni, editoriale]
+description: Il post-mortem e l’After Action Report aiutano i team a imparare dagli errori, migliorare i processi e crescere in ogni progetto IT.
 image:
-  path: /assets/2025-09-05/image1.png
+     path: /assets/2025-08-30/image.png
 ---
 
 Quando pensiamo a innovazione tecnologica, ci vengono in mente strumenti sofisticati, algoritmi intelligenti e architetture cloud avveniristiche.  
