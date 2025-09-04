@@ -74,4 +74,4 @@ Il post-mortem non è un “di più”, ma una parte integrante di ogni progetto
 Che tu lo chiami post-mortem o After Action Report, l’obiettivo è lo stesso: imparare dal passato per fare meglio in futuro.
 
 ## Bibliografia
-- [Niente può fermarti - David Goggins](https://amzn.eu/d/7rOGCgN)
+- [Niente può fermarti - David Goggins](https://amzn.eu/d/7rOGCgN){:target="_blank"}
