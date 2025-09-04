@@ -8,7 +8,7 @@ categories:
 tags:
   - riflessioni
   - editoriale
-description: Il post-mortem e l’After Action Report aiutano i team a imparare dagli errori, migliorare i processi e crescere in ogni progetto IT.
+description: "Le check-list non sono solo liste di cose da fare: nel mondo IT diventano strumenti potenti per ridurre errori, migliorare i processi e gestire la complessità dei progetti.”"
 image:
   path: /assets/2025-09-05/image1.png
 ---
