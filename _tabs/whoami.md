@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 ## Chi sono
-Professionista IT curioso e appassionato di tecnologia, con base a Milano. La mia carriera è iniziata quasi per gioco: tra tornei di Sensible Soccer e i primi tentativi di collegare un Pentium 75 alla neonata Internet italiana. Da allora non ho mai smesso di sperimentare e approfondire il mondo dell’informatica.
+**Professionista IT curioso** e appassionato di tecnologia, con base a Milano. La mia carriera è iniziata quasi per gioco: tra tornei di Sensible Soccer e i primi tentativi di collegare un Pentium 75 alla neonata Internet italiana. Da allora non ho mai smesso di sperimentare e approfondire il mondo dell’informatica.
 
 ## Cosa faccio
 
