@@ -3,24 +3,27 @@
 icon: fas fa-info-circle
 order: 4
 ---
-## Professionista Curioso
+## Chi sono
+Professionista IT curioso e appassionato di tecnologia, con base a Milano. La mia carriera è iniziata quasi per gioco: tra tornei di Sensible Soccer e i primi tentativi di collegare un Pentium 75 alla neonata Internet italiana. Da allora non ho mai smesso di sperimentare e approfondire il mondo dell’informatica.
 
-La curiosità e la voglia di sperimentare sono il motore della mia vita.
-Con gli occhi e la curiosità di un bambino guardo il mondo alla ricerca di qualcosa che sia in grado di stimolare i miei interessi ed i miei sensi.
-Ogni situazione un’avventura. Ogni problema una sfida.
+## Cosa faccio
 
-## Di cosa mi occupo
+Oggi lavoro come **sistemista IT certificato** (Microsoft, Cisco, Palo Alto Networks, ITIL), aiutando aziende e professionisti a rendere le loro infrastrutture più sicure, efficienti e moderne.
+Mi muovo con naturalezza tra:
+- **Cloud Microsoft Azure, Microsoft 365 e ambienti virtuali**
+- **Networking, VLAN e switch**
+- **Cybersecurity e firewall di nuova generazione**
 
-Based in Milan (come scrivono gli influencer), ho conosciuto l’informatica organizzando campionati virtuali del compianto `Sensible Soccer` ;-P o cercando di connettere il mio vecchio Pentium 75 alla neonata internet italiana quando già avere un modem 56k era una fortuna.
+Unisco competenza tecnica e approccio pratico: ogni problema è una sfida da risolvere, ogni progetto un’occasione per crescere.
 
 ![Certificazioni](/assets/2024-02-10/certifications.png)
 _alcune certificazioni professionali_
 
-Oggi sono un felice sistemista IT certificato `Microsoft`, `Cisco`,`aloalto Networks` ed `ITIL`, che si sente a proprio agio configurando ambienti virtuali su `Cloud Azure`, giocando con VLAN e switch o migliorando la sicurezza dei clienti con Next-Gen firewall e altre soluzioni. Resto una persona umile che ama sfacciatamente tutto ciò che é tecnologico ma non meravigliatevi se doveste trovarmi in un orto a coltivare zucchine e pomodori.
+## Un lato umano
+Nonostante la passione sconfinata per la tecnologia (da Apple a Google, passando per HP e Amazon), resto una persona semplice: nel tempo libero posso divertirmi più a coltivare zucchine e pomodori che a configurare un nuovo server. Ah, e condivido la mia vita con un Ficus Benjamin che mi accompagna dall’infanzia.
 
-Sono un felice possessore di prodotti Apple, HP, Google, Amazon e di un Ficus Benjamin che mi segue da quando ho 7 anni.
-
-Per collaborazioni contattarmi!
+## Collaborazioni
+Se cerchi un professionista IT affidabile, curioso e orientato alle soluzioni, contattami: sarò felice di valutare nuove collaborazioni.
 
 ## PGP Public Key
 
