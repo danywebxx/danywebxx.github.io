@@ -30,7 +30,7 @@ Durante la migrazione con Profwiz, il profilo utente viene associato a un nuovo 
 
 ## Come Risolvere: Procedura Passo per Passo
 
-> ⚠️ **Prerequisito:** esegui tutte le operazioni con un account Amministratore locale (l'utente **PWS** o equivalente). Assicurati di avere accesso a PowerShell con privilegi elevati e all'Editor del Registro di sistema.
+> ⚠️ **Prerequisito:** esegui tutte le operazioni con un account Amministratore locale. Assicurati di avere accesso a PowerShell con privilegi elevati e all'Editor del Registro di sistema.
 
 ### Fase 1 — Disabilitare UCPD
 
@@ -142,11 +142,11 @@ Write-Host "[4/4] Completato. Riavviare il PC per applicare le modifiche." -Fore
 
 ## Conclusioni
 
-Questo bug è un buon esempio di come gli aggiornamenti Microsoft possano introdurre regressioni in scenari di deployment aziendali, specialmente durante le migrazioni verso Entra ID. La soluzione è rapida ma richiede attenzione: **disabilitare UCPD è un'operazione temporanea** e va sempre riattivato al termine della procedura.
+Ammetto che ci ho messo un po' a capire cosa stesse succedendo — i sintomi non sono immediati da collegare a UCPD, soprattutto se si lavora su più macchine in sequenza e i problemi emergono solo dopo il primo login dell'utente.
 
-Se stai pianificando migrazioni massive, valuta di integrare questo fix nel tuo processo Profwiz standard o nello script di post-migrazione, così da evitare chiamate di supporto ripetute.
+Una volta identificata la causa, il fix è fortunatamente veloce. L'unica cosa a cui fare attenzione è non dimenticarsi di riattivare UCPD al termine: lasciarlo disabilitato espone il sistema a modifiche non autorizzate delle app predefinite.
 
-Se lavori con ambienti ibridi e stai approfondendo la gestione delle identità su Entra ID, potresti trovare utile anche l'articolo su come [disattivare il Seamless SSO in Microsoft Entra Connect]({% link _posts/2025-08-09-disabilitare-seamless-sso-entra-connect.md %}) e quello su come [bloccare la migrazione al nuovo Outlook tramite GPO]({% link _posts/2025-01-03-bloccare-migrazione-nuovo-outlook-gpo.md %}).
+Se stai lavorando su ambienti ibridi, potresti trovare utile anche [come disattivare il Seamless SSO in Microsoft Entra Connect]({% link _posts/2025-08-09-disabilitare-seamless-sso-entra-connect.md %}) e [come bloccare la migrazione al nuovo Outlook tramite GPO]({% link _posts/2025-01-03-bloccare-migrazione-nuovo-outlook-gpo.md %}).
 
 ---
 
