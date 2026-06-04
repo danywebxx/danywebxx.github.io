@@ -76,5 +76,7 @@ Avere un backup attivo è già meglio di niente. Ma sapere che funziona, sapere 
 
 Se non sei sicuro di almeno una di queste tre risposte, è il momento giusto per verificarlo. Prima che arrivi il motivo urgente per farlo.
 
+---
+
 Gestisco soluzioni di backup per PMI su Azure e Microsoft 365: dalla progettazione al test periodico di ripristino.
 Se vuoi verificare che la tua infrastruttura sia davvero protetta, [scopri come posso aiutarti →](/servizi/)
