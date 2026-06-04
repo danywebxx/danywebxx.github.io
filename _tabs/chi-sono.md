@@ -1,5 +1,7 @@
 ---
 # Chi Sono
+title: "Chi Sono"
+description: "Daniele Longhi, sistemista IT certificato Microsoft, Cisco e Palo Alto con base a Milano. Supporto PMI e studi professionali su Azure, Microsoft 365, networking e cybersecurity."
 icon: fas fa-info-circle
 order: 1
 ---
