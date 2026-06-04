@@ -8,7 +8,7 @@ order: 2
 ---
 
 Supporto IT concreto, senza intermediari e senza perdite di tempo.
-Lavoro con **PMI, studi professionali, studi di commercialisti e di consulenza** che vogliono un'infrastruttura IT affidabile, sicura e moderna — senza dover gestire un reparto interno.
+Lavoro con **PMI, studi professionali, studi di commercialisti e di consulenza** che vogliono un'infrastruttura IT affidabile, sicura e moderna - senza dover gestire un reparto interno.
 
 ---
 
@@ -27,7 +27,7 @@ Migrazione, configurazione e gestione dell'ambiente Microsoft 365: caselle email
 
 ### 🔐 Cybersecurity
 
-La sicurezza non è un prodotto da installare — è un processo. Aiuto le aziende a capire la propria esposizione al rischio e ad adottare misure concrete ed efficaci, senza esagerare con complessità inutili.
+La sicurezza non è un prodotto da installare - è un processo. Aiuto le aziende a capire la propria esposizione al rischio e ad adottare misure concrete ed efficaci, senza esagerare con complessità inutili.
 
 - Valutazione del rischio e analisi della postura di sicurezza
 - Configurazione di firewall di nuova generazione (Palo Alto, Fortinet)
@@ -39,7 +39,7 @@ La sicurezza non è un prodotto da installare — è un processo. Aiuto le azien
 
 ### 🌐 Networking & Firewall
 
-Reti aziendali progettate per funzionare — non solo per esistere. Che si tratti di una sede unica, di più uffici collegati o di utenti in smart working, mi occupo di far comunicare i sistemi in modo stabile e sicuro.
+Reti aziendali progettate per funzionare - non solo per esistere. Che si tratti di una sede unica, di più uffici collegati o di utenti in smart working, mi occupo di far comunicare i sistemi in modo stabile e sicuro.
 
 - Progettazione e configurazione di reti LAN/VLAN
 - VPN site-to-site e client-to-site
@@ -61,7 +61,7 @@ Per le aziende che non hanno un IT interno ma hanno bisogno di qualcuno su cui c
 
 ### 📐 Consulenza e Progettazione IT
 
-Prima di comprare, costruire o migrare — conviene capire cosa serve davvero. Offro consulenza indipendente per aiutarti a prendere decisioni tecnologiche consapevoli, senza essere vincolato a prodotti o vendor specifici.
+Prima di comprare, costruire o migrare - conviene capire cosa serve davvero. Offro consulenza indipendente per aiutarti a prendere decisioni tecnologiche consapevoli, senza essere vincolato a prodotti o vendor specifici.
 
 - Analisi dell'infrastruttura esistente e individuazione delle criticità
 - Progettazione di nuove architetture IT
@@ -85,6 +85,6 @@ Prima di comprare, costruire o migrare — conviene capire cosa serve davvero. O
 Se hai un problema da risolvere, un progetto da avviare o semplicemente vuoi capire se posso esserti utile, scrivimi: rispondo sempre.
 
 📧 [daniele@danyweb.it](mailto:daniele@danyweb.it)
-💼 [LinkedIn — Daniele Longhi](https://www.linkedin.com/in/daniele-longhi-765729176/)
+💼 [LinkedIn - Daniele Longhi](https://www.linkedin.com/in/daniele-longhi-765729176/)
 
 > Nessun impegno. Una chiacchierata esplorativa è sempre gratuita.
