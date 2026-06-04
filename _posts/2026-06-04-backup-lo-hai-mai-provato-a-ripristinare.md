@@ -20,7 +20,7 @@ E no, non lo dico per spaventarti. Lo dico perché è esattamente la situazione 
 
 ## Il backup che non ha mai salvato nessuno
 
-Ho visto sistemi di backup girare regolarmente per mesi. Notifiche verdi, log puliti, tutto apparentemente a posto. Poi un giorno qualcosa va storto — un ransomware, un disco che cede, un file cancellato per errore — e si scopre che i dati ripristinati sono corrotti, incompleti, o peggio ancora: mancanti.
+Ho visto sistemi di backup girare regolarmente per mesi. Notifiche verdi, log puliti, tutto apparentemente a posto. Poi un giorno qualcosa va storto - un ransomware, un disco che cede, un file cancellato per errore - e si scopre che i dati ripristinati sono corrotti, incompleti, o peggio ancora: mancanti.
 
 Nessuno se n'era accorto perché nessuno aveva mai fatto una prova sul serio.
 
@@ -36,11 +36,11 @@ Se anche una sola di queste ti mette in difficoltà, hai un problema da risolver
 
 **Ogni quanto gira il backup e per quanto tempo vengono conservati i dati?**
 
-Se il backup gira ogni 24 ore e ti accorgi del problema dopo tre giorni, hai già perso tre giorni di lavoro. Se i backup vengono conservati solo per sette giorni e un ransomware è rimasto silenzioso per dieci giorni prima di attivarsi — e succede, credetemi — hai perso tutto. La finestra temporale conta quanto la frequenza.
+Se il backup gira ogni 24 ore e ti accorgi del problema dopo tre giorni, hai già perso tre giorni di lavoro. Se i backup vengono conservati solo per sette giorni e un ransomware è rimasto silenzioso per dieci giorni prima di attivarsi - e succede, credetemi - hai perso tutto. La finestra temporale conta quanto la frequenza.
 
 **Quanto tempo ci vuole per tornare operativo?**
 
-Questa è la domanda che nessuno si pone mai prima dell'emergenza. Ripristinare 500 GB di dati richiede ore, a volte giorni. Se la tua azienda non può permettersi di stare ferma, devi saperlo adesso — non mentre i tuoi dipendenti ti guardano chiedendosi quando possono rimettersi a lavorare.
+Questa è la domanda che nessuno si pone mai prima dell'emergenza. Ripristinare 500 GB di dati richiede ore, a volte giorni. Se la tua azienda non può permettersi di stare ferma, devi saperlo adesso - non mentre i tuoi dipendenti ti guardano chiedendosi quando possono rimettersi a lavorare.
 
 ## Una cosa che devi fare nei prossimi trenta giorni
 
@@ -72,6 +72,6 @@ Non è l'unica strategia possibile, ma è un buon metro per valutare se quello c
 
 ## Per chiudere
 
-Avere un backup attivo è già meglio di niente. Ma sapere che funziona, sapere cosa copre, e sapere quanto tempo ci vuole per tornare operativo — quello è tutta un'altra cosa.
+Avere un backup attivo è già meglio di niente. Ma sapere che funziona, sapere cosa copre, e sapere quanto tempo ci vuole per tornare operativo - quello è tutta un'altra cosa.
 
 Se non sei sicuro di almeno una di queste tre risposte, è il momento giusto per verificarlo. Prima che arrivi il motivo urgente per farlo.
