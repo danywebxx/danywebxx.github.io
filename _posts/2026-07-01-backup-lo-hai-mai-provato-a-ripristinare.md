@@ -1,10 +1,13 @@
 ---
+layout: post
 title: "Backup sì, ma lo hai mai provato a ripristinare?"
 date: 2026-06-04 09:00:00 +0200
 categories: [blogging, guida]
 tags: [backup, sicurezza, pmi, microsoft, m365]
 description: >-
   Avere un backup non basta. La vera domanda è: se domani mattina i tuoi dati sparissero, saresti in grado di recuperarli davvero? Ecco cosa controllare.
+image:
+     path: /assets/2026-06-04/backup-e-ripristino.jpg
 ---
 
 Lasciami indovinare.
@@ -72,7 +75,3 @@ Non è l'unica strategia possibile, ma è un buon metro per valutare se quello c
 Avere un backup attivo è già meglio di niente. Ma sapere che funziona, sapere cosa copre, e sapere quanto tempo ci vuole per tornare operativo — quello è tutta un'altra cosa.
 
 Se non sei sicuro di almeno una di queste tre risposte, è il momento giusto per verificarlo. Prima che arrivi il motivo urgente per farlo.
-
----
-
-*Hai dubbi su come è strutturato il tuo sistema di backup o vuoi capire se quello che hai è adeguato? [Scrivimi](mailto:daniele@danyweb.it), ne parliamo senza impegno.*
