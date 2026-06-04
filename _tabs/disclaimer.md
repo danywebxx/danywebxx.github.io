@@ -1,7 +1,7 @@
 ---
 # disclaimer
 icon: fas fa-exclamation-triangle
-order: 5
+order: 6
 ---
 
 - Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità. Non può pertanto considerarsi un prodotto editoriale ai sensi della legge N°62 del 07/03/2001.
