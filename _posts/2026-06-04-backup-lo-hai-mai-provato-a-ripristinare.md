@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Backup sì, ma lo hai mai provato a ripristinare?"
-date: 2026-06-04 09:00:00 +0200
+date: 2026-06-04
 categories: [blogging, guida]
 tags: [backup, sicurezza, pmi, microsoft, m365]
 description: >-
