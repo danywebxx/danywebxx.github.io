@@ -75,3 +75,6 @@ Non è l'unica strategia possibile, ma è un buon metro per valutare se quello c
 Avere un backup attivo è già meglio di niente. Ma sapere che funziona, sapere cosa copre, e sapere quanto tempo ci vuole per tornare operativo - quello è tutta un'altra cosa.
 
 Se non sei sicuro di almeno una di queste tre risposte, è il momento giusto per verificarlo. Prima che arrivi il motivo urgente per farlo.
+
+Gestisco soluzioni di backup per PMI su Azure e Microsoft 365: dalla progettazione al test periodico di ripristino.
+Se vuoi verificare che la tua infrastruttura sia davvero protetta, [scopri come posso aiutarti →](/servizi/)
