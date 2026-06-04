@@ -1,5 +1,5 @@
 ---
-# about
+# Chi Sono
 icon: fas fa-info-circle
 order: 4
 ---
