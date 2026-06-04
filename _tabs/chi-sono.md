@@ -21,8 +21,15 @@ _alcune certificazioni professionali_
 ## Un lato umano
 Nonostante la passione sconfinata per la tecnologia (da Apple a Google, passando per HP e Amazon), resto una persona semplice: nel tempo libero posso divertirmi più a coltivare zucchine e pomodori che a configurare un nuovo server. Ah, e condivido la mia vita con un Ficus Benjamin che mi accompagna dall’infanzia.
 
-## Collaborazioni
-Se cerchi un professionista IT affidabile, curioso e orientato alle soluzioni, contattami: sarò felice di valutare nuove collaborazioni.
+## Lavoriamo insieme
+
+Hai un progetto IT da avviare, un problema da risolvere o semplicemente vuoi capire se posso esserti utile?
+Scrivimi senza impegno - una chiacchierata esplorativa è sempre gratuita.
+
+📧 [daniele@danyweb.it](mailto:daniele@danyweb.it)
+💼 [LinkedIn - Daniele Longhi](https://www.linkedin.com/in/daniele-longhi-765729176/)
+
+---
 
 ## PGP Public Key
 
