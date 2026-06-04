@@ -6,7 +6,7 @@ layout: page
 icon: fas fa-info-circle
 order: 2
 ---
-# Servizi IT per PMI e Studi Professionali
+# Servizi IT per PMI e Studi professionali
 
 Supporto IT concreto, senza intermediari e senza perdite di tempo.
 Lavoro con **PMI, studi professionali, studi di commercialisti e di consulenza** che vogliono un'infrastruttura IT affidabile, sicura e moderna - senza dover gestire un reparto interno.
