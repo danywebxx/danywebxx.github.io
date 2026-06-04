@@ -1,11 +1,12 @@
 ---
-title: "Servizi IT per PMI e Studi Professionali"
+title: "Servizi"
 description: "Consulenza e assistenza sistemistica su Microsoft 365, Azure, Networking, Cybersecurity e gestione IT continuativa per PMI e studi professionali a Milano e dintorni."
 permalink: /servizi/
 layout: page
 icon: fas fa-info-circle
 order: 2
 ---
+# Servizi IT per PMI e Studi Professionali
 
 Supporto IT concreto, senza intermediari e senza perdite di tempo.
 Lavoro con **PMI, studi professionali, studi di commercialisti e di consulenza** che vogliono un'infrastruttura IT affidabile, sicura e moderna - senza dover gestire un reparto interno.
