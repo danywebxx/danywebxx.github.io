@@ -2,7 +2,7 @@
 layout: post
 title: "Backup sì, ma lo hai mai provato a ripristinare?"
 date: 2026-06-04
-categories: [blogging, guida]
+categories: [blogging, tutorial]
 tags: [backup, sicurezza, pmi, microsoft, m365]
 description: >-
   Avere un backup non basta. La vera domanda è: se domani mattina i tuoi dati sparissero, saresti in grado di recuperarli davvero? Ecco cosa controllare.
