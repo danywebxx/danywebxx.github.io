@@ -6,7 +6,7 @@ tags: [sicurezza, dns, famiglia, internet, consigli]
 description: >-
   Cambiare due numeri nel router di casa può bloccare malware e contenuti
   inappropriati per i tuoi figli. Ecco come farlo gratis in pochi minuti.
-  image:
+image:
      path: /assets/2026-06-12/fallout-dns.png
 ---
 
