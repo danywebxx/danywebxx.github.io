@@ -1,11 +1,11 @@
 ---
-title: "Proteggi la tua famiglia su Internet con due numeri"
+title: "Come proteggere la tua famiglia su Internet cambiando il DNS del router"
 date: 2026-06-12
 categories: [blogging,tutorial]
-tags: [sicurezza, dns, famiglia, internet, consigli]
+tags: [sicurezza, dns, famiglia, internet, consigli, parental-control]
 description: >-
-  Cambiare due numeri nel router di casa può bloccare malware e contenuti
-  inappropriati per i tuoi figli. Ecco come farlo gratis in pochi minuti.
+  Cambiare il DNS del router di casa blocca malware e contenuti inappropriati
+  su tutti i tuoi dispositivi. Gratis, senza installare nulla, in pochi minuti.
 image:
      path: /assets/2026-06-12/fallout-dns.png
 ---
@@ -16,13 +16,13 @@ Mettiamo il lucchetto alla porta di casa, ma lasciamo Internet completamente ape
 
 Ogni volta che digiti un indirizzo nel browser o che un'app si collega a Internet, il tuo dispositivo chiede a un server DNS: *"Dove si trova questo sito?"*. Immaginalo come un elenco telefonico della rete.
 
-Di solito questo "elenco" è quello del tuo operatore, che risponde a qualsiasi domanda senza fare distinzioni ma esistono DNS alternativi che, prima di risponderti, controllano anche cosa stai cercando. Se il sito è noto per distribuire malware o contenuti per adulti, semplicemente non ti danno la risposta. Il sito non si apre e basta.
+Di solito questo "elenco" è quello del tuo operatore, che risponde a qualsiasi domanda senza fare distinzioni. Esistono però DNS alternativi che, prima di risponderti, controllano anche cosa stai cercando. Se il sito è noto per distribuire malware o contenuti per adulti, semplicemente non ti danno la risposta. Il sito non si apre e basta.
 
 Questi DNS filtrati sono offerti da Cloudflare, una delle infrastrutture Internet più grandi al mondo. Il servizio si chiama **1.1.1.1 for Families**, è gratuito e non richiede registrazione.
 
 Nessun software da installare, nessun abbonamento da sottoscrivere e funziona su tutti i dispositivi collegati alla tua rete di casa.
 
-## Due opzioni, a seconda di cosa vuoi bloccare
+## Due opzioni DNS per la sicurezza della tua famiglia
 
 Puoi scegliere tra due livelli di protezione:
 
@@ -36,7 +36,7 @@ Puoi scegliere tra due livelli di protezione:
 
 Il secondo è quello che consiglio alle famiglie con bambini o ragazzi.
 
-## Dove si cambiano questi numeri
+## Come cambiare il DNS: router o singolo dispositivo
 
 Hai due strade:
 
@@ -52,9 +52,9 @@ Nulla di visibile per la navigazione normale perchè i siti che usi tutti i gior
 
 Non è una soluzione infallibile perchè nessun filtro lo è ma aiuta ad alzare l'asticella per i contenuti indesiderati, soprattutto per i più giovani che navigano in modo meno consapevole.
 
-## Un ultimo punto
+## I limiti di questa soluzione
 
-Questo tipo di protezione agisce sulla rete di casa ma tieni a mente che  quando i dispositivi escono e si connettono ad altre reti - la rete mobile, il Wi-Fi di scuola o di un amico - il filtro non è più attivo. Per una protezione più estesa sui dispositivi dei ragazzi esistono anche soluzioni dedicate: parental control integrati nei sistemi operativi o applicazioni specifiche. Ma questo è un argomento per un altro articolo.
+Questo tipo di protezione agisce sulla rete di casa ma tieni a mente che quando i dispositivi escono e si connettono ad altre reti - la rete mobile, il Wi-Fi di scuola o di un amico - il filtro DNS non è più attivo. Per una protezione più estesa sui dispositivi dei ragazzi esistono anche soluzioni dedicate: parental control integrati nei sistemi operativi o applicazioni specifiche. Ma questo è un argomento per un altro articolo.
 
 Per adesso, cambiare i DNS del router è il punto di partenza più semplice e immediato che puoi fare oggi, senza spendere un euro.
 
