@@ -20,3 +20,11 @@
   name = "Disclaimer"
   pageRef = "disclaimer"
   weight = 10
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
+  weight = 20
+[[footer]]
+  name = "Cookie Policy"
+  pageRef = "cookie-policy"
+  weight = 30
