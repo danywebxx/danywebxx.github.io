@@ -10,6 +10,7 @@ hotlinkFeatureImage = false
 mainSections = ["posts"]
 defaultSocialImage = "img/og-default.png"
 description = "Consulente IT a Milano: Microsoft 365, Azure, networking e cybersecurity per PMI e studi professionali."
+gaMeasurementId = "G-VPKE23LTX9"
 
 [header]
   layout = "fixed-fill-blur"
