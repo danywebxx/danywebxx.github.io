@@ -31,8 +31,8 @@ disablePathToLower = true
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS"]
 
-[services.googleAnalytics]
-  ID = "G-VPKE23LTX9"
+# [services.googleAnalytics]
+#  ID = "G-VPKE23LTX9"
 
 [sitemap]
   changefreq = "monthly"
