@@ -1,0 +1,25 @@
+disabled = false
+locale = "it-IT"
+label = "Italiano"
+weight = 1
+title = "Daniele Longhi"
+copyright = "© {year} Daniele Longhi"
+
+[params]
+  displayName = "IT"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Consulente IT a Milano: Microsoft 365, Azure, networking e cybersecurity per PMI e studi professionali."
+
+  [params.author]
+    name = "Daniele Longhi"
+    image = "img/avatar.gif"
+    imageQuality = 90
+    headline = "Consulente IT per PMI e studi professionali a Milano"
+    bio = "Progetto, metto in sicurezza e gestisco infrastrutture IT che funzionano."
+    links = [
+      { linkedin = "https://www.linkedin.com/in/daniele-longhi-765729176/" },
+      { github = "https://github.com/danywebxx" },
+      { rss = "/feed.xml" },
+    ]

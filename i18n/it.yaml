@@ -1,0 +1,4 @@
+# Override del tema: l'apostrofo tipografico evita un errore nel JavaScript di Blowfish
+footer:
+  dark_appearance: "Passa all’aspetto scuro"
+  light_appearance: "Passa all’aspetto chiaro"

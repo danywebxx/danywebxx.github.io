@@ -1,0 +1,10 @@
+{{- /*
+  Link email protetto dai bot che raccolgono indirizzi.
+  L'indirizzo non compare mai nell'HTML: è salvato al contrario in due pezzi
+  e ricomposto solo al clic (vedi layouts/partials/extend-footer.html).
+  Uso: {{< scrivimi >}}  oppure  {{< scrivimi text="Scrivimi" class="cta-btn" >}}
+*/ -}}
+{{- $text := .Get "text" | default "Scrivimi" -}}
+{{- $class := .Get "class" | default "" -}}
+<a href="/chi-sono/#contatti" class="js-mail {{ $class }}" data-u="eleinad" data-d="ti.bewynad" data-s="Contatto da danyweb.it" rel="nofollow">{{ $text }}</a>
+{{- /**/ -}}

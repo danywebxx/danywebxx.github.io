@@ -1,0 +1,67 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+disableImageOptimization = false
+disableTextInHeader = false
+hotlinkFeatureImage = false
+mainSections = ["posts"]
+defaultSocialImage = "img/og-default.png"
+description = "Consulente IT a Milano: Microsoft 365, Azure, networking e cybersecurity per PMI e studi professionali."
+
+[header]
+  layout = "fixed-fill-blur"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+  showRecentItems = 3
+  showMoreLink = false
+  showMoreLinkDest = "/posts/"
+  cardView = false
+
+[article]
+  showDate = true
+  showDateUpdated = true
+  showAuthor = true
+  showHero = true
+  heroStyle = "big"
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showWordCount = false
+  showComments = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = false
+  showCards = false
+  groupByYear = true
+  cardView = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+
+[term]
+  showTableOfContents = false
+  groupByYear = false

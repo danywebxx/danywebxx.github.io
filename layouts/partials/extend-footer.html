@@ -1,0 +1,12 @@
+<script>
+  // Ricompone l'indirizzo email al clic: i bot che leggono l'HTML non lo trovano.
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("a.js-mail");
+    if (!a) return;
+    e.preventDefault();
+    var rev = function (s) { return s.split("").reverse().join(""); };
+    var addr = rev(a.dataset.u) + "\u0040" + rev(a.dataset.d);
+    var subj = a.dataset.s ? "?subject=" + encodeURIComponent(a.dataset.s) : "";
+    window.location.href = "mailto:" + addr + subj;
+  });
+</script>

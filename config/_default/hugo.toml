@@ -1,0 +1,84 @@
+# Configurazione principale Hugo per danyweb.it
+baseURL = "https://danyweb.it/"
+theme = "blowfish"
+defaultContentLanguage = "it"
+timeZone = "Europe/Rome"
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 0
+buildDrafts = false
+buildFuture = false
+
+# Gli URL dei vecchi articoli contengono maiuscole (es. ubuntu-hyperV-...):
+# non vanno convertiti in minuscolo.
+disablePathToLower = true
+
+[pagination]
+  pagerSize = 20
+
+[imaging]
+  anchor = "Center"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Il vecchio feed di Jekyll era /feed.xml: Hugo lo genera con lo stesso nome.
+[outputFormats.RSS]
+  baseName = "feed"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[services.googleAnalytics]
+  ID = "G-VPKE23LTX9"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[frontmatter]
+  lastmod = ["lastmod", ":default"]
+
+[related]
+  threshold = 0
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 50
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+# Le immagini restano in static/assets (stessi URL di prima).
+# Le monto anche come "assets" Hugo, così le copertine degli articoli
+# possono essere ridimensionate e ottimizzate.
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = "static/assets"
+  target = "assets/assets"
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "content"
+  target = "content"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "i18n"
+  target = "i18n"
+[[module.mounts]]
+  source = "data"
+  target = "data"
+[[module.mounts]]
+  source = "archetypes"
+  target = "archetypes"
