@@ -30,9 +30,9 @@ Anche a livello mondiale i segnali vanno nella stessa direzione. Dragos, societ�
 
 ## Non serve toccare la macchina per fermarla
 
-C'è un equivoco molto diffuso: "tanto i nostri macchinari non sono su Internet". Può anche essere vero. Ma un attacco non deve per forza compromettere un PLC per fermare una fabbrica. Basta che un ransomware blocchi la logistica, le postazioni di controllo o altre workstation, e la produzione si ferma lo stesso.
+C'è un equivoco molto diffuso: "tanto i nostri macchinari non navigano in Internet". Può anche essere vero ma un attacco non deve per forza compromettere un PLC per fermare una fabbrica. Basta che un ransomware blocchi la logistica, le postazioni di controllo o altre workstation, e la produzione si ferma lo stesso.
 
-Il caso di Jaguar Land Rover lo mostra bene. L'azienda ha fermato la produzione il 1° settembre 2025 dopo un attacco informatico ai suoi sistemi. Gli stabilimenti britannici, che di norma producono circa 1.000 veicoli al giorno, sono rimasti fermi per più di un mese. Il Cyber Monitoring Centre ha stimato un danno di 1,9 miliardi di sterline per l'economia britannica, con oltre 5.000 organizzazioni coinvolte, perché un fermo del genere si porta dietro tutti i fornitori.
+Il caso di Jaguar Land Rover lo dimostra: l'azienda ha fermato la produzione il 1° settembre 2025 dopo un attacco informatico ai suoi sistemi. Gli stabilimenti britannici, che di norma producono circa 1.000 veicoli al giorno, sono rimasti fermi per più di un mese. Il Cyber Monitoring Centre ha stimato un danno di 1,9 miliardi di sterline per l'economia britannica, con oltre 5.000 organizzazioni coinvolte, perché un fermo del genere si porta dietro tutti i fornitori.
 
 Più vicino a noi c'è il porto di Ancona. Un'analisi tecnica della società americana Resecurity ricostruisce l'attacco ransomware di dicembre 2025, attribuito al gruppo Anubis. Il copione è quello classico: un allegato malevolo, poi l'aggressore sale di privilegi, si muove nella rete, copia i dati e infine cifra tutto. Il dettaglio più istruttivo è che non ha toccato i sistemi di controllo industriale. Sono bastati account cloud configurati in modo non sicuro, e le operazioni del porto si sono fermate lo stesso. Nessuna magia, solo una catena di passaggi, ognuno facile da ignorare.
 
