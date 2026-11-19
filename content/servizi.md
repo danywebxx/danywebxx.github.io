@@ -33,24 +33,16 @@ Migrazione, configurazione e gestione dell'ambiente Microsoft 365: caselle email
 
 ---
 
-### 🧠 Intelligenza Artificiale: formazione per PMI e studi professionali
+### 🧠 Intelligenza Artificiale & Formazione
 
-L'AI è già nel lavoro di tutti i giorni, spesso senza regole né consapevolezza.
-Aiuto le persone a usarla bene, con risultati concreti e senza esporre dati aziendali o dei clienti.
+L'AI è già nel lavoro di tutti i giorni, spesso senza regole né consapevolezza. Aiuto le persone a usarla bene, con risultati concreti e senza esporre dati aziendali o dei clienti.
 
-Formazione sull'uso di AI e LLM
-
-- **Fondamenti**: cosa sono gli LLM (ChatGPT, Claude, Copilot, Gemini), cosa sanno fare, dove sbagliano
-- **Prompt e metodo di lavoro**: come ottenere risposte utili e verificabili
-- **Casi d'uso reali**: redazione, sintesi di documenti, analisi di dati, ricerca, automazione di attività ripetitive
-- **Sicurezza e privacy**: quali dati non condividere, GDPR, rischi di fuga di informazioni
-- **Policy aziendale sull'AI**: regole chiare d'uso per dipendenti e collaboratori
-
-Formule
-
-- **Workshop** di mezza giornata o una giornata, in sede o online
-- **Percorsi su misura** per team, con esercizi sui vostri documenti e processi
-- **Interventi per ordini e associazioni professionali**
+- Fondamenti su ChatGPT, Claude, Copilot e Gemini: cosa sanno fare e dove sbagliano
+- Prompt e metodo di lavoro per ottenere risposte utili e verificabili
+- Casi d'uso reali: redazione, sintesi di documenti, analisi di dati, automazione di attività ripetitive
+- Sicurezza e privacy: quali dati non condividere, GDPR, rischi di fuga di informazioni
+- Policy aziendale sull'AI per dipendenti e collaboratori
+- Workshop di mezza giornata o una giornata, percorsi su misura per team e interventi per ordini professionali
 
 ---
 
