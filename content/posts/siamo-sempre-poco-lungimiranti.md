@@ -4,7 +4,7 @@ date: 2026-11-19
 description: "Le fabbriche sono sempre più nel mirino degli attacchi informatici. Spesso non nascono da un grande errore, ma da tante piccole cose rimandate. Vediamo quali, e da dove si può partire."
 summary: "Le fabbriche sono sempre più nel mirino degli attacchi informatici. Spesso non nascono da un grande errore, ma da tante piccole cose rimandate. Vediamo quali, e da dove si può partire."
 categories: ["Sicurezza"]
-tags: ["ot", "ransomware", "clusit", "segmentazione-rete", "continuita-operativa"]
+tags: ["ot", "ransomware", "clusit", "networking", "business-continuity"]
 featureimage: "/assets/IMG_0565.jpeg"
 images: ["/assets/IMG_0565.jpeg"]
 draft: false
