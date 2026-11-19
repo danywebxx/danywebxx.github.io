@@ -1,5 +1,5 @@
 ---
-title: "Siamo sempre poco lungimiranti. E con le fabbriche connesse si vede"
+title: "Siamo sempre poco lungimiranti e con le fabbriche connesse si vede"
 date: 2026-11-19
 description: "Le fabbriche sono sempre più nel mirino degli attacchi informatici. Spesso non nascono da un grande errore, ma da tante piccole cose rimandate. Vediamo quali, e da dove si può partire."
 summary: "Le fabbriche sono sempre più nel mirino degli attacchi informatici. Spesso non nascono da un grande errore, ma da tante piccole cose rimandate. Vediamo quali, e da dove si può partire."
@@ -65,7 +65,7 @@ Sono mosse alla portata di qualunque azienda e il loro costo di realizzazione va
 
 ## La lungimiranza è un esercizio piccolo e quotidiano
 
-I grandi rischi non arrivano mai annunciati. Arrivano come somma di cose piccole che abbiamo scelto di rimandare. La buona notizia è che la somma funziona anche al contrario, perché pochi gesti semplici, fatti con continuità, tolgono molto terreno a chi attacca.
+I grandi rischi non si presentano mai con un annuncio ma sono la somma di cose piccole che abbiamo scelto di rimandare. La buona notizia è che la somma funziona anche al contrario, perché pochi gesti semplici e fatti con continuità, tolgono molto terreno a chi attacca.
 
 **E voi? Nella vostra azienda, sapreste dire chi può collegarsi da remoto ai macchinari?**
 
