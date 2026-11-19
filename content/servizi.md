@@ -98,6 +98,7 @@ Prima di comprare, costruire o migrare - conviene capire cosa serve davvero. Off
 - **Approccio pratico**: risolvo problemi, non vendo complessità inutile
 - **Nessun intermediario**: lavori direttamente con me, dall'analisi alla soluzione
 - **Basato a Milano**, disponibile su tutta l'area lombarda e da remoto
+- **Docente in corsi su AI, sicurezza e privacy** per professionisti
 
 ---
 
