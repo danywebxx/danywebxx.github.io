@@ -16,7 +16,7 @@ sharingLinks: false
 # Servizi IT per PMI e Studi professionali
 
 Supporto IT concreto, senza intermediari e senza perdite di tempo.
-Lavoro con **PMI, studi professionali, studi di commercialisti e di consulenza** che vogliono un'infrastruttura IT affidabile, sicura e moderna - senza dover gestire un reparto interno.
+Lavoro con **PMI, studi professionali, studi di commercialisti e di consulenza** che vogliono un'infrastruttura IT affidabile, sicura, moderna e un uso consapevole dell'AI - senza dover gestire un reparto interno.
 
 ---
 
