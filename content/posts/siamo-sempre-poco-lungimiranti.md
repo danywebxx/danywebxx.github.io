@@ -18,7 +18,7 @@ Presi uno per uno, sono dettagli. Messi in fila, sono la strada più breve per f
 
 Nelle aziende convivono due mondi tecnologici. Il primo è l'IT (Information Technology), cioè PC, posta elettronica, gestionale e server. Il secondo è l'OT (Operational Technology), la tecnologia che comanda macchine, impianti e processi produttivi, come i PLC e i piccoli computer industriali che dicono a un macchinario cosa fare.
 
-Per anni l'OT è rimasta isolata dal resto - non sconnesso ma quasi - e questo isolamento ci faceva sentire al sicuro. Poi, per controllare gli impianti da remoto, raccogliere dati e far lavorare meglio i reparti, abbiamo collegato tutto. La sicurezza, in molti casi, è rimasta quella di prima.
+Per anni l'OT è rimasta isolata dal resto - non sconnesso ma quasi - e questo isolamento ci faceva sentire al sicuro. Poi, per controllare gli impianti da remoto, raccogliere dati e far lavorare meglio i reparti, abbiamo collegato tutto. La sicurezza, in molti casi, è rimasta indietro.
 
 ## I numeri non sono rassicuranti
 
