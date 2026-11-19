@@ -1,6 +1,6 @@
 ---
 title: Servizi
-description: Consulenza e assistenza sistemistica su Microsoft 365, Azure, Networking, Cybersecurity e gestione IT continuativa per PMI e studi professionali a Milano e dintorni.
+description: Consulenza e assistenza sistemistica su Microsoft 365, Azure, Networking, Cybersecurity, AI e gestione IT continuativa per PMI e studi professionali a Milano e dintorni.
 url: /servizi/
 showDate: false
 showReadingTime: false
