@@ -10,7 +10,7 @@ draft: true
 
 *"È facile perdere di vista i grandi rischi perché sono solo una reazione a catena di piccoli eventi, ognuno dei quali è facile da ignorare. Quindi tendiamo sempre a sottovalutare le probabilità di grandi rischi."* (Morgan Housel)
 
-Una password mai cambiata. Un collegamento remoto lasciato aperto perché "serve al tecnico". Un macchinario che funziona da vent'anni e che nessuno osa toccare. Un aggiornamento rimandato a dopo l'estate.
+Una password mai cambiata. Un collegamento remoto lasciato aperto perché "serve al tecnico". Un macchinario che funziona da vent'anni e che nessuno osa toccare. Un aggiornamento rimandato per troppo tempo.
 
 Presi uno per uno, sono dettagli. Messi in fila, sono la strada più breve per fermare una linea di produzione.
 
