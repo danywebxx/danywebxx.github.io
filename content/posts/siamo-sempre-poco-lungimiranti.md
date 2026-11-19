@@ -7,9 +7,7 @@ categories: ["Sicurezza"]
 tags: ["ot", "ransomware", "clusit", "segmentazione-rete", "continuita-operativa"]
 featureimage: "/assets/IMG_0565.jpeg"
 images: ["/assets/IMG_0565.jpeg"]
-
-
-draft: true
+draft: false
 ---
 
 *"È facile perdere di vista i grandi rischi perché sono solo una reazione a catena di piccoli eventi, ognuno dei quali è facile da ignorare. Quindi tendiamo sempre a sottovalutare le probabilità di grandi rischi."* (Morgan Housel)
