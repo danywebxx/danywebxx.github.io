@@ -38,28 +38,28 @@ Più vicino a noi c'è il porto di Ancona. Un'analisi tecnica della società ame
 
 Sono casi di grandi organizzazioni, ma il meccanismo non dipende dalle dimensioni. Per un'azienda da 20 o 60 postazioni, una settimana di fermo può pesare, in proporzione, anche di più.
 
-## Perché succede, ancora una volta per le piccole cose
+## Perché succede? Ancora una volta per le piccole cose
 
 Torniamo a Housel. Nelle PMI manifatturiere gli ingredienti ritornano spesso.
 
-- **Una rete unica per tutto.** Uffici, Wi-Fi degli ospiti e macchinari condividono la stessa rete. Se un PC amministrativo viene infettato, il problema ha strada libera fino al reparto.
-- **Accessi remoti dei fornitori.** Il tecnico del costruttore si collega per l'assistenza, ma chi controlla come, quando e con quali credenziali?
-- **Sistemi che nessuno aggiorna.** Un PC si riavvia senza problemi, una macchina che lavora a ciclo continuo no. Così si rimanda, e poi si rimanda ancora.
-- **Nessun elenco di ciò che è collegato.** Non si può proteggere ciò che non si sa di avere.
-- **Backup mai provati.** La copia di sicurezza esiste, ma nessuno ha mai verificato che si riesca a ripartire davvero. Peggio ancora se è raggiungibile dalla stessa rete che viene attaccata.
+- **Una rete unica per tutto "piatta".** Uffici, Wi-Fi degli ospiti e macchinari condividono la stessa rete. Se un PC amministrativo viene infettato, il problema ha strada libera fino al reparto.
+- **Accessi remoti dei fornitori.** Il tecnico del produttore si collega per l'assistenza, ma chi controlla come, quando e con quali credenziali?
+- **Sistemi che nessuno aggiorna.** Un computer si riavvia (quasi) senza problemi, una macchina che lavora a ciclo continuo no. Così si rimanda, e poi si rimanda ancora.
+- **Carenza nell'inventario di ciò che è connesso in rete.** Non si può proteggere ciò che non si sa di avere.
+- **Backup mai provati.** La copia di sicurezza esiste, ma nessuno ha mai verificato che il ripristino funzioni. Peggio ancora se è raggiungibile dalla stessa rete che viene attaccata.
 
 Il punto, osserva un'analisi pubblicata da Agenda Digitale, non è solo evitare l'attacco: è fare in modo che un'intrusione non si trasformi in un fermo prolungato.
 
-## Da dove si parte, senza rivoluzioni
+## Da dove partire senza fare rivoluzioni
 
-Si può partire da poche mosse, anche poco spettacolari.
+Si può partire da poche msemplici mosse:
 
 1. **Sapere cosa c'è.** Un elenco di macchine e dispositivi collegati alla rete, con il nome di chi li gestisce.
 2. **Separare le reti.** Un problema in ufficio non deve poter arrivare in produzione, e viceversa.
 3. **Controllare gli accessi remoti.** Chi può collegarsi, da dove, con quali credenziali, e solo quando serve.
-4. **Avere un piano per ripartire.** Copie di sicurezza che la rete aziendale non possa raggiungere, provate davvero, e una procedura scritta per il giorno in cui tutto si ferma.
+4. **Avere un piano di emergenza per ripartire.** Copie di sicurezza che la rete aziendale non possa raggiungere, provate davvero, e una procedura scritta per il giorno in cui tutto si ferma.
 
-Sono mosse alla portata di una PMI, e il loro costo va confrontato con quello di un giorno di produzione ferma.
+Sono mosse alla portata di qualunque azienda e il loro costo di realizzazione va confrontato con quello di un giorno di produzione ferma.
 
 ## La lungimiranza è un esercizio piccolo e quotidiano
 
