@@ -5,6 +5,10 @@ description: "Le fabbriche sono sempre più nel mirino degli attacchi informatic
 summary: "Le fabbriche sono sempre più nel mirino degli attacchi informatici. Spesso non nascono da un grande errore, ma da tante piccole cose rimandate. Vediamo quali, e da dove si può partire."
 categories: ["Sicurezza"]
 tags: ["ot", "ransomware", "clusit", "segmentazione-rete", "continuita-operativa"]
+featureimage: "assets/IMG_0565.jpg"
+images: ["/assets/IMG_0565.jpg"]
+
+
 draft: true
 ---
 
